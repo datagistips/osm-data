@@ -1,0 +1,36 @@
+with_variable(
+'path',
+'C:/Users/mathieu/Desktop/TAFF/osm-data/svgs/powergen/%1.svg',
+with_variable(
+'generator_source',
+hstore_to_json['generator:source'],
+
+case 
+
+when @generator_source LIKE '%electricity%' then format(@path,'mr-electricity.svg')
+
+when @generator_source LIKE '%nuclear%' then format(@path,'mr-nuclear.svg')
+
+when @generator_source LIKE '%wind%' then format(@path,'mr-wind.svg')
+
+when @generator_source LIKE '%hydro%' OR @generator_source LIKE '%tidal%' OR @generator_source LIKE '%wave%' OR @generator_source LIKE '%geothermal%' then format(@path,'mr-water.svg')
+
+when @generator_source LIKE '%solar%' then format(@path,'mr-solar.svg')
+
+when @generator_source LIKE '%coal%' then format(@path,'mr-coal.svg')
+
+when @generator_source LIKE '%gas%' and @generator_source NOT LIKE '%gasoline%' then format(@path,'mr-gas.svg')
+
+when @generator_source LIKE '%biomass%' OR @generator_source LIKE '%biofuel%' OR @generator_source LIKE '%biogas%' then format(@path,'mr-biofuel.svg')
+
+when @generator_source LIKE '%oil%' OR @generator_source LIKE '%diesel%' OR @generator_source LIKE '%gasoline%' then format(@path,'mr-oil.svg')
+
+when @generator_source LIKE '%waste%' then format(@path,'mr-waste.svg')
+
+when @generator_source LIKE '%battery%' then format(@path,'mr-battery.svg')
+
+else 'circle.csv'
+
+end
+)
+)
