@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis styleCategories="AllStyleCategories" version="3.16.1-Hannover" minScale="100000000" hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyMaxScale="1" readOnly="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0" labelsEnabled="0">
+<qgis styleCategories="AllStyleCategories" version="3.16.1-Hannover" minScale="100000000" hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyMaxScale="1" readOnly="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0" labelsEnabled="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
@@ -11,86 +11,89 @@
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 type="categorizedSymbol" symbollevels="0" forceraster="0" attr="hstore_to_json['grape_variety']" enableorderby="0">
-    <categories>
-      <category render="true" symbol="0" label="auxerrois" value="auxerrois"/>
-      <category render="true" symbol="1" label="auxerrois blanc; pinot noir; rivaner" value="auxerrois blanc; pinot noir; rivaner"/>
-      <category render="true" symbol="2" label="berligou" value="berligou"/>
-      <category render="true" symbol="3" label="boiziau" value="boiziau"/>
-      <category render="true" symbol="4" label="cabernet franc" value="cabernet franc"/>
-      <category render="true" symbol="5" label="Cabernet franc" value="Cabernet franc"/>
-      <category render="true" symbol="6" label="Cabernet Franc" value="Cabernet Franc"/>
-      <category render="true" symbol="7" label="Cabernet Sauvignon" value="Cabernet Sauvignon"/>
-      <category render="true" symbol="8" label="cabernet_franc" value="cabernet_franc"/>
-      <category render="true" symbol="9" label="Cabernet_Franc" value="Cabernet_Franc"/>
-      <category render="true" symbol="10" label="Cabernet_Sauvignon" value="Cabernet_Sauvignon"/>
-      <category render="true" symbol="11" label="Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon" value="Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon"/>
-      <category render="true" symbol="12" label="cabernet-franc" value="cabernet-franc"/>
-      <category render="true" symbol="13" label="Cabernet-Franc" value="Cabernet-Franc"/>
-      <category render="true" symbol="14" label="Cabert franc" value="Cabert franc"/>
-      <category render="true" symbol="15" label="Carignan" value="Carignan"/>
-      <category render="true" symbol="16" label="Chardonnay" value="Chardonnay"/>
-      <category render="true" symbol="17" label="Chardonnay;Pinot_blanc;Pinot_noir" value="Chardonnay;Pinot_blanc;Pinot_noir"/>
-      <category render="true" symbol="18" label="Chasselas" value="Chasselas"/>
-      <category render="true" symbol="19" label="Chenin" value="Chenin"/>
-      <category render="true" symbol="20" label="Cinsault" value="Cinsault"/>
-      <category render="true" symbol="21" label="colombard" value="colombard"/>
-      <category render="true" symbol="22" label="Fer_Servadou" value="Fer_Servadou"/>
-      <category render="true" symbol="23" label="folle blanche" value="folle blanche"/>
-      <category render="true" symbol="24" label="Folle blanche" value="Folle blanche"/>
-      <category render="true" symbol="25" label="Folle Blanche" value="Folle Blanche"/>
-      <category render="true" symbol="26" label="Gamaret" value="Gamaret"/>
-      <category render="true" symbol="27" label="gamay" value="gamay"/>
-      <category render="true" symbol="28" label="Gamay" value="Gamay"/>
-      <category render="true" symbol="29" label="gamay noir" value="gamay noir"/>
-      <category render="true" symbol="30" label="Gamay Noir" value="Gamay Noir"/>
-      <category render="true" symbol="31" label="gamay_noir" value="gamay_noir"/>
-      <category render="true" symbol="32" label="Gamay_Noir" value="Gamay_Noir"/>
-      <category render="true" symbol="33" label="gamay_noir;Chardonnay" value="gamay_noir;Chardonnay"/>
-      <category render="true" symbol="34" label="Grape" value="Grape"/>
-      <category render="true" symbol="35" label="Grenache" value="Grenache"/>
-      <category render="true" symbol="36" label="Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir" value="Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir"/>
-      <category render="true" symbol="37" label="grolleau de cinq mars" value="grolleau de cinq mars"/>
-      <category render="true" symbol="38" label="Grolleau Gris" value="Grolleau Gris"/>
-      <category render="true" symbol="39" label="Grolleau Noir" value="Grolleau Noir"/>
-      <category render="true" symbol="40" label="grolleau, chenin" value="grolleau, chenin"/>
-      <category render="true" symbol="41" label="malbec" value="malbec"/>
-      <category render="true" symbol="42" label="malvoisie" value="malvoisie"/>
-      <category render="true" symbol="43" label="mansois" value="mansois"/>
-      <category render="true" symbol="44" label="Mansois" value="Mansois"/>
-      <category render="true" symbol="45" label="melon de bourgogne" value="melon de bourgogne"/>
-      <category render="true" symbol="46" label="Melon de bourgogne" value="Melon de bourgogne"/>
-      <category render="true" symbol="47" label="Melon de Bourgogne" value="Melon de Bourgogne"/>
-      <category render="true" symbol="48" label="merlot" value="merlot"/>
-      <category render="true" symbol="49" label="Merlot" value="Merlot"/>
-      <category render="true" symbol="50" label="Merlot Noir" value="Merlot Noir"/>
-      <category render="true" symbol="51" label="Merlot;Cabernet_Sauvignon;Cabernet_franc" value="Merlot;Cabernet_Sauvignon;Cabernet_franc"/>
-      <category render="true" symbol="52" label="montils" value="montils"/>
-      <category render="true" symbol="53" label="Niellucciu;Vermentinu;Grenache;Sciaccarellu" value="Niellucciu;Vermentinu;Grenache;Sciaccarellu"/>
-      <category render="true" symbol="54" label="noah" value="noah"/>
-      <category render="true" symbol="55" label="othello" value="othello"/>
-      <category render="true" symbol="56" label="Petit_Meslier" value="Petit_Meslier"/>
-      <category render="true" symbol="57" label="pineau d'aunis" value="pineau d'aunis"/>
-      <category render="true" symbol="58" label="Pinot noir, gamay" value="Pinot noir, gamay"/>
-      <category render="true" symbol="59" label="Pinot_Gris;Meunier" value="Pinot_Gris;Meunier"/>
-      <category render="true" symbol="60" label="Pinot_noir" value="Pinot_noir"/>
-      <category render="true" symbol="61" label="Pinot_Noir;auxerrois;Chardonnay" value="Pinot_Noir;auxerrois;Chardonnay"/>
-      <category render="true" symbol="62" label="portugais bleu" value="portugais bleu"/>
-      <category render="true" symbol="63" label="Rondo;chenin" value="Rondo;chenin"/>
-      <category render="true" symbol="64" label="Roussanne" value="Roussanne"/>
-      <category render="true" symbol="65" label="Sauvignon" value="Sauvignon"/>
-      <category render="true" symbol="66" label="Sauvignon blanc" value="Sauvignon blanc"/>
-      <category render="true" symbol="67" label="Sémillon" value="Sémillon"/>
-      <category render="true" symbol="68" label="Sémillon;Merlot" value="Sémillon;Merlot"/>
-      <category render="true" symbol="69" label="Syrah" value="Syrah"/>
-      <category render="true" symbol="70" label="Viognier" value="Viognier"/>
-      <category render="true" symbol="71" label="" value=""/>
-    </categories>
+  <renderer-v2 type="RuleRenderer" symbollevels="0" forceraster="0" enableorderby="0">
+    <rules key="{97c902fa-1a5c-44df-a200-ba3b2f3ad642}">
+      <rule symbol="0" scalemaxdenom="100000" label="zoom fort" scalemindenom="1" key="{4398540f-e066-4dce-9bcd-8bd275871d55}">
+        <rule filter="hstore_to_json['grape_variety'] = 'auxerrois'" symbol="1" label="auxerrois" key="{a89e12fa-12af-41fc-bfe7-87fd9edce13a}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'auxerrois blanc; pinot noir; rivaner'" symbol="2" label="auxerrois blanc; pinot noir; rivaner" key="{ea685685-df24-46b5-89bf-e6405c01f6ca}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'berligou'" symbol="3" label="berligou" key="{fe9fd84f-1a31-48cb-b1a8-f0b05c7080e6}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'boiziau'" symbol="4" label="boiziau" key="{8463cf79-ae93-48d1-9881-35e77ce43bd9}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'cabernet franc'" symbol="5" label="cabernet franc" key="{9332fd61-71d5-4419-bed9-b75f293a21db}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet franc'" symbol="6" label="Cabernet franc" key="{0a529a57-0fdd-4ce1-aa2c-1f23684d67c0}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet Franc'" symbol="7" label="Cabernet Franc" key="{879228de-fafa-4ce4-9e9b-2703053afeaf}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet Sauvignon'" symbol="8" label="Cabernet Sauvignon" key="{155a4522-1ae2-42c4-8330-367825d67896}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'cabernet_franc'" symbol="9" label="cabernet_franc" key="{89ba8c11-83bb-40cb-ad7a-cba8df2a1cc8}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Franc'" symbol="10" label="Cabernet_Franc" key="{4efb2eb3-2a12-43aa-bca2-80febcd367ad}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon'" symbol="11" label="Cabernet_Sauvignon" key="{f057e6a0-9aef-478f-bfa0-fecde4d24f9e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon'" symbol="12" label="Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon" key="{866b8793-03a8-4afa-8d01-1d86febe3e7c}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'cabernet-franc'" symbol="13" label="cabernet-franc" key="{93caa2c8-4c73-4669-9e3f-17d87bc67224}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet-Franc'" symbol="14" label="Cabernet-Franc" key="{df2dff27-2b62-4fec-b30f-fea53eba7a2f}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabert franc'" symbol="15" label="Cabert franc" key="{cf164551-25ef-44bd-bc7d-f25f3d13bf2f}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Carignan'" symbol="16" label="Carignan" key="{96a14e3f-0d31-4d2d-a332-b7f80fa643bc}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chardonnay'" symbol="17" label="Chardonnay" key="{742d289c-3943-4bb1-968c-6af0428b759b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chardonnay;Pinot_blanc;Pinot_noir'" symbol="18" label="Chardonnay;Pinot_blanc;Pinot_noir" key="{810dadf0-b3de-4eac-bf3d-754f109fb319}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chasselas'" symbol="19" label="Chasselas" key="{8dc5e528-8d3a-4595-8c14-cefb128e2124}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chenin'" symbol="20" label="Chenin" key="{7678cc99-4ffb-4aed-9e78-2f59a2983d14}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cinsault'" symbol="21" label="Cinsault" key="{6680abbe-fc51-47fb-8ba4-f7207bd76807}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'colombard'" symbol="22" label="colombard" key="{b4275271-88f6-49fe-a9a7-04f595d94e68}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Fer_Servadou'" symbol="23" label="Fer_Servadou" key="{3e840e90-ca9f-4239-ba24-e31374803a65}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'folle blanche'" symbol="24" label="folle blanche" key="{c4de4d38-9dad-4865-a9fe-6a6eb49bc542}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Folle blanche'" symbol="25" label="Folle blanche" key="{29481bfc-c455-4d13-9338-dfae6d7999cc}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Folle Blanche'" symbol="26" label="Folle Blanche" key="{86e5231d-85ae-46b5-b226-496db3202ae7}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamaret'" symbol="27" label="Gamaret" key="{ceb15b3c-52e1-4750-a4ba-055ddd412eb5}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay'" symbol="28" label="gamay" key="{11957c81-a5b8-4c7a-98be-199c697cb898}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamay'" symbol="29" label="Gamay" key="{6d6357b4-1a28-49ae-af70-b91649845313}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay noir'" symbol="30" label="gamay noir" key="{6070eb70-a5ac-4042-8dc4-41fecafdcc8e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamay Noir'" symbol="31" label="Gamay Noir" key="{fe6a4a8e-62dd-4e12-9915-91fcfe8bd90f}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay_noir'" symbol="32" label="gamay_noir" key="{8ea67505-b6fc-4022-b32f-961b2142045b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamay_Noir'" symbol="33" label="Gamay_Noir" key="{99de60d8-f186-4392-8f2b-aeb7912212b4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay_noir;Chardonnay'" symbol="34" label="gamay_noir;Chardonnay" key="{97b2ddf6-33d9-4c88-bb80-ee2d5a33ec3b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grape'" symbol="35" label="Grape" key="{02eb609f-3eb5-480d-ab36-be1d329bfa17}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grenache'" symbol="36" label="Grenache" key="{e5233f59-57e3-4658-83a2-ccaccb46b501}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir'" symbol="37" label="Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir" key="{7d8643b6-50b9-41a5-bf74-068e32f17d65}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'grolleau de cinq mars'" symbol="38" label="grolleau de cinq mars" key="{13050f08-3b49-4992-b104-b99c1d74b214}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grolleau Gris'" symbol="39" label="Grolleau Gris" key="{e7f0a3d1-485a-4750-9e93-be65eaa5046d}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grolleau Noir'" symbol="40" label="Grolleau Noir" key="{69709934-68ac-459d-8366-0c272d9ccd6c}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'grolleau, chenin'" symbol="41" label="grolleau, chenin" key="{e665c530-1ce1-45d7-92f0-01726b47a949}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'malbec'" symbol="42" label="malbec" key="{dcd8d83c-1d57-4c92-95ec-5e2947d86393}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'malvoisie'" symbol="43" label="malvoisie" key="{4d6d3faa-4906-4dbe-ab9f-fdeaac1d9d1b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'mansois'" symbol="44" label="mansois" key="{255412c4-c98e-4fa3-aa38-bc3c0a6eb0c4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Mansois'" symbol="45" label="Mansois" key="{3d2126dd-a992-4ce6-85ca-c07b68568079}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'melon de bourgogne'" symbol="46" label="melon de bourgogne" key="{16ef1d26-a171-4f44-b120-553d14355934}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Melon de bourgogne'" symbol="47" label="Melon de bourgogne" key="{4386fbba-b2b1-4969-9e86-7aac1996fd2b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Melon de Bourgogne'" symbol="48" label="Melon de Bourgogne" key="{4ba0709f-3e39-4b68-b92d-09c76327496e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'merlot'" symbol="49" label="merlot" key="{20cb5b60-7d81-4859-a070-615f9944485b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Merlot'" symbol="50" label="Merlot" key="{426d7acd-7a6f-41f6-9b2d-75e0145f3892}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Merlot Noir'" symbol="51" label="Merlot Noir" key="{a5394f14-5009-4026-8b70-985d2cabb5bc}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Merlot;Cabernet_Sauvignon;Cabernet_franc'" symbol="52" label="Merlot;Cabernet_Sauvignon;Cabernet_franc" key="{463c09ef-88bf-40f7-b59a-72287d019024}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'montils'" symbol="53" label="montils" key="{8248b6cc-c0f4-42ee-baba-7972b0e9a832}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Niellucciu;Vermentinu;Grenache;Sciaccarellu'" symbol="54" label="Niellucciu;Vermentinu;Grenache;Sciaccarellu" key="{c99173bf-5e53-4a62-b5f6-bfc0d3073212}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'noah'" symbol="55" label="noah" key="{fa2157e4-4e33-4868-b0c7-de842e756e9c}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'othello'" symbol="56" label="othello" key="{c6df7aa3-1a40-48c1-9ca2-531d60b4d074}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Petit_Meslier'" symbol="57" label="Petit_Meslier" key="{354fa8bb-6acb-4ca3-8d8b-fdb264d8c60a}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'pineau d''aunis'" symbol="58" label="pineau d'aunis" key="{8974ff15-74cd-44d1-9d87-b61249c419fb}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot noir, gamay'" symbol="59" label="Pinot noir, gamay" key="{982a496c-4fac-4abc-b1bd-5ebf80aa40f9}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_Gris;Meunier'" symbol="60" label="Pinot_Gris;Meunier" key="{df4da9cc-007b-471b-9aaa-ba5be1ca42b4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_noir'" symbol="61" label="Pinot_noir" key="{bb8430b7-aae6-4dca-89f1-eb2820f2fc59}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_Noir;auxerrois;Chardonnay'" symbol="62" label="Pinot_Noir;auxerrois;Chardonnay" key="{5220b2f4-4905-46d5-9bfe-4daca12ff6eb}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'portugais bleu'" symbol="63" label="portugais bleu" key="{58354c11-d959-4352-959a-1af626a58722}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Rondo;chenin'" symbol="64" label="Rondo;chenin" key="{f859afa4-929f-4759-8e1f-e011db4629a3}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Roussanne'" symbol="65" label="Roussanne" key="{d56406da-d7c9-4cd2-8fe3-fa0251522ea2}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sauvignon'" symbol="66" label="Sauvignon" key="{f2eaaee0-7e5d-437c-8062-1984298edd33}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sauvignon blanc'" symbol="67" label="Sauvignon blanc" key="{0b985ffb-5896-4361-b67b-a6a3ca47974e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sémillon'" symbol="68" label="Sémillon" key="{17a8d1e1-1998-4da3-be5a-ec133bb48b12}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sémillon;Merlot'" symbol="69" label="Sémillon;Merlot" key="{2bcbf9b7-c1e6-4aba-a685-2b415dd8fc39}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Syrah'" symbol="70" label="Syrah" key="{255d5bcb-91d5-4013-806a-c1f6465c9512}"/>
+        <rule checkstate="0" filter="hstore_to_json['grape_variety'] = 'Viognier'" symbol="71" label="Viognier" key="{4cd49014-1a81-4a43-aa98-ee71adbfe1d0}"/>
+        <rule filter="ELSE" symbol="72" key="{cbb94d98-0b5b-4f91-8f3a-2d16889ffb3d}"/>
+      </rule>
+      <rule symbol="73" scalemaxdenom="1000000000" label="zoom faible" scalemindenom="100000" key="{dea46e42-5f73-49f1-8160-9a99e62d2f49}"/>
+    </rules>
     <symbols>
       <symbol alpha="1" type="fill" name="0" force_rhr="0" clip_to_extent="1">
-        <layer enabled="1" locked="1" pass="0" class="SimpleFill">
+        <layer enabled="1" locked="0" pass="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="80,66,41,255" k="color"/>
+          <prop v="213,180,60,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
@@ -99,285 +102,11 @@
           <prop v="no" k="outline_style"/>
           <prop v="0.26" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
-          <prop v="solid" k="style"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="outlineColor">
-                  <Option type="bool" name="active" value="false"/>
-                  <Option type="QString" name="expression" value="case when hstore_to_json['organic']='yes' then 'green' else 'black' end"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-        <layer enabled="1" locked="1" pass="0" class="LinePatternFill">
-          <prop v="45" k="angle"/>
-          <prop v="0,0,255,255" k="color"/>
-          <prop v="7" k="distance"/>
-          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
-          <prop v="MM" k="distance_unit"/>
-          <prop v="0.26" k="line_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="lineAngle">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;&#x9;&#x9;'orientation',&#xd;&#xa;&#x9;&#x9;to_int(hstore_to_json['vine_row_orientation']),&#xd;&#xa;&#x9;&#x9;coalesce(@orientation, 45)&#xd;&#xa;&#x9;)"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-          <symbol alpha="1" type="line" name="@0@1" force_rhr="0" clip_to_extent="1">
-            <layer enabled="1" locked="0" pass="0" class="MarkerLine">
-              <prop v="4" k="average_angle_length"/>
-              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
-              <prop v="MM" k="average_angle_unit"/>
-              <prop v="0.4" k="interval"/>
-              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
-              <prop v="MM" k="interval_unit"/>
-              <prop v="4" k="offset"/>
-              <prop v="0" k="offset_along_line"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
-              <prop v="MM" k="offset_along_line_unit"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="interval" k="placement"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="rotate"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" type="marker" name="@@0@1@0" force_rhr="0" clip_to_extent="1">
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-                  <prop v="0" k="angle"/>
-                  <prop v="255,0,0,255" k="color"/>
-                  <prop v="1" k="horizontal_anchor_point"/>
-                  <prop v="bevel" k="joinstyle"/>
-                  <prop v="line" k="name"/>
-                  <prop v="0,1.79999999999999982" k="offset"/>
-                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                  <prop v="MM" k="offset_unit"/>
-                  <prop v="43,106,30,130" k="outline_color"/>
-                  <prop v="solid" k="outline_style"/>
-                  <prop v="0.3" k="outline_width"/>
-                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-                  <prop v="MM" k="outline_width_unit"/>
-                  <prop v="diameter" k="scale_method"/>
-                  <prop v="1.6" k="size"/>
-                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-                  <prop v="MM" k="size_unit"/>
-                  <prop v="1" k="vertical_anchor_point"/>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option type="QString" name="name" value=""/>
-                      <Option type="Map" name="properties">
-                        <Option type="Map" name="angle">
-                          <Option type="bool" name="active" value="true"/>
-                          <Option type="QString" name="expression" value="randf(-20, 20)"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                        <Option type="Map" name="offset">
-                          <Option type="bool" name="active" value="true"/>
-                          <Option type="QString" name="expression" value="array(randf(-0.2, 0.2), randf(-0.2, 0.2))"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option type="QString" name="type" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-        </layer>
-        <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
-          <prop v="45" k="angle"/>
-          <prop v="239,111,126,255" k="color"/>
-          <prop v="7" k="distance"/>
-          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
-          <prop v="MM" k="distance_unit"/>
-          <prop v="0.26" k="line_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="lineAngle">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;&#x9;&#x9;'orientation',&#xd;&#xa;&#x9;&#x9;to_int(hstore_to_json['vine_row_orientation']),&#xd;&#xa;&#x9;&#x9;coalesce(@orientation, 45)&#xd;&#xa;&#x9;)"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-          <symbol alpha="1" type="line" name="@0@2" force_rhr="0" clip_to_extent="1">
-            <layer enabled="1" locked="1" pass="0" class="MarkerLine">
-              <prop v="4" k="average_angle_length"/>
-              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
-              <prop v="MM" k="average_angle_unit"/>
-              <prop v="2" k="interval"/>
-              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
-              <prop v="MM" k="interval_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="5.55112e-17" k="offset_along_line"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
-              <prop v="MM" k="offset_along_line_unit"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="interval" k="placement"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="rotate"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" type="marker" name="@@0@2@0" force_rhr="0" clip_to_extent="1">
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-                  <prop v="0" k="angle"/>
-                  <prop v="255,0,0,255" k="color"/>
-                  <prop v="1" k="horizontal_anchor_point"/>
-                  <prop v="bevel" k="joinstyle"/>
-                  <prop v="line" k="name"/>
-                  <prop v="0,1.79999999999999982" k="offset"/>
-                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                  <prop v="MM" k="offset_unit"/>
-                  <prop v="173,127,41,255" k="outline_color"/>
-                  <prop v="solid" k="outline_style"/>
-                  <prop v="0.3" k="outline_width"/>
-                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-                  <prop v="MM" k="outline_width_unit"/>
-                  <prop v="diameter" k="scale_method"/>
-                  <prop v="2" k="size"/>
-                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-                  <prop v="MM" k="size_unit"/>
-                  <prop v="1" k="vertical_anchor_point"/>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option type="QString" name="name" value=""/>
-                      <Option type="Map" name="properties">
-                        <Option type="Map" name="offset">
-                          <Option type="bool" name="active" value="false"/>
-                          <Option type="QString" name="expression" value="array(randf(-0.2, 0.2), randf(-0.2, 0.2))"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option type="QString" name="type" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
-            <layer enabled="1" locked="0" pass="0" class="MarkerLine">
-              <prop v="4" k="average_angle_length"/>
-              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
-              <prop v="MM" k="average_angle_unit"/>
-              <prop v="0.3" k="interval"/>
-              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
-              <prop v="MM" k="interval_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="5.55112e-17" k="offset_along_line"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
-              <prop v="RenderMetersInMapUnits" k="offset_along_line_unit"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="interval" k="placement"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="rotate"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" type="marker" name="@@0@2@1" force_rhr="0" clip_to_extent="1">
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-                  <prop v="0" k="angle"/>
-                  <prop v="239,111,126,255" k="color"/>
-                  <prop v="1" k="horizontal_anchor_point"/>
-                  <prop v="bevel" k="joinstyle"/>
-                  <prop v="circle" k="name"/>
-                  <prop v="0,0.20000000000000007" k="offset"/>
-                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                  <prop v="MM" k="offset_unit"/>
-                  <prop v="151,24,117,255" k="outline_color"/>
-                  <prop v="solid" k="outline_style"/>
-                  <prop v="0.1" k="outline_width"/>
-                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-                  <prop v="MM" k="outline_width_unit"/>
-                  <prop v="diameter" k="scale_method"/>
-                  <prop v="1" k="size"/>
-                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-                  <prop v="MM" k="size_unit"/>
-                  <prop v="1" k="vertical_anchor_point"/>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option type="QString" name="name" value=""/>
-                      <Option type="Map" name="properties">
-                        <Option type="Map" name="offset">
-                          <Option type="bool" name="active" value="true"/>
-                          <Option type="QString" name="expression" value="array(randf(-0.5, 0.5), randf(-0.5, 0.5))"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option type="QString" name="type" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-        </layer>
-        <layer enabled="1" locked="1" pass="0" class="SimpleFill">
-          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="80,66,41,255" k="color"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="151,24,117,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.6" k="outline_width"/>
-          <prop v="MM" k="outline_width_unit"/>
           <prop v="no" k="style"/>
           <data_defined_properties>
             <Option type="Map">
               <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="outlineColor">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="case when hstore_to_json['organic']='yes' then 'green' else color_rgb(151, 24, 117) end"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
+              <Option name="properties"/>
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
@@ -506,7 +235,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="202,42,74,255" k="color"/>
+          <prop v="239,111,126,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -617,7 +346,7 @@
               <symbol alpha="1" type="marker" name="@@1@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="202,42,74,255" k="color"/>
+                  <prop v="239,111,126,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -802,7 +531,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="231,236,123,255" k="color"/>
+          <prop v="201,88,213,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -913,7 +642,7 @@
               <symbol alpha="1" type="marker" name="@@10@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="231,236,123,255" k="color"/>
+                  <prop v="201,88,213,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -1098,7 +827,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="91,236,207,255" k="color"/>
+          <prop v="231,236,123,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -1209,7 +938,7 @@
               <symbol alpha="1" type="marker" name="@@11@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="91,236,207,255" k="color"/>
+                  <prop v="231,236,123,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -1394,7 +1123,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="127,223,148,255" k="color"/>
+          <prop v="91,236,207,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -1505,7 +1234,7 @@
               <symbol alpha="1" type="marker" name="@@12@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="127,223,148,255" k="color"/>
+                  <prop v="91,236,207,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -1690,7 +1419,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="68,97,214,255" k="color"/>
+          <prop v="127,223,148,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -1801,7 +1530,7 @@
               <symbol alpha="1" type="marker" name="@@13@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="68,97,214,255" k="color"/>
+                  <prop v="127,223,148,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -2282,7 +2011,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="204,224,74,255" k="color"/>
+          <prop v="68,97,214,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -2393,7 +2122,7 @@
               <symbol alpha="1" type="marker" name="@@15@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="204,224,74,255" k="color"/>
+                  <prop v="68,97,214,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -2578,7 +2307,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="142,203,72,255" k="color"/>
+          <prop v="204,224,74,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -2689,7 +2418,7 @@
               <symbol alpha="1" type="marker" name="@@16@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="142,203,72,255" k="color"/>
+                  <prop v="204,224,74,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -2874,7 +2603,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="103,87,206,255" k="color"/>
+          <prop v="142,203,72,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -2985,7 +2714,7 @@
               <symbol alpha="1" type="marker" name="@@17@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="103,87,206,255" k="color"/>
+                  <prop v="142,203,72,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -3170,7 +2899,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="239,92,232,255" k="color"/>
+          <prop v="103,87,206,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -3281,7 +3010,7 @@
               <symbol alpha="1" type="marker" name="@@18@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="239,92,232,255" k="color"/>
+                  <prop v="103,87,206,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -3466,7 +3195,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="102,223,108,255" k="color"/>
+          <prop v="239,92,232,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -3577,7 +3306,7 @@
               <symbol alpha="1" type="marker" name="@@19@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="102,223,108,255" k="color"/>
+                  <prop v="239,92,232,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -3762,7 +3491,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="205,186,36,255" k="color"/>
+          <prop v="202,42,74,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -3873,7 +3602,7 @@
               <symbol alpha="1" type="marker" name="@@2@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="205,186,36,255" k="color"/>
+                  <prop v="202,42,74,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -4058,7 +3787,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="215,29,221,255" k="color"/>
+          <prop v="102,223,108,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -4169,7 +3898,7 @@
               <symbol alpha="1" type="marker" name="@@20@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="215,29,221,255" k="color"/>
+                  <prop v="102,223,108,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -4354,7 +4083,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="112,221,48,255" k="color"/>
+          <prop v="215,29,221,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -4465,7 +4194,7 @@
               <symbol alpha="1" type="marker" name="@@21@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="112,221,48,255" k="color"/>
+                  <prop v="215,29,221,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -4650,7 +4379,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="188,233,115,255" k="color"/>
+          <prop v="112,221,48,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -4761,7 +4490,7 @@
               <symbol alpha="1" type="marker" name="@@22@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="188,233,115,255" k="color"/>
+                  <prop v="112,221,48,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -4946,7 +4675,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="191,237,25,255" k="color"/>
+          <prop v="188,233,115,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -5057,7 +4786,7 @@
               <symbol alpha="1" type="marker" name="@@23@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="191,237,25,255" k="color"/>
+                  <prop v="188,233,115,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -5242,7 +4971,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="131,175,229,255" k="color"/>
+          <prop v="191,237,25,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -5353,7 +5082,7 @@
               <symbol alpha="1" type="marker" name="@@24@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="131,175,229,255" k="color"/>
+                  <prop v="191,237,25,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -5538,7 +5267,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="46,52,240,255" k="color"/>
+          <prop v="131,175,229,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -5649,7 +5378,7 @@
               <symbol alpha="1" type="marker" name="@@25@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="46,52,240,255" k="color"/>
+                  <prop v="131,175,229,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -5834,7 +5563,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="233,62,110,255" k="color"/>
+          <prop v="46,52,240,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -5945,7 +5674,7 @@
               <symbol alpha="1" type="marker" name="@@26@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="233,62,110,255" k="color"/>
+                  <prop v="46,52,240,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -6130,7 +5859,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="230,131,176,255" k="color"/>
+          <prop v="233,62,110,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -6241,7 +5970,7 @@
               <symbol alpha="1" type="marker" name="@@27@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="230,131,176,255" k="color"/>
+                  <prop v="233,62,110,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -6722,7 +6451,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="31,194,239,255" k="color"/>
+          <prop v="230,131,176,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -6833,7 +6562,7 @@
               <symbol alpha="1" type="marker" name="@@29@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="31,194,239,255" k="color"/>
+                  <prop v="230,131,176,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -7018,7 +6747,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="87,219,127,255" k="color"/>
+          <prop v="205,186,36,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -7129,7 +6858,7 @@
               <symbol alpha="1" type="marker" name="@@3@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="87,219,127,255" k="color"/>
+                  <prop v="205,186,36,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -7314,7 +7043,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="227,196,73,255" k="color"/>
+          <prop v="31,194,239,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -7425,7 +7154,7 @@
               <symbol alpha="1" type="marker" name="@@30@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="227,196,73,255" k="color"/>
+                  <prop v="31,194,239,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -7906,7 +7635,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="214,86,66,255" k="color"/>
+          <prop v="227,196,73,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -8017,7 +7746,7 @@
               <symbol alpha="1" type="marker" name="@@32@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="214,86,66,255" k="color"/>
+                  <prop v="227,196,73,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -8202,7 +7931,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="224,66,58,255" k="color"/>
+          <prop v="214,86,66,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -8313,7 +8042,7 @@
               <symbol alpha="1" type="marker" name="@@33@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="224,66,58,255" k="color"/>
+                  <prop v="214,86,66,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -8498,7 +8227,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="211,171,70,255" k="color"/>
+          <prop v="224,66,58,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -8609,7 +8338,7 @@
               <symbol alpha="1" type="marker" name="@@34@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="211,171,70,255" k="color"/>
+                  <prop v="224,66,58,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -8794,7 +8523,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="105,200,214,255" k="color"/>
+          <prop v="211,171,70,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -8905,7 +8634,7 @@
               <symbol alpha="1" type="marker" name="@@35@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="105,200,214,255" k="color"/>
+                  <prop v="211,171,70,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -9090,7 +8819,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="31,210,100,255" k="color"/>
+          <prop v="105,200,214,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -9201,7 +8930,7 @@
               <symbol alpha="1" type="marker" name="@@36@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="31,210,100,255" k="color"/>
+                  <prop v="105,200,214,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -9386,7 +9115,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="44,206,214,255" k="color"/>
+          <prop v="31,210,100,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -9497,7 +9226,7 @@
               <symbol alpha="1" type="marker" name="@@37@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="44,206,214,255" k="color"/>
+                  <prop v="31,210,100,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -9682,7 +9411,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="217,146,101,255" k="color"/>
+          <prop v="44,206,214,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -9793,7 +9522,7 @@
               <symbol alpha="1" type="marker" name="@@38@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="217,146,101,255" k="color"/>
+                  <prop v="44,206,214,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -9978,7 +9707,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="152,63,219,255" k="color"/>
+          <prop v="217,146,101,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -10089,7 +9818,7 @@
               <symbol alpha="1" type="marker" name="@@39@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="152,63,219,255" k="color"/>
+                  <prop v="217,146,101,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -10274,7 +10003,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="131,238,208,255" k="color"/>
+          <prop v="87,219,127,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -10385,7 +10114,7 @@
               <symbol alpha="1" type="marker" name="@@4@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="131,238,208,255" k="color"/>
+                  <prop v="87,219,127,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -10570,7 +10299,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="26,141,212,255" k="color"/>
+          <prop v="152,63,219,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -10681,7 +10410,7 @@
               <symbol alpha="1" type="marker" name="@@40@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="26,141,212,255" k="color"/>
+                  <prop v="152,63,219,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -10866,7 +10595,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="191,89,214,255" k="color"/>
+          <prop v="26,141,212,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -10977,7 +10706,7 @@
               <symbol alpha="1" type="marker" name="@@41@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="191,89,214,255" k="color"/>
+                  <prop v="26,141,212,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -11162,7 +10891,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="235,89,216,255" k="color"/>
+          <prop v="191,89,214,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -11273,7 +11002,7 @@
               <symbol alpha="1" type="marker" name="@@42@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="235,89,216,255" k="color"/>
+                  <prop v="191,89,214,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -11458,7 +11187,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="58,200,148,255" k="color"/>
+          <prop v="235,89,216,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -11569,7 +11298,7 @@
               <symbol alpha="1" type="marker" name="@@43@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="58,200,148,255" k="color"/>
+                  <prop v="235,89,216,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -11754,7 +11483,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="201,112,34,255" k="color"/>
+          <prop v="58,200,148,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -11865,7 +11594,7 @@
               <symbol alpha="1" type="marker" name="@@44@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="201,112,34,255" k="color"/>
+                  <prop v="58,200,148,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -12050,7 +11779,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="92,19,202,255" k="color"/>
+          <prop v="201,112,34,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -12161,7 +11890,7 @@
               <symbol alpha="1" type="marker" name="@@45@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="92,19,202,255" k="color"/>
+                  <prop v="201,112,34,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -12346,7 +12075,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="173,77,208,255" k="color"/>
+          <prop v="92,19,202,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -12457,7 +12186,7 @@
               <symbol alpha="1" type="marker" name="@@46@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="173,77,208,255" k="color"/>
+                  <prop v="92,19,202,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -12642,7 +12371,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="238,82,205,255" k="color"/>
+          <prop v="173,77,208,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -12753,7 +12482,7 @@
               <symbol alpha="1" type="marker" name="@@47@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="238,82,205,255" k="color"/>
+                  <prop v="173,77,208,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -12938,7 +12667,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="238,131,197,255" k="color"/>
+          <prop v="238,82,205,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -13049,7 +12778,7 @@
               <symbol alpha="1" type="marker" name="@@48@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="238,131,197,255" k="color"/>
+                  <prop v="238,82,205,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -13234,7 +12963,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="93,186,225,255" k="color"/>
+          <prop v="238,131,197,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -13345,7 +13074,7 @@
               <symbol alpha="1" type="marker" name="@@49@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="93,186,225,255" k="color"/>
+                  <prop v="238,131,197,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -13530,7 +13259,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="238,233,65,255" k="color"/>
+          <prop v="131,238,208,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -13641,7 +13370,7 @@
               <symbol alpha="1" type="marker" name="@@5@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="238,233,65,255" k="color"/>
+                  <prop v="131,238,208,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -13826,7 +13555,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="93,146,236,255" k="color"/>
+          <prop v="93,186,225,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -13937,7 +13666,7 @@
               <symbol alpha="1" type="marker" name="@@50@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="93,146,236,255" k="color"/>
+                  <prop v="93,186,225,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -14122,7 +13851,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="227,117,176,255" k="color"/>
+          <prop v="93,146,236,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -14233,7 +13962,7 @@
               <symbol alpha="1" type="marker" name="@@51@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="227,117,176,255" k="color"/>
+                  <prop v="93,146,236,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -14418,7 +14147,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="70,227,157,255" k="color"/>
+          <prop v="227,117,176,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -14529,7 +14258,7 @@
               <symbol alpha="1" type="marker" name="@@52@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="70,227,157,255" k="color"/>
+                  <prop v="227,117,176,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -14714,7 +14443,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="83,75,221,255" k="color"/>
+          <prop v="70,227,157,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -14825,7 +14554,7 @@
               <symbol alpha="1" type="marker" name="@@53@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="83,75,221,255" k="color"/>
+                  <prop v="70,227,157,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -15010,7 +14739,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="211,122,14,255" k="color"/>
+          <prop v="83,75,221,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -15121,7 +14850,7 @@
               <symbol alpha="1" type="marker" name="@@54@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="211,122,14,255" k="color"/>
+                  <prop v="83,75,221,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -15306,7 +15035,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="165,64,219,255" k="color"/>
+          <prop v="211,122,14,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -15417,7 +15146,7 @@
               <symbol alpha="1" type="marker" name="@@55@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="165,64,219,255" k="color"/>
+                  <prop v="211,122,14,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -15898,7 +15627,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="201,100,103,255" k="color"/>
+          <prop v="165,64,219,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -16009,7 +15738,7 @@
               <symbol alpha="1" type="marker" name="@@57@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="201,100,103,255" k="color"/>
+                  <prop v="165,64,219,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -16194,7 +15923,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="187,231,84,255" k="color"/>
+          <prop v="201,100,103,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -16305,7 +16034,7 @@
               <symbol alpha="1" type="marker" name="@@58@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="187,231,84,255" k="color"/>
+                  <prop v="201,100,103,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -16490,7 +16219,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="225,88,29,255" k="color"/>
+          <prop v="187,231,84,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -16601,7 +16330,7 @@
               <symbol alpha="1" type="marker" name="@@59@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="225,88,29,255" k="color"/>
+                  <prop v="187,231,84,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -16786,7 +16515,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="106,80,201,255" k="color"/>
+          <prop v="238,233,65,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -16897,7 +16626,7 @@
               <symbol alpha="1" type="marker" name="@@6@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="106,80,201,255" k="color"/>
+                  <prop v="238,233,65,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -17082,7 +16811,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="118,213,114,255" k="color"/>
+          <prop v="225,88,29,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -17193,7 +16922,7 @@
               <symbol alpha="1" type="marker" name="@@60@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="118,213,114,255" k="color"/>
+                  <prop v="225,88,29,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -17378,7 +17107,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="116,203,81,255" k="color"/>
+          <prop v="118,213,114,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -17489,7 +17218,7 @@
               <symbol alpha="1" type="marker" name="@@61@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="116,203,81,255" k="color"/>
+                  <prop v="118,213,114,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -17970,7 +17699,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="48,131,203,255" k="color"/>
+          <prop v="116,203,81,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -18081,7 +17810,7 @@
               <symbol alpha="1" type="marker" name="@@63@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="48,131,203,255" k="color"/>
+                  <prop v="116,203,81,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -18266,7 +17995,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="107,63,210,255" k="color"/>
+          <prop v="48,131,203,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -18377,7 +18106,7 @@
               <symbol alpha="1" type="marker" name="@@64@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="107,63,210,255" k="color"/>
+                  <prop v="48,131,203,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -18562,7 +18291,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="106,211,93,255" k="color"/>
+          <prop v="107,63,210,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -18673,7 +18402,7 @@
               <symbol alpha="1" type="marker" name="@@65@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="106,211,93,255" k="color"/>
+                  <prop v="107,63,210,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -18858,7 +18587,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="225,81,182,255" k="color"/>
+          <prop v="106,211,93,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -18969,7 +18698,7 @@
               <symbol alpha="1" type="marker" name="@@66@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="225,81,182,255" k="color"/>
+                  <prop v="106,211,93,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -19154,7 +18883,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="233,27,103,255" k="color"/>
+          <prop v="225,81,182,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -19265,7 +18994,7 @@
               <symbol alpha="1" type="marker" name="@@67@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="233,27,103,255" k="color"/>
+                  <prop v="225,81,182,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -19450,7 +19179,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="67,235,146,255" k="color"/>
+          <prop v="233,27,103,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -19561,7 +19290,7 @@
               <symbol alpha="1" type="marker" name="@@68@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="67,235,146,255" k="color"/>
+                  <prop v="233,27,103,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -19746,7 +19475,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="129,39,224,255" k="color"/>
+          <prop v="67,235,146,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -19857,7 +19586,7 @@
               <symbol alpha="1" type="marker" name="@@69@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="129,39,224,255" k="color"/>
+                  <prop v="67,235,146,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -20338,7 +20067,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="139,229,65,255" k="color"/>
+          <prop v="129,39,224,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -20449,7 +20178,7 @@
               <symbol alpha="1" type="marker" name="@@70@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="139,229,65,255" k="color"/>
+                  <prop v="129,39,224,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -20634,7 +20363,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="87,100,202,255" k="color"/>
+          <prop v="139,229,65,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -20745,6 +20474,302 @@
               <symbol alpha="1" type="marker" name="@@71@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
+                  <prop v="139,229,65,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0.20000000000000007" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="151,24,117,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0.1" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="1" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" name="name" value=""/>
+                      <Option type="Map" name="properties">
+                        <Option type="Map" name="offset">
+                          <Option type="bool" name="active" value="true"/>
+                          <Option type="QString" name="expression" value="array(randf(-0.5, 0.5), randf(-0.5, 0.5))"/>
+                          <Option type="int" name="type" value="3"/>
+                        </Option>
+                      </Option>
+                      <Option type="QString" name="type" value="collection"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </layer>
+        <layer enabled="1" locked="1" pass="0" class="SimpleFill">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="80,66,41,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="151,24,117,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.6" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="no" k="style"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="outlineColor">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="case when hstore_to_json['organic']='yes' then 'green' else color_rgb(151, 24, 117) end"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol alpha="1" type="fill" name="72" force_rhr="0" clip_to_extent="1">
+        <layer enabled="1" locked="1" pass="0" class="SimpleFill">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="80,66,41,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0.26" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="solid" k="style"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="outlineColor">
+                  <Option type="bool" name="active" value="false"/>
+                  <Option type="QString" name="expression" value="case when hstore_to_json['organic']='yes' then 'green' else 'black' end"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+        <layer enabled="1" locked="1" pass="0" class="LinePatternFill">
+          <prop v="45" k="angle"/>
+          <prop v="0,0,255,255" k="color"/>
+          <prop v="7" k="distance"/>
+          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+          <prop v="MM" k="distance_unit"/>
+          <prop v="0.26" k="line_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+          <prop v="MM" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="lineAngle">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;&#x9;&#x9;'orientation',&#xd;&#xa;&#x9;&#x9;to_int(hstore_to_json['vine_row_orientation']),&#xd;&#xa;&#x9;&#x9;coalesce(@orientation, 45)&#xd;&#xa;&#x9;)"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <symbol alpha="1" type="line" name="@72@1" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="MarkerLine">
+              <prop v="4" k="average_angle_length"/>
+              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
+              <prop v="MM" k="average_angle_unit"/>
+              <prop v="0.4" k="interval"/>
+              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
+              <prop v="MM" k="interval_unit"/>
+              <prop v="4" k="offset"/>
+              <prop v="0" k="offset_along_line"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
+              <prop v="MM" k="offset_along_line_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="interval" k="placement"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="rotate"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+              <symbol alpha="1" type="marker" name="@@72@1@0" force_rhr="0" clip_to_extent="1">
+                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
+                  <prop v="255,0,0,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="line" k="name"/>
+                  <prop v="0,1.79999999999999982" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="43,106,30,130" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0.3" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="1.6" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" name="name" value=""/>
+                      <Option type="Map" name="properties">
+                        <Option type="Map" name="angle">
+                          <Option type="bool" name="active" value="true"/>
+                          <Option type="QString" name="expression" value="randf(-20, 20)"/>
+                          <Option type="int" name="type" value="3"/>
+                        </Option>
+                        <Option type="Map" name="offset">
+                          <Option type="bool" name="active" value="true"/>
+                          <Option type="QString" name="expression" value="array(randf(-0.2, 0.2), randf(-0.2, 0.2))"/>
+                          <Option type="int" name="type" value="3"/>
+                        </Option>
+                      </Option>
+                      <Option type="QString" name="type" value="collection"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </layer>
+        <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
+          <prop v="45" k="angle"/>
+          <prop v="87,100,202,255" k="color"/>
+          <prop v="7" k="distance"/>
+          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+          <prop v="MM" k="distance_unit"/>
+          <prop v="0.26" k="line_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+          <prop v="MM" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="lineAngle">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;&#x9;&#x9;'orientation',&#xd;&#xa;&#x9;&#x9;to_int(hstore_to_json['vine_row_orientation']),&#xd;&#xa;&#x9;&#x9;coalesce(@orientation, 45)&#xd;&#xa;&#x9;)"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <symbol alpha="1" type="line" name="@72@2" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="1" pass="0" class="MarkerLine">
+              <prop v="4" k="average_angle_length"/>
+              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
+              <prop v="MM" k="average_angle_unit"/>
+              <prop v="2" k="interval"/>
+              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
+              <prop v="MM" k="interval_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="5.55112e-17" k="offset_along_line"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
+              <prop v="MM" k="offset_along_line_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="interval" k="placement"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="rotate"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+              <symbol alpha="1" type="marker" name="@@72@2@0" force_rhr="0" clip_to_extent="1">
+                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
+                  <prop v="255,0,0,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="line" k="name"/>
+                  <prop v="0,1.79999999999999982" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="173,127,41,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0.3" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="2" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" name="name" value=""/>
+                      <Option type="Map" name="properties">
+                        <Option type="Map" name="offset">
+                          <Option type="bool" name="active" value="false"/>
+                          <Option type="QString" name="expression" value="array(randf(-0.2, 0.2), randf(-0.2, 0.2))"/>
+                          <Option type="int" name="type" value="3"/>
+                        </Option>
+                      </Option>
+                      <Option type="QString" name="type" value="collection"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+            <layer enabled="1" locked="0" pass="0" class="MarkerLine">
+              <prop v="4" k="average_angle_length"/>
+              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
+              <prop v="MM" k="average_angle_unit"/>
+              <prop v="0.3" k="interval"/>
+              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
+              <prop v="MM" k="interval_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="5.55112e-17" k="offset_along_line"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
+              <prop v="RenderMetersInMapUnits" k="offset_along_line_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="interval" k="placement"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="rotate"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+              <symbol alpha="1" type="marker" name="@@72@2@1" force_rhr="0" clip_to_extent="1">
+                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
                   <prop v="87,100,202,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
@@ -20805,6 +20830,82 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol alpha="1" type="fill" name="73" force_rhr="0" clip_to_extent="1">
+        <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="80,66,41,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="151,24,117,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.46" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="solid" k="style"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+        <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
+          <prop v="45" k="angle"/>
+          <prop v="0,0,255,255" k="color"/>
+          <prop v="2" k="distance"/>
+          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+          <prop v="MM" k="distance_unit"/>
+          <prop v="0.26" k="line_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+          <prop v="MM" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <symbol alpha="1" type="line" name="@73@1" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="203,69,190,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.66" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="8" force_rhr="0" clip_to_extent="1">
@@ -20930,7 +21031,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="224,180,104,255" k="color"/>
+          <prop v="106,80,201,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -21041,7 +21142,7 @@
               <symbol alpha="1" type="marker" name="@@8@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="224,180,104,255" k="color"/>
+                  <prop v="106,80,201,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -21226,7 +21327,7 @@
         </layer>
         <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
-          <prop v="201,88,213,255" k="color"/>
+          <prop v="224,180,104,255" k="color"/>
           <prop v="7" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
@@ -21337,7 +21438,7 @@
               <symbol alpha="1" type="marker" name="@@9@2@1" force_rhr="0" clip_to_extent="1">
                 <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
-                  <prop v="201,88,213,255" k="color"/>
+                  <prop v="224,180,104,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="circle" k="name"/>
@@ -21400,307 +21501,88 @@
         </layer>
       </symbol>
     </symbols>
-    <source-symbol>
-      <symbol alpha="1" type="fill" name="0" force_rhr="0" clip_to_extent="1">
-        <layer enabled="1" locked="1" pass="0" class="SimpleFill">
-          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="80,66,41,255" k="color"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="no" k="outline_style"/>
-          <prop v="0.26" k="outline_width"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="solid" k="style"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="outlineColor">
-                  <Option type="bool" name="active" value="false"/>
-                  <Option type="QString" name="expression" value="case when hstore_to_json['organic']='yes' then 'green' else 'black' end"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-        <layer enabled="1" locked="1" pass="0" class="LinePatternFill">
-          <prop v="45" k="angle"/>
-          <prop v="0,0,255,255" k="color"/>
-          <prop v="7" k="distance"/>
-          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
-          <prop v="MM" k="distance_unit"/>
-          <prop v="0.26" k="line_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="lineAngle">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;&#x9;&#x9;'orientation',&#xd;&#xa;&#x9;&#x9;to_int(hstore_to_json['vine_row_orientation']),&#xd;&#xa;&#x9;&#x9;coalesce(@orientation, 45)&#xd;&#xa;&#x9;)"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-          <symbol alpha="1" type="line" name="@0@1" force_rhr="0" clip_to_extent="1">
-            <layer enabled="1" locked="0" pass="0" class="MarkerLine">
-              <prop v="4" k="average_angle_length"/>
-              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
-              <prop v="MM" k="average_angle_unit"/>
-              <prop v="0.4" k="interval"/>
-              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
-              <prop v="MM" k="interval_unit"/>
-              <prop v="4" k="offset"/>
-              <prop v="0" k="offset_along_line"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
-              <prop v="MM" k="offset_along_line_unit"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="interval" k="placement"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="rotate"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" type="marker" name="@@0@1@0" force_rhr="0" clip_to_extent="1">
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-                  <prop v="0" k="angle"/>
-                  <prop v="255,0,0,255" k="color"/>
-                  <prop v="1" k="horizontal_anchor_point"/>
-                  <prop v="bevel" k="joinstyle"/>
-                  <prop v="line" k="name"/>
-                  <prop v="0,1.79999999999999982" k="offset"/>
-                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                  <prop v="MM" k="offset_unit"/>
-                  <prop v="43,106,30,130" k="outline_color"/>
-                  <prop v="solid" k="outline_style"/>
-                  <prop v="0.3" k="outline_width"/>
-                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-                  <prop v="MM" k="outline_width_unit"/>
-                  <prop v="diameter" k="scale_method"/>
-                  <prop v="1.6" k="size"/>
-                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-                  <prop v="MM" k="size_unit"/>
-                  <prop v="1" k="vertical_anchor_point"/>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option type="QString" name="name" value=""/>
-                      <Option type="Map" name="properties">
-                        <Option type="Map" name="angle">
-                          <Option type="bool" name="active" value="true"/>
-                          <Option type="QString" name="expression" value="randf(-20, 20)"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                        <Option type="Map" name="offset">
-                          <Option type="bool" name="active" value="true"/>
-                          <Option type="QString" name="expression" value="array(randf(-0.2, 0.2), randf(-0.2, 0.2))"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option type="QString" name="type" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-        </layer>
-        <layer enabled="1" locked="0" pass="0" class="LinePatternFill">
-          <prop v="45" k="angle"/>
-          <prop v="62,74,235,255" k="color"/>
-          <prop v="7" k="distance"/>
-          <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
-          <prop v="MM" k="distance_unit"/>
-          <prop v="0.26" k="line_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="lineAngle">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;&#x9;&#x9;'orientation',&#xd;&#xa;&#x9;&#x9;to_int(hstore_to_json['vine_row_orientation']),&#xd;&#xa;&#x9;&#x9;coalesce(@orientation, 45)&#xd;&#xa;&#x9;)"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-          <symbol alpha="1" type="line" name="@0@2" force_rhr="0" clip_to_extent="1">
-            <layer enabled="1" locked="1" pass="0" class="MarkerLine">
-              <prop v="4" k="average_angle_length"/>
-              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
-              <prop v="MM" k="average_angle_unit"/>
-              <prop v="2" k="interval"/>
-              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
-              <prop v="MM" k="interval_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="5.55112e-17" k="offset_along_line"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
-              <prop v="MM" k="offset_along_line_unit"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="interval" k="placement"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="rotate"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" type="marker" name="@@0@2@0" force_rhr="0" clip_to_extent="1">
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-                  <prop v="0" k="angle"/>
-                  <prop v="255,0,0,255" k="color"/>
-                  <prop v="1" k="horizontal_anchor_point"/>
-                  <prop v="bevel" k="joinstyle"/>
-                  <prop v="line" k="name"/>
-                  <prop v="0,1.79999999999999982" k="offset"/>
-                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                  <prop v="MM" k="offset_unit"/>
-                  <prop v="173,127,41,255" k="outline_color"/>
-                  <prop v="solid" k="outline_style"/>
-                  <prop v="0.3" k="outline_width"/>
-                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-                  <prop v="MM" k="outline_width_unit"/>
-                  <prop v="diameter" k="scale_method"/>
-                  <prop v="2" k="size"/>
-                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-                  <prop v="MM" k="size_unit"/>
-                  <prop v="1" k="vertical_anchor_point"/>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option type="QString" name="name" value=""/>
-                      <Option type="Map" name="properties">
-                        <Option type="Map" name="offset">
-                          <Option type="bool" name="active" value="false"/>
-                          <Option type="QString" name="expression" value="array(randf(-0.2, 0.2), randf(-0.2, 0.2))"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option type="QString" name="type" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
-            <layer enabled="1" locked="0" pass="0" class="MarkerLine">
-              <prop v="4" k="average_angle_length"/>
-              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
-              <prop v="MM" k="average_angle_unit"/>
-              <prop v="0.3" k="interval"/>
-              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
-              <prop v="MM" k="interval_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="5.55112e-17" k="offset_along_line"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
-              <prop v="RenderMetersInMapUnits" k="offset_along_line_unit"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="interval" k="placement"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="rotate"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" type="marker" name="@@0@2@1" force_rhr="0" clip_to_extent="1">
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-                  <prop v="0" k="angle"/>
-                  <prop v="62,74,235,255" k="color"/>
-                  <prop v="1" k="horizontal_anchor_point"/>
-                  <prop v="bevel" k="joinstyle"/>
-                  <prop v="circle" k="name"/>
-                  <prop v="0,0.20000000000000007" k="offset"/>
-                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-                  <prop v="MM" k="offset_unit"/>
-                  <prop v="151,24,117,255" k="outline_color"/>
-                  <prop v="solid" k="outline_style"/>
-                  <prop v="0.1" k="outline_width"/>
-                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-                  <prop v="MM" k="outline_width_unit"/>
-                  <prop v="diameter" k="scale_method"/>
-                  <prop v="1" k="size"/>
-                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-                  <prop v="MM" k="size_unit"/>
-                  <prop v="1" k="vertical_anchor_point"/>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option type="QString" name="name" value=""/>
-                      <Option type="Map" name="properties">
-                        <Option type="Map" name="offset">
-                          <Option type="bool" name="active" value="true"/>
-                          <Option type="QString" name="expression" value="array(randf(-0.5, 0.5), randf(-0.5, 0.5))"/>
-                          <Option type="int" name="type" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option type="QString" name="type" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-        </layer>
-        <layer enabled="1" locked="1" pass="0" class="SimpleFill">
-          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="80,66,41,255" k="color"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="151,24,117,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.6" k="outline_width"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="no" k="style"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="outlineColor">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="case when hstore_to_json['organic']='yes' then 'green' else color_rgb(151, 24, 117) end"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-    </source-symbol>
-    <rotation/>
-    <sizescale/>
   </renderer-v2>
+  <labeling type="simple">
+    <settings calloutType="simple">
+      <text-style textOpacity="1" namedStyle="Normal" blendMode="0" fontItalic="0" fontSizeUnit="Point" fontUnderline="0" fontLetterSpacing="0" fontSize="10" previewBkgrdColor="255,255,255,255" fontStrikeout="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" textOrientation="horizontal" fontKerning="1" textColor="158,174,232,255" useSubstitutions="0" isExpression="1" fontFamily="MS Shell Dlg 2" fontWeight="50" capitalization="0" fieldName="coalesce(hstore_to_json['grape_variety'], '')" fontWordSpacing="0" multilineHeight="1">
+        <text-buffer bufferSize="1" bufferJoinStyle="128" bufferBlendMode="0" bufferOpacity="1" bufferSizeUnits="MM" bufferColor="151,24,117,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="1" bufferNoFill="1"/>
+        <text-mask maskType="0" maskedSymbolLayers="" maskSize="1.5" maskEnabled="0" maskJoinStyle="128" maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1"/>
+        <background shapeSVGFile="" shapeJoinStyle="64" shapeOpacity="1" shapeOffsetY="0" shapeSizeType="0" shapeRotationType="0" shapeRotation="0" shapeRadiiUnit="MM" shapeSizeUnit="MM" shapeBorderColor="128,128,128,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeRadiiY="0" shapeType="0" shapeOffsetUnit="MM" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeRadiiX="0" shapeBlendMode="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeSizeY="0">
+          <symbol alpha="1" type="marker" name="markerSymbol" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="133,182,111,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </background>
+        <shadow shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowOffsetDist="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadius="1.5" shadowRadiusAlphaOnly="0" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowDraw="0" shadowUnder="0"/>
+        <dd_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </dd_properties>
+        <substitutions/>
+      </text-style>
+      <text-format addDirectionSymbol="0" leftDirectionSymbol="&lt;" multilineAlign="3" rightDirectionSymbol=">" plussign="0" reverseDirectionSymbol="0" decimals="3" useMaxLineLengthForAutoWrap="1" wrapChar="" formatNumbers="0" autoWrapLength="0" placeDirectionSymbol="0"/>
+      <placement geometryGeneratorEnabled="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" distMapUnitScale="3x:0,0,0,0,0,0" dist="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" placement="0" geometryGenerator="" fitInPolygonOnly="0" distUnits="MM" centroidInside="0" polygonPlacementFlags="2" offsetType="0" layerType="PolygonGeometry" maxCurvedCharAngleIn="25" lineAnchorType="0" placementFlags="10" centroidWhole="0" rotationAngle="0" priority="5" yOffset="0" repeatDistanceUnits="MM" preserveRotation="1" overrunDistanceUnit="MM" xOffset="0" maxCurvedCharAngleOut="-25" lineAnchorPercent="0.5" quadOffset="4" geometryGeneratorType="PointGeometry" offsetUnits="MM" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" overrunDistance="0"/>
+      <rendering maxNumLabels="2000" obstacleType="1" obstacleFactor="1" limitNumLabels="0" scaleMax="100000" mergeLines="0" fontMinPixelSize="3" zIndex="0" scaleMin="0" minFeatureSize="0" fontMaxPixelSize="10000" upsidedownLabels="0" drawLabels="1" displayAll="0" fontLimitPixelSize="0" labelPerPart="0" scaleVisibility="1" obstacle="1"/>
+      <dd_properties>
+        <Option type="Map">
+          <Option type="QString" name="name" value=""/>
+          <Option name="properties"/>
+          <Option type="QString" name="type" value="collection"/>
+        </Option>
+      </dd_properties>
+      <callout type="simple">
+        <Option type="Map">
+          <Option type="QString" name="anchorPoint" value="pole_of_inaccessibility"/>
+          <Option type="Map" name="ddProperties">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+          <Option type="bool" name="drawToAllParts" value="false"/>
+          <Option type="QString" name="enabled" value="0"/>
+          <Option type="QString" name="labelAnchorPoint" value="point_on_exterior"/>
+          <Option type="QString" name="lineSymbol" value="&lt;symbol alpha=&quot;1&quot; type=&quot;line&quot; name=&quot;symbol&quot; force_rhr=&quot;0&quot; clip_to_extent=&quot;1&quot;>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;prop v=&quot;0&quot; k=&quot;align_dash_pattern&quot;/>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;dash_pattern_offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;dash_pattern_offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; name=&quot;name&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; name=&quot;type&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
+          <Option type="double" name="minLength" value="0"/>
+          <Option type="QString" name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="minLengthUnit" value="MM"/>
+          <Option type="double" name="offsetFromAnchor" value="0"/>
+          <Option type="QString" name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="offsetFromAnchorUnit" value="MM"/>
+          <Option type="double" name="offsetFromLabel" value="0"/>
+          <Option type="QString" name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0"/>
+          <Option type="QString" name="offsetFromLabelUnit" value="MM"/>
+        </Option>
+      </callout>
+    </settings>
+  </labeling>
   <customproperties/>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
