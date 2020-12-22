@@ -1,0 +1,16 @@
+tags->'shop'='bicycle' OR 
+tags->'shop'='alcohol' OR 
+tags->'shop'='electronics' OR 
+tags->'shop'='computer' OR 
+tags->'shop'='doityourself' OR 
+tags->'amenity'='marketplace' OR 
+tags->'tourism'='hotel' OR 
+tags->'tourism'='camp_site' OR 
+tags->'amenity'='car rental' OR 
+tags->'craft'='electronics_repair' OR
+tags->'amenity'='restaurant' OR
+tags->'amenity'='bar' OR
+tags->'amenity'='pub' OR
+tags->'amenity'='cafe' OR
+tags->'amenity'='biergarten' OR
+tags->'amenity'='nightclub'
