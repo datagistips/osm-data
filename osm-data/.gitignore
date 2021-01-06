@@ -1,3 +1,6 @@
 *.gpkg
 data
 data/*
+openstreetmap-carto-master
+openstreetmap-carto-master/*
+openstreetmap-carto-master.zip
