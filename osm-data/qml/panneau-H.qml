@@ -30,7 +30,6 @@
         <rule label="string_to_array(hstore_to_json['traffic_sign'], '[')[0] = ''" symbol="13" filter="string_to_array(hstore_to_json['traffic_sign'], '[')[0] = ''" key="{117981d4-b642-42d2-8675-08bdf0859672}"/>
       </rule>
       <rule label="hstore_to_json['direction'] is not null" symbol="14" filter="hstore_to_json['direction'] is not null" scalemindenom="1" key="{35f194ee-5952-4b4e-9457-ac750a9e27ad}" scalemaxdenom="50000"/>
-      <rule label="hstore_to_json['direction'] is null" symbol="15" filter="hstore_to_json['direction'] is null" scalemindenom="1" key="{1727c06c-f777-414e-b970-55f1e3702f02}" scalemaxdenom="50000"/>
     </rules>
     <symbols>
       <symbol alpha="1" force_rhr="0" type="marker" name="0" clip_to_extent="1">
@@ -323,74 +322,6 @@
           <prop v="MM" k="outline_width_unit"/>
           <prop v="diameter" k="scale_method"/>
           <prop v="25" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="angle">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="with_variable(&#xd;&#xa;'direction',&#xd;&#xa;(60 + hstore_to_json['direction']),&#xd;&#xa;if(@direction is null or @direction='', 60, @direction)&#xd;&#xa;)"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-        <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
-          <prop v="0" k="angle"/>
-          <prop v="215,147,58,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="104,71,28,255" k="outline_color"/>
-          <prop v="no" k="outline_style"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="1.6" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="angle">
-                  <Option type="bool" name="active" value="true"/>
-                  <Option type="QString" name="expression" value="-60 + (with_variable(&#xd;&#xa;'direction',&#xd;&#xa;(86 + 60 - hstore_to_json['direction']),&#xd;&#xa;if(@direction is null or @direction='', 86, @direction)&#xd;&#xa;))"/>
-                  <Option type="int" name="type" value="3"/>
-                </Option>
-              </Option>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="1" force_rhr="0" type="marker" name="15" clip_to_extent="1">
-        <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
-          <prop v="60" k="angle"/>
-          <prop v="255,203,135,81" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="no" k="outline_style"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="10" k="size"/>
           <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
           <prop v="MM" k="size_unit"/>
           <prop v="1" k="vertical_anchor_point"/>
@@ -1092,7 +1023,9 @@
     </settings>
   </labeling>
   <customproperties>
-    <property key="dualview/previewExpressions" value="&quot;name&quot;"/>
+    <property key="dualview/previewExpressions">
+      <value>"name"</value>
+    </property>
     <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
@@ -1273,7 +1206,7 @@
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+  <attributetableconfig sortExpression="&quot;v_type&quot;" actionWidgetStyle="dropDown" sortOrder="1">
     <columns>
       <column type="field" name="fid" width="-1" hidden="0"/>
       <column type="field" name="osm_id" width="-1" hidden="0"/>
