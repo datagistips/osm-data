@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="0" maxScale="0" simplifyLocal="1" version="3.16.1-Hannover" minScale="100000000" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyDrawingHints="0" readOnly="0">
+<qgis simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="1" maxScale="0" simplifyLocal="1" version="3.16.1-Hannover" minScale="100000000" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" simplifyDrawingHints="0" readOnly="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
@@ -861,10 +861,10 @@
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style fieldName="v_libelle" fontFamily="Arial Black" fontLetterSpacing="0" isExpression="0" fontWordSpacing="0" textColor="255,255,255,255" fontSize="10" fontStrikeout="0" fontItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontKerning="1" allowHtml="0" textOpacity="1" blendMode="0" namedStyle="Normal" fontSizeUnit="Point" fontWeight="50" multilineHeight="1" textOrientation="horizontal" fontUnderline="0" useSubstitutions="0" capitalization="0" previewBkgrdColor="255,255,255,255">
-        <text-buffer bufferColor="255,255,255,255" bufferDraw="0" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferJoinStyle="128" bufferNoFill="1" bufferSizeUnits="MM" bufferBlendMode="0"/>
+      <text-style fieldName="format('%1 (%2)',replace(string_to_array(hstore_to_json['traffic_sign'] ,'[')[1], ']', ''), replace(string_to_array(hstore_to_json['traffic_sign'] ,'[')[0], 'FR:', ''))&#xd;&#xa;" fontFamily="Arial" fontLetterSpacing="0" isExpression="1" fontWordSpacing="0" textColor="255,255,255,255" fontSize="10" fontStrikeout="0" fontItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontKerning="1" allowHtml="0" textOpacity="1" blendMode="0" namedStyle="Normal" fontSizeUnit="Point" fontWeight="50" multilineHeight="1" textOrientation="horizontal" fontUnderline="0" useSubstitutions="0" capitalization="0" previewBkgrdColor="255,255,255,255">
+        <text-buffer bufferColor="110,88,68,255" bufferDraw="1" bufferSize="0.7" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferJoinStyle="128" bufferNoFill="1" bufferSizeUnits="MM" bufferBlendMode="0"/>
         <text-mask maskSizeUnits="MM" maskType="0" maskSize="1.5" maskJoinStyle="128" maskOpacity="1" maskEnabled="0" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
-        <background shapeDraw="1" shapeSizeUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeRadiiY="0" shapeRotation="0" shapeOffsetX="0" shapeSizeType="0" shapeBorderWidth="0" shapeBlendMode="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="-6" shapeRadiiX="0" shapeType="5" shapeOffsetUnit="MM" shapeJoinStyle="64" shapeSizeX="2" shapeSizeY="0" shapeRotationType="0" shapeOpacity="1" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeBorderColor="128,128,128,255" shapeSVGFile="">
+        <background shapeDraw="0" shapeSizeUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeRadiiY="0" shapeRotation="0" shapeOffsetX="0" shapeSizeType="0" shapeBorderWidth="0" shapeBlendMode="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="-6" shapeRadiiX="0" shapeType="5" shapeOffsetUnit="MM" shapeJoinStyle="64" shapeSizeX="2" shapeSizeY="0" shapeRotationType="0" shapeOpacity="1" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeBorderColor="128,128,128,255" shapeSVGFile="">
           <symbol alpha="1" force_rhr="0" type="marker" name="markerSymbol" clip_to_extent="1">
             <layer pass="0" enabled="1" locked="0" class="RasterMarker">
               <prop v="1" k="alpha"/>
@@ -989,7 +989,7 @@
       </text-style>
       <text-format useMaxLineLengthForAutoWrap="1" placeDirectionSymbol="0" autoWrapLength="0" leftDirectionSymbol="&lt;" multilineAlign="3" formatNumbers="0" decimals="3" reverseDirectionSymbol="0" addDirectionSymbol="0" wrapChar="" plussign="0" rightDirectionSymbol=">"/>
       <placement centroidWhole="0" geometryGeneratorType="PointGeometry" xOffset="0" repeatDistance="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidInside="0" lineAnchorPercent="0.5" polygonPlacementFlags="2" lineAnchorType="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" overrunDistance="0" overrunDistanceUnit="MM" yOffset="0" geometryGeneratorEnabled="0" fitInPolygonOnly="0" maxCurvedCharAngleOut="-25" preserveRotation="1" placement="1" offsetUnits="MM" repeatDistanceUnits="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" dist="0" placementFlags="10" priority="5" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleIn="25" distUnits="MM" offsetType="0" quadOffset="4" distMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" geometryGenerator=""/>
-      <rendering scaleMin="0" drawLabels="1" displayAll="0" scaleMax="0" obstacle="1" upsidedownLabels="0" limitNumLabels="0" zIndex="0" mergeLines="0" minFeatureSize="0" fontMaxPixelSize="10000" obstacleType="1" fontLimitPixelSize="0" obstacleFactor="1" scaleVisibility="0" fontMinPixelSize="3" maxNumLabels="2000" labelPerPart="0"/>
+      <rendering scaleMin="50000" drawLabels="1" displayAll="0" scaleMax="500000" obstacle="1" upsidedownLabels="0" limitNumLabels="0" zIndex="0" mergeLines="0" minFeatureSize="0" fontMaxPixelSize="10000" obstacleType="1" fontLimitPixelSize="0" obstacleFactor="1" scaleVisibility="1" fontMinPixelSize="3" maxNumLabels="2000" labelPerPart="0"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" name="name" value=""/>
