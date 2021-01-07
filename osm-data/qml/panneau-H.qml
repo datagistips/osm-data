@@ -448,7 +448,7 @@
           <prop v="0" k="angle"/>
           <prop v="0" k="fixedAspectRatio"/>
           <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/TAFF/osm-data/osm-data/png/h12.png" k="imageFile"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/png/h12.png" k="imageFile"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
@@ -472,7 +472,7 @@
           <prop v="0" k="angle"/>
           <prop v="0" k="fixedAspectRatio"/>
           <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/TAFF/osm-data/osm-data/png/h13.png" k="imageFile"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/png/h13.png" k="imageFile"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
@@ -562,7 +562,7 @@
           <prop v="0" k="angle"/>
           <prop v="0" k="fixedAspectRatio"/>
           <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/TAFF/osm-data/osm-data/png/h21.png" k="imageFile"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/png/h21.png" k="imageFile"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
