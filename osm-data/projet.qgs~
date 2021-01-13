@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2021-01-13T10:13:49" saveUserFull="mathieu" saveUser="mathieu" projectname="" version="3.16.1-Hannover">
+<qgis saveDateTime="2021-01-13T12:49:07" saveUserFull="mathieu" saveUser="mathieu" projectname="" version="3.16.1-Hannover">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -45,12 +45,6 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" name="Plage_true_748_685 sql_statement" expanded="0" id="Plage_true_748_685_sql_statement_d365bd1a_65a8_44b5_9eb7_1bae40da7bc9" checked="Qt::Unchecked" legend_split_behavior="0" providerKey="ogr" source="./data/Plage_true_748_685.gpkg|layername=sql_statement" patch_size="-1,-1">
-      <customproperties>
-        <property key="expandedLegendNodes"/>
-        <property value="1" key="showFeatureCount"/>
-      </customproperties>
-    </layer-tree-layer>
     <layer-tree-layer legend_exp="" name="fence sql_statement" expanded="0" id="fence_sql_statement_0455e7ce_2be5_4a35_a857_77c7cf48c8b0" checked="Qt::Unchecked" legend_split_behavior="0" providerKey="ogr" source="./data/fence.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties>
         <property key="expandedLegendNodes"/>
@@ -92,6 +86,12 @@
       </customproperties>
     </layer-tree-layer>
     <layer-tree-layer legend_exp="" name="Panneaux_de_type_H_true_954_931 sql_statement" expanded="0" id="Panneaux_de_type_H_true_954_931_sql_statement_806e3bfa_e09f_47e9_b5b8_562dc7d6b868" checked="Qt::Unchecked" legend_split_behavior="0" providerKey="ogr" source="./data/Panneaux_de_type_H_true_954_931.gpkg|layername=sql_statement" patch_size="-1,-1">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+        <property value="1" key="showFeatureCount"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_exp="" name="Plage_true_748_685 sql_statement" expanded="0" id="Plage_true_748_685_sql_statement_d365bd1a_65a8_44b5_9eb7_1bae40da7bc9" checked="Qt::Unchecked" legend_split_behavior="0" providerKey="ogr" source="./data/Plage_true_748_685.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties>
         <property key="expandedLegendNodes"/>
         <property value="1" key="showFeatureCount"/>
@@ -243,11 +243,6 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="crete_sql_statement_4214af00_aad1_46a3_a7d3_29e8bb808185"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="Plage_true_748_685 sql_statement" checked="Qt::Unchecked" showFeatureCount="1" open="false" drawingOrder="-1">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="Plage_true_748_685_sql_statement_d365bd1a_65a8_44b5_9eb7_1bae40da7bc9"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer name="fence sql_statement" checked="Qt::Unchecked" showFeatureCount="0" open="false" drawingOrder="-1">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="fence_sql_statement_0455e7ce_2be5_4a35_a857_77c7cf48c8b0"/>
@@ -291,6 +286,11 @@
     <legendlayer name="Panneaux_de_type_H_true_954_931 sql_statement" checked="Qt::Unchecked" showFeatureCount="1" open="false" drawingOrder="-1">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="Panneaux_de_type_H_true_954_931_sql_statement_806e3bfa_e09f_47e9_b5b8_562dc7d6b868"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="Plage_true_748_685 sql_statement" checked="Qt::Unchecked" showFeatureCount="1" open="false" drawingOrder="-1">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="Plage_true_748_685_sql_statement_d365bd1a_65a8_44b5_9eb7_1bae40da7bc9"/>
       </filegroup>
     </legendlayer>
     <legendlayer name="Points_lumineux_true_322_250 sql_statement" checked="Qt::Unchecked" showFeatureCount="0" open="false" drawingOrder="-1">
