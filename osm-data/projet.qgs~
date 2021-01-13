@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2021-01-13T12:49:07" saveUserFull="mathieu" saveUser="mathieu" projectname="" version="3.16.1-Hannover">
+<qgis saveDateTime="2021-01-13T12:55:22" saveUserFull="mathieu" saveUser="mathieu" projectname="" version="3.16.1-Hannover">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -50,7 +50,7 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" name="Fontaines_true_563_486 sql_statement" expanded="0" id="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1" checked="Qt::Checked" legend_split_behavior="0" providerKey="ogr" source="./data/Fontaines_true_563_486.gpkg|layername=sql_statement" patch_size="-1,-1">
+    <layer-tree-layer legend_exp="" name="Fontaines_true_563_486 sql_statement" expanded="0" id="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1" checked="Qt::Unchecked" legend_split_behavior="0" providerKey="ogr" source="./data/Fontaines_true_563_486.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer legend_exp="" name="hydrants_true_406_326 sql_statement copier copier copier" expanded="0" id="hydrants_true_406_326_sql_statement_copier_copier_d1ff1d79_61d4_40f4_9733_d04486b5e212" checked="Qt::Unchecked" legend_split_behavior="0" providerKey="ogr" source="./data/hydrants_true_406_326.gpkg|layername=sql_statement" patch_size="-1,-1">
@@ -248,9 +248,9 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="fence_sql_statement_0455e7ce_2be5_4a35_a857_77c7cf48c8b0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="Fontaines_true_563_486 sql_statement" checked="Qt::Checked" showFeatureCount="0" open="false" drawingOrder="-1">
+    <legendlayer name="Fontaines_true_563_486 sql_statement" checked="Qt::Unchecked" showFeatureCount="0" open="false" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1"/>
       </filegroup>
     </legendlayer>
     <legendlayer name="hydrants_true_406_326 sql_statement copier copier copier" checked="Qt::Unchecked" showFeatureCount="1" open="false" drawingOrder="-1">
