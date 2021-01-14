@@ -11,7 +11,7 @@
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 enableorderby="0" type="RuleRenderer" symbollevels="0" forceraster="0">
+  <renderer-v2 enableorderby="1" type="RuleRenderer" symbollevels="0" forceraster="0">
     <rules key="{44a02ec9-8bbe-4c71-9fca-3aef0ddcf5ee}">
       <rule symbol="0" scalemaxdenom="10000" scalemindenom="1" key="{54280416-d0bd-43aa-867c-41a0c9448f7f}" label="zoom fort">
         <rule symbol="1" key="{95748413-930f-4cba-b297-3611d673bd06}" label="drinking_water">
@@ -1353,6 +1353,9 @@
         </layer>
       </symbol>
     </symbols>
+    <orderby>
+      <orderByClause nullsFirst="0" asc="0">$y</orderByClause>
+    </orderby>
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
