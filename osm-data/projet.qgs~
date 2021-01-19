@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="mathieu" version="3.16.1-Hannover" saveDateTime="2021-01-19T22:43:10" projectname="" saveUser="mathieu">
+<qgis saveUserFull="mathieu" version="3.16.1-Hannover" saveDateTime="2021-01-19T22:45:11" projectname="" saveUser="mathieu">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -3636,26 +3636,23 @@ def my_form_open(dialog, layer, feature):
             </dd_properties>
           </text-style>
           <content>
+            <item value="Valeur touristique" key="{3020ba57-67b6-4931-9015-7b98e9c5dc9d}"/>
             <item value="Eau potable : minérale" key="{047a3274-5f4e-467d-a2bb-fdba347704ce}"/>
-            <item value="Eau potable : conditionnel" key="{73556870-8363-4168-97f7-b12876720948}"/>
-            <item value="Zoom faible" key="{486559e7-72ff-4215-8566-0b65520bff08}"/>
+            <item value="Zoom faible (échelle &lt; 1/10 000)" key="{486559e7-72ff-4215-8566-0b65520bff08}"/>
             <item value="Musée" key="{9725f210-57e0-4641-8859-f471b76bec63}"/>
-            <item value="Eau potable : oui" key="{b070848f-5ba2-48b2-bb12-56b96a211fd3}"/>
             <item value="Eau potable : non" key="{02f9a1f2-31e2-4e9d-b62e-f4444e65c396}"/>
             <item value="Eau potable : saisonnière" key="{01811a2d-de71-42cd-b5b1-8760a1737c46}"/>
             <item value="Attraction" key="{68c748e5-bfed-40f5-a080-b409698bf229}"/>
             <item value="Eau potable : oui" key="{dfe3dcf0-0a08-45af-ad88-1dfa5f2ad265}"/>
             <item value="Eau potable : minéral" key="{5279ef13-bd61-4ca3-9573-28f90cfdc8c8}"/>
-            <item value="Eau potable : indéfini" key="{654b2df8-1015-457c-a7e6-2e62d9ef6e4d}"/>
             <item value="Jeux d'eau" key="{8e5a1cb7-9777-4cb1-9c6f-c9abeb1308ae}"/>
+            <item value="Zoom fort (échelle >= 1/10 000)" key="{31d3d072-ef20-440f-b08c-7108ca068f7d}"/>
             <item value="Eau potable : non" key="{1ecb3306-dae6-42bc-a1be-92df20f0b4fa}"/>
             <item value="Eau potable : non défini" key="{a9f09d10-d6a2-4b3f-be83-39065da9e582}"/>
             <item value="Eau potable : non défini" key="{7fb2b80d-2ce2-4b1c-b3f2-c10031dd01cf}"/>
             <item value="Eau potable : non surveillée" key="{e66df692-7e33-4e9f-98da-60f7197999ef}"/>
-            <item value="Attraction" key="{c9e593a5-ffe2-4713-b875-7e2c4a0e6583}"/>
             <item value="Eau potable : non surveillée" key="{933f8f4d-6950-4af9-8b3a-e355e3842fc0}"/>
             <item value="Jeux d'eau" key="{10314c33-611a-4694-8f0a-e3155bae98bb}"/>
-            <item value="Eau potable : non surveillée" key="{88194e9e-550d-4dbf-bba9-d645e2b6d469}"/>
             <item value="Eau potable : légal : non" key="{c7ad3832-f1e6-4dcb-9047-f6cf0fadbdf8}"/>
             <item value="Touristique" key="{3a7298ce-8ff8-423e-ad39-a7acf0eb2631}"/>
             <item value="Brumisateur" key="{feba8b3b-be5c-47c7-adb5-f6a28d3c5e02}"/>
@@ -3666,15 +3663,18 @@ def my_form_open(dialog, layer, feature):
             <item value="Eau potable : non" key="{e545a382-f9f7-44f8-8695-fc9570777a4b}"/>
             <item value="Eau potable : conditionnel" key="{475710e9-5df4-4dd2-9bc9-115af200b26c}"/>
             <item value="Eau potable : conditionnel" key="{095718ee-1495-45a2-b3b0-9134a192d64c}"/>
+            <item value="Eclairage" key="{3cf37c22-ed95-4e51-8d64-f741f893f09d}"/>
             <item value="Eau potable : non traitée" key="{b9a9ab9f-4169-4fa5-8879-0d818e1cb5f4}"/>
             <item value="Eau potable : oui" key="{fa3b93d9-9374-4f09-af5b-634909801bd7}"/>
             <item value="Eau potable : non traitée" key="{8835315c-7ad5-4b2d-b509-7c8029a439bc}"/>
             <item value="Eclairage : inconnu" key="{d0e916dd-5027-4c2f-8c96-fb949cc45169}"/>
-            <item value="Eau potable : indéfini" key="{fae1dee1-d816-42c9-b7ea-7218094b0f35}"/>
+            <item value="Attraction" key="{2ddf2597-e48a-481a-ad47-d1be33d8396b}"/>
             <item value="Fontaine publique" key="{6cf5f3d6-15dd-4e81-acdb-2231cc3f6a15}"/>
             <item value="Eau potable : saisonnière" key="{e7fe89d6-4c8e-4b65-8fed-0b68a79a6830}"/>
             <item value="Buse" key="{0fb7b111-2c65-43bd-b3ed-fa9c2f4864bc}"/>
+            <item value="Type de fontaine" key="{fc860cc0-7b93-4837-8392-3b71269280b8}"/>
             <item value="Eau potable : non défini" key="{61405a40-f4c1-45df-9ca6-3a75a029a19d}"/>
+            <item value="Eau potable" key="{c464567a-45f7-414d-a8b2-6cf8b3772bf4}"/>
             <item value="Eclairage automatique" key="{b3e9da66-176e-473f-a980-de1fb02a68e4}"/>
             <item value="Eau potable : non défini" key="{cbb496ab-84c4-4afe-a2e6-354288a50c3b}"/>
             <item value="Oeuvre d'art" key="{db26078a-0753-4412-b24f-e6bda519a30a}"/>
