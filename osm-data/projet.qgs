@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.1-Hannover" saveUserFull="mathieu" projectname="" saveUser="mathieu" saveDateTime="2021-01-23T17:32:35">
+<qgis version="3.16.1-Hannover" saveUserFull="mathieu" projectname="" saveUser="mathieu" saveDateTime="2021-01-23T17:33:58">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -3072,7 +3072,7 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style previewBkgrdColor="255,255,255,255" fontUnderline="0" fontItalic="0" fontLetterSpacing="0" textOpacity="1" fontStrikeout="0" fontWordSpacing="0" textOrientation="horizontal" multilineHeight="1" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="format(&#xd;&#xa;'%1%2%3',&#xd;&#xa;coalesce(name||'\n', ''),&#xd;&#xa;coalesce(hstore_to_json['fountain']||'\n', ''),&#xd;&#xa;coalesce('Drinking water : '||hstore_to_json['drinking_water']||'\n', '')&#xd;&#xa;)" fontSizeUnit="Point" textColor="58,58,58,255" namedStyle="Normal" fontWeight="50" fontSize="10" fontFamily="MS Shell Dlg 2" allowHtml="0" blendMode="0" capitalization="0" isExpression="1" fontKerning="1">
+          <text-style previewBkgrdColor="255,255,255,255" fontUnderline="0" fontItalic="0" fontLetterSpacing="0" textOpacity="1" fontStrikeout="0" fontWordSpacing="0" textOrientation="horizontal" multilineHeight="1" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="format(&#xd;&#xa;'%1%2%3%4',&#xd;&#xa;coalesce(name||'\n', ''),&#xd;&#xa;coalesce(hstore_to_json['fountain']||'\n', ''),&#xd;&#xa;coalesce('Drinking water : '||hstore_to_json['drinking_water']||'\n', ''),&#xd;&#xa;coalesce('Valeur patrimoniale : '||hstore_to_json['heritage']||'\n', '')&#xd;&#xa;)" fontSizeUnit="Point" textColor="58,58,58,255" namedStyle="Normal" fontWeight="50" fontSize="10" fontFamily="MS Shell Dlg 2" allowHtml="0" blendMode="0" capitalization="0" isExpression="1" fontKerning="1">
             <text-buffer bufferOpacity="1" bufferDraw="1" bufferSizeUnits="MM" bufferSize="1" bufferNoFill="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="131,207,224,255" bufferBlendMode="0" bufferJoinStyle="128"/>
             <text-mask maskEnabled="0" maskOpacity="1" maskedSymbolLayers="" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskType="0" maskSizeUnits="MM" maskSize="1.5"/>
             <background shapeRadiiUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeRadiiX="0" shapeBorderWidthUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeSizeX="0" shapeSizeY="0" shapeSizeUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeOffsetUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeRotation="0" shapeRadiiY="0" shapeType="0" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeJoinStyle="64" shapeBorderWidth="0" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeSizeType="0">
