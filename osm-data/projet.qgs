@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="mathieu" projectname="" version="3.16.1-Hannover" saveUserFull="mathieu" saveDateTime="2021-01-23T18:53:49">
+<qgis saveUser="mathieu" projectname="" version="3.16.1-Hannover" saveUserFull="mathieu" saveDateTime="2021-01-23T19:19:27">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -56,11 +56,15 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="1" id="Valeurs_Uniques_f591024b_aa2e_4ba4_809a_2868fd5f323e" providerKey="memory" legend_split_behavior="0" name="Valeurs Uniques" source="memory?geometry=NoGeometry&amp;crs=EPSG:4326&amp;field=fountain:string(0,0)&amp;uid={4a4821f9-d8e1-42c0-8f49-a7a2f809aada}" patch_size="-1,-1">
-      <customproperties/>
+    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="Valeurs_Uniques_f591024b_aa2e_4ba4_809a_2868fd5f323e" providerKey="memory" legend_split_behavior="0" name="Valeurs Uniques" source="memory?geometry=NoGeometry&amp;crs=EPSG:4326&amp;field=fountain:string(0,0)&amp;uid={4a4821f9-d8e1-42c0-8f49-a7a2f809aada}" patch_size="-1,-1">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="1" id="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1" providerKey="ogr" legend_split_behavior="0" name="Fontaines_true_563_486 sql_statement" source="./data/Fontaines_true_563_486.gpkg|layername=sql_statement" patch_size="-1,-1">
-      <customproperties/>
+    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1" providerKey="ogr" legend_split_behavior="0" name="Fontaines_true_563_486 sql_statement" source="./data/Fontaines_true_563_486.gpkg|layername=sql_statement" patch_size="-1,-1">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="hydrants_true_406_326_sql_statement_copier_copier_d1ff1d79_61d4_40f4_9733_d04486b5e212" providerKey="ogr" legend_split_behavior="0" name="hydrants_true_406_326 sql_statement copier copier copier" source="./data/hydrants_true_406_326.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties>
@@ -78,15 +82,23 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
+    <layer-tree-layer legend_exp="" checked="Qt::Checked" expanded="1" id="image_sql_statement_0d3ff90b_902b_4729_956a_8aa7ed27fa45" providerKey="ogr" legend_split_behavior="0" name="image sql_statement" source="./data/image.gpkg|layername=sql_statement" patch_size="-1,-1">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="Jardin_true_836_788_sql_statement_880cb3c8_4f84_47d0_9e3a_fda173ba674d" providerKey="ogr" legend_split_behavior="0" name="Jardin_true_836_788 sql_statement" source="./data/Jardin_true_836_788.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties>
-        <property value="{f981873d-6e9b-48f9-a3fc-27191c39b7ed}" key="expandedLegendNodes"/>
+        <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" checked="Qt::Checked" expanded="1" id="Points_lumineux_true_322_250_sql_statement_43223f46_4f82_4785_a022_434a82d9d3f8" providerKey="ogr" legend_split_behavior="0" name="Lampadaires" source="./data/Points_lumineux_true_322_250.gpkg|layername=sql_statement" patch_size="-1,-1">
+    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="Points_lumineux_true_322_250_sql_statement_43223f46_4f82_4785_a022_434a82d9d3f8" providerKey="ogr" legend_split_behavior="0" name="Lampadaires" source="./data/Points_lumineux_true_322_250.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties>
-        <property value="{57cbf6bb-569e-4609-83e1-23bebd9b8d5f}" key="expandedLegendNodes"/>
+        <property key="expandedLegendNodes"/>
         <property value="1" key="showFeatureCount"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="mapillary_sql_statement_5215b007_65a6_48fe_8f3b_9561ae5fbb71" providerKey="ogr" legend_split_behavior="0" name="mapillary sql_statement" source="./data/mapillary.gpkg|layername=sql_statement" patch_size="-1,-1">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
     <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="noel_sql_statement_a1c14eaf_c064_492f_bdc7_3b4bdfc15a09" providerKey="ogr" legend_split_behavior="0" name="noel sql_statement" source="./data/noel.gpkg|layername=sql_statement" patch_size="-1,-1">
@@ -100,10 +112,12 @@
         <property value="1" key="showFeatureCount"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" checked="Qt::Checked" expanded="1" id="Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c" providerKey="ogr" legend_split_behavior="0" name="Panneaux_de_type_H__lignes_true_955_932 sql_statement" source="./data/Panneaux_de_type_H__lignes_true_955_932.gpkg|layername=sql_statement" patch_size="-1,-1">
-      <customproperties/>
+    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c" providerKey="ogr" legend_split_behavior="0" name="Panneaux_de_type_H__lignes_true_955_932 sql_statement" source="./data/Panneaux_de_type_H__lignes_true_955_932.gpkg|layername=sql_statement" patch_size="-1,-1">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="1" id="pelouse_sql_statement_24a65851_2670_4152_9c3b_01f6a0b2cefd" providerKey="ogr" legend_split_behavior="0" name="pelouse sql_statement" source="./data/pelouse.gpkg|layername=sql_statement" patch_size="-1,-1">
+    <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="pelouse_sql_statement_24a65851_2670_4152_9c3b_01f6a0b2cefd" providerKey="ogr" legend_split_behavior="0" name="pelouse sql_statement" source="./data/pelouse.gpkg|layername=sql_statement" patch_size="-1,-1">
       <customproperties>
         <property key="expandedLegendNodes"/>
         <property value="1" key="showFeatureCount"/>
@@ -129,7 +143,7 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-group checked="Qt::Checked" expanded="1" name="Fonds">
+    <layer-tree-group checked="Qt::Checked" expanded="0" name="Fonds">
       <customproperties/>
       <layer-tree-layer legend_exp="" checked="Qt::Unchecked" expanded="0" id="Photographies_aériennes_85edacb5_624c_455c_adae_20209d9fd3f3" providerKey="wms" legend_split_behavior="0" name="Photographies aériennes" source="contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTHOIMAGERY.ORTHOPHOTOS&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=https://wxs.ign.fr/pratique/geoportail/wmts?request%3DGetCapabilities%26service%3DWMTS" patch_size="-1,-1">
         <customproperties>
@@ -172,6 +186,8 @@
       <item>DEPARTEMENT_1eb8065a_0c5b_46b6_b7d1_cbea89807a36</item>
       <item>Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1</item>
       <item>Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c</item>
+      <item>mapillary_sql_statement_5215b007_65a6_48fe_8f3b_9561ae5fbb71</item>
+      <item>image_sql_statement_0d3ff90b_902b_4729_956a_8aa7ed27fa45</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings maxScale="0" scaleDependencyMode="0" tolerance="12" unit="1" self-snapping="0" mode="2" minScale="0" type="1" enabled="0" intersection-snapping="0">
@@ -187,10 +203,12 @@
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="Vignobles_true_661_593_sql_statement_82523d1d_e6d6_4727_9f4e_7afe6cb2d969" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="DEPARTEMENT_1eb8065a_0c5b_46b6_b7d1_cbea89807a36" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="COMMUNE_d6d61fa3_146c_454f_aaec_0451d975ddcc" enabled="0"/>
+      <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="image_sql_statement_0d3ff90b_902b_4729_956a_8aa7ed27fa45" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="C_est_ferm__true_916_890_sql_statement_1b3a95b9_ba1e_4533_bec6_5dca4913f4e7" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="Lignes_69cb9688_5a33_479d_b5e6_b2a1127465b2" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="Panneaux_de_type_H_true_954_931_sql_statement_806e3bfa_e09f_47e9_b5b8_562dc7d6b868" enabled="0"/>
+      <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="mapillary_sql_statement_5215b007_65a6_48fe_8f3b_9561ae5fbb71" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="noel_sql_statement_a1c14eaf_c064_492f_bdc7_3b4bdfc15a09" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c" enabled="0"/>
       <layer-setting maxScale="0" units="1" tolerance="12" minScale="0" type="1" id="hydrants_true_406_326_sql_statement_copier_copier_d1ff1d79_61d4_40f4_9733_d04486b5e212" enabled="0"/>
@@ -203,10 +221,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>300099.47349786490667611</xmin>
-      <ymin>5837447.13710883911699057</ymin>
-      <xmax>300672.72797350981272757</xmax>
-      <ymax>5838092.19799061957746744</ymax>
+      <xmin>300207.78149378520902246</xmin>
+      <ymin>5837705.84379730280488729</ymin>
+      <xmax>300366.95236071792896837</xmax>
+      <ymax>5837884.9525598855689168</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -262,13 +280,13 @@
         <legendlayerfile layerid="fence_sql_statement_0455e7ce_2be5_4a35_a857_77c7cf48c8b0" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0" name="Valeurs Uniques">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="Valeurs Uniques">
+      <filegroup open="false" hidden="false">
         <legendlayerfile layerid="Valeurs_Uniques_f591024b_aa2e_4ba4_809a_2868fd5f323e" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="0" name="Fontaines_true_563_486 sql_statement">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="Fontaines_true_563_486 sql_statement">
+      <filegroup open="false" hidden="false">
         <legendlayerfile layerid="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
@@ -287,14 +305,24 @@
         <legendlayerfile layerid="test_true_920_894_sql_statement_7b2f0739_6ec8_4897_8bf4_77cfebba64ed" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0" name="image sql_statement">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="image_sql_statement_0d3ff90b_902b_4729_956a_8aa7ed27fa45" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="Jardin_true_836_788 sql_statement">
       <filegroup open="false" hidden="false">
         <legendlayerfile layerid="Jardin_true_836_788_sql_statement_880cb3c8_4f84_47d0_9e3a_fda173ba674d" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="1" name="Lampadaires">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="Points_lumineux_true_322_250_sql_statement_43223f46_4f82_4785_a022_434a82d9d3f8" isInOverview="0" visible="1"/>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="1" name="Lampadaires">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile layerid="Points_lumineux_true_322_250_sql_statement_43223f46_4f82_4785_a022_434a82d9d3f8" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="mapillary sql_statement">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile layerid="mapillary_sql_statement_5215b007_65a6_48fe_8f3b_9561ae5fbb71" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="noel sql_statement">
@@ -307,13 +335,13 @@
         <legendlayerfile layerid="Panneaux_de_type_H_true_954_931_sql_statement_806e3bfa_e09f_47e9_b5b8_562dc7d6b868" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0" name="Panneaux_de_type_H__lignes_true_955_932 sql_statement">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c" isInOverview="0" visible="1"/>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="Panneaux_de_type_H__lignes_true_955_932 sql_statement">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile layerid="Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" showFeatureCount="1" name="pelouse sql_statement">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="1" name="pelouse sql_statement">
+      <filegroup open="false" hidden="false">
         <legendlayerfile layerid="pelouse_sql_statement_24a65851_2670_4152_9c3b_01f6a0b2cefd" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
@@ -337,7 +365,7 @@
         <legendlayerfile layerid="Vignobles_true_661_593_sql_statement_82523d1d_e6d6_4727_9f4e_7afe6cb2d969" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Checked" name="Fonds">
+    <legendgroup open="false" checked="Qt::Checked" name="Fonds">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" showFeatureCount="0" name="Photographies aériennes">
         <filegroup open="false" hidden="false">
           <legendlayerfile layerid="Photographies_aériennes_85edacb5_624c_455c_adae_20209d9fd3f3" isInOverview="0" visible="0"/>
@@ -51857,6 +51885,226 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"name"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
+    <maplayer simplifyDrawingHints="1" simplifyLocal="1" minScale="100000000" wkbType="Point" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" labelsEnabled="0" type="vector" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" geometry="Point" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-149.91499999999999204</xmin>
+        <ymin>-21.38260000000000005</ymin>
+        <xmax>55.80499999999999972</xmax>
+        <ymax>51.0998999999999981</ymax>
+      </extent>
+      <id>image_sql_statement_0d3ff90b_902b_4729_956a_8aa7ed27fa45</id>
+      <datasource>./data/image.gpkg|layername=sql_statement</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>image sql_statement</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal durationField="" durationUnit="min" fixedDuration="0" mode="0" endField="" startField="" endExpression="" enabled="0" startExpression="" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="231,113,72,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"name"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amenity" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hstore_to_json" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="osm_id" name=""/>
+        <alias index="2" field="name" name=""/>
+        <alias index="3" field="amenity" name=""/>
+        <alias index="4" field="hstore_to_json" name=""/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="osm_id"/>
+        <default applyOnUpdate="0" expression="" field="name"/>
+        <default applyOnUpdate="0" expression="" field="amenity"/>
+        <default applyOnUpdate="0" expression="" field="hstore_to_json"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" notnull_strength="1" field="fid" constraints="3" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="amenity" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="hstore_to_json" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="osm_id" desc=""/>
+        <constraint exp="" field="name" desc=""/>
+        <constraint exp="" field="amenity" desc=""/>
+        <constraint exp="" field="hstore_to_json" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" type="field" hidden="0" name="fid"/>
+          <column width="-1" type="field" hidden="0" name="osm_id"/>
+          <column width="-1" type="field" hidden="0" name="name"/>
+          <column width="-1" type="field" hidden="0" name="amenity"/>
+          <column width="696" type="field" hidden="0" name="hstore_to_json"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" minScale="1e+08" type="raster" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
@@ -51950,6 +52198,226 @@ def my_form_open(dialog, layer, feature):
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" simplifyLocal="1" minScale="100000000" wkbType="Point" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" labelsEnabled="0" type="vector" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" geometry="Point" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-149.56000000000000227</xmin>
+        <ymin>-22.1725999999999992</ymin>
+        <xmax>166.41700000000000159</xmax>
+        <ymax>51.10079999999999956</ymax>
+      </extent>
+      <id>mapillary_sql_statement_5215b007_65a6_48fe_8f3b_9561ae5fbb71</id>
+      <datasource>./data/mapillary.gpkg|layername=sql_statement</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mapillary sql_statement</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal durationField="" durationUnit="min" fixedDuration="0" mode="0" endField="" startField="" endExpression="" enabled="0" startExpression="" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="255,158,23,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"name"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amenity" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hstore_to_json" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="osm_id" name=""/>
+        <alias index="2" field="name" name=""/>
+        <alias index="3" field="amenity" name=""/>
+        <alias index="4" field="hstore_to_json" name=""/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="osm_id"/>
+        <default applyOnUpdate="0" expression="" field="name"/>
+        <default applyOnUpdate="0" expression="" field="amenity"/>
+        <default applyOnUpdate="0" expression="" field="hstore_to_json"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" notnull_strength="1" field="fid" constraints="3" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="amenity" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="hstore_to_json" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="osm_id" desc=""/>
+        <constraint exp="" field="name" desc=""/>
+        <constraint exp="" field="amenity" desc=""/>
+        <constraint exp="" field="hstore_to_json" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" type="field" hidden="0" name="fid"/>
+          <column width="-1" type="field" hidden="0" name="osm_id"/>
+          <column width="-1" type="field" hidden="0" name="name"/>
+          <column width="-1" type="field" hidden="0" name="amenity"/>
+          <column width="890" type="field" hidden="0" name="hstore_to_json"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
     <maplayer simplifyDrawingHints="0" simplifyLocal="1" minScale="100000000" wkbType="Point" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" labelsEnabled="1" type="vector" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" geometry="Point" hasScaleBasedVisibilityFlag="0">
       <extent>
@@ -54566,6 +55034,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="DEPARTEMENT_1eb8065a_0c5b_46b6_b7d1_cbea89807a36"/>
     <layer id="Fontaines_true_563_486_sql_statement_92121cd2_77d5_4fd0_b361_4f19fb0ce8c1"/>
     <layer id="Panneaux_de_type_H__lignes_true_955_932_sql_statement_31dafe1f_fc6c_4457_abff_d69c62a4c85c"/>
+    <layer id="mapillary_sql_statement_5215b007_65a6_48fe_8f3b_9561ae5fbb71"/>
+    <layer id="image_sql_statement_0d3ff90b_902b_4729_956a_8aa7ed27fa45"/>
   </layerorder>
   <properties>
     <DefaultStyles>
