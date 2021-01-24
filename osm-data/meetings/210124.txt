@@ -1,0 +1,9 @@
+tags->'highway' is not null
+~
+champ ref
+material
+attributs récurrents
+wheelchair yes
+gespot.fr
+carte de chaleur quand zoom faible
+key operator
