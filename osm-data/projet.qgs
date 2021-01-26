@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" saveDateTime="2021-01-26T20:15:48" version="3.16.1-Hannover">
+<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" saveDateTime="2021-01-26T20:29:09" version="3.16.1-Hannover">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -136,7 +136,7 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" id="Vignobles_true_661_593_sql_statement_82523d1d_e6d6_4727_9f4e_7afe6cb2d969" providerKey="ogr" patch_size="-1,-1" legend_split_behavior="0" name="Vignobles_true_661_593 sql_statement" checked="Qt::Checked" expanded="0" source="./data/Vignobles_true_661_593.gpkg|layername=sql_statement">
+    <layer-tree-layer legend_exp="" id="Vignobles_true_661_593_sql_statement_82523d1d_e6d6_4727_9f4e_7afe6cb2d969" providerKey="ogr" patch_size="-1,-1" legend_split_behavior="0" name="Vignobles_true_661_593 sql_statement" checked="Qt::Unchecked" expanded="0" source="./data/Vignobles_true_661_593.gpkg|layername=sql_statement">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -221,10 +221,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>313172.53242179827066138</xmin>
-      <ymin>6245163.94991116318851709</ymin>
-      <xmax>313427.38387414842145517</xmax>
-      <ymax>6245450.72430117707699537</ymax>
+      <xmin>249005.72576171986293048</xmin>
+      <ymin>6262320.28722230345010757</ymin>
+      <xmax>249105.05558063357602805</xmax>
+      <ymax>6262417.98198246955871582</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -360,9 +360,9 @@
         <legendlayerfile visible="0" layerid="Lignes_69cb9688_5a33_479d_b5e6_b2a1127465b2" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="Vignobles_true_661_593 sql_statement" checked="Qt::Checked" showFeatureCount="0" open="false">
+    <legendlayer drawingOrder="-1" name="Vignobles_true_661_593 sql_statement" checked="Qt::Unchecked" showFeatureCount="0" open="false">
       <filegroup hidden="false" open="false">
-        <legendlayerfile visible="1" layerid="Vignobles_true_661_593_sql_statement_82523d1d_e6d6_4727_9f4e_7afe6cb2d969" isInOverview="0"/>
+        <legendlayerfile visible="0" layerid="Vignobles_true_661_593_sql_statement_82523d1d_e6d6_4727_9f4e_7afe6cb2d969" isInOverview="0"/>
       </filegroup>
     </legendlayer>
     <legendgroup name="Fonds" checked="Qt::Checked" open="true">
@@ -41632,7 +41632,15 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
         <rules key="{86cabe86-7d01-4930-99b5-e745ddff79d3}">
           <rule scalemaxdenom="10000" symbol="0" label="zoom fort" key="{a3b9399e-4203-413b-bd19-ab48b28ae2da}" scalemindenom="1"/>
-          <rule scalemaxdenom="10000000" symbol="1" label="zoom moyen" key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" scalemindenom="10000"/>
+          <rule scalemaxdenom="5000000" symbol="1" label="zoom moyen" key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" scalemindenom="10000">
+            <rule filter="hstore_to_json['waste'] is not null and  hstore_to_json['waste']!=''" symbol="2" label="not null" key="{ff3421d9-ac82-4a2e-9bdb-ef5d92792d1b}"/>
+            <rule filter="hstore_to_json['waste'] is null or hstore_to_json['waste']=''" symbol="3" label="null" key="{34f689b9-59cd-4e4d-8030-e73e1e43d7f6}"/>
+            <rule filter="ELSE" symbol="4" label="else" key="{7eac3e59-9233-4cd8-8ce4-58afe227aaa1}"/>
+          </rule>
+          <rule scalemaxdenom="1000000000" symbol="5" label="zoom faible" key="{f8b5164a-7564-4f6f-872d-67de2ff5fd8a}" scalemindenom="5000000">
+            <rule filter="hstore_to_json['waste'] is not null and hstore_to_json['waste']!=''" symbol="6" label="not null" key="{588e7992-9138-4698-acf8-728cbd43f2e9}"/>
+            <rule filter="hstore_to_json['waste'] is  null or hstore_to_json['waste']=''" symbol="7" label="null" key="{7193f4d5-6a9b-45a8-9864-935533e48ab1}"/>
+          </rule>
         </rules>
         <symbols>
           <symbol type="marker" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
@@ -41660,7 +41668,7 @@ def my_form_open(dialog, layer, feature):
                   <Option type="Map" name="properties">
                     <Option type="Map" name="enabled">
                       <Option type="bool" value="true" name="active"/>
-                      <Option type="QString" value="hstore_to_json['waste'] like '%paper%'" name="expression"/>
+                      <Option type="QString" value="hstore_to_json['waste'] like '%paper%' or hstore_to_json['waste'] like '%mixed%'" name="expression"/>
                       <Option type="int" value="3" name="type"/>
                     </Option>
                   </Option>
@@ -41692,7 +41700,7 @@ def my_form_open(dialog, layer, feature):
                   <Option type="Map" name="properties">
                     <Option type="Map" name="enabled">
                       <Option type="bool" value="true" name="active"/>
-                      <Option type="QString" value="hstore_to_json['waste'] like '%plastic%'" name="expression"/>
+                      <Option type="QString" value="hstore_to_json['waste'] like '%plastic%' or hstore_to_json['waste'] like '%mixed%'" name="expression"/>
                       <Option type="int" value="3" name="type"/>
                     </Option>
                   </Option>
@@ -41724,7 +41732,7 @@ def my_form_open(dialog, layer, feature):
                   <Option type="Map" name="properties">
                     <Option type="Map" name="enabled">
                       <Option type="bool" value="true" name="active"/>
-                      <Option type="QString" value="hstore_to_json['waste'] like '%glass%'" name="expression"/>
+                      <Option type="QString" value="hstore_to_json['waste'] like '%glass%' or hstore_to_json['waste'] like '%mixed%'" name="expression"/>
                       <Option type="int" value="3" name="type"/>
                     </Option>
                   </Option>
@@ -41782,7 +41790,7 @@ def my_form_open(dialog, layer, feature):
                   <Option type="Map" name="properties">
                     <Option type="Map" name="enabled">
                       <Option type="bool" value="true" name="active"/>
-                      <Option type="QString" value="hstore_to_json['waste'] like '%dog%'" name="expression"/>
+                      <Option type="QString" value="hstore_to_json['waste'] like '%dog%' or hstore_to_json['waste'] like '%mixed%'" name="expression"/>
                       <Option type="int" value="3" name="type"/>
                     </Option>
                   </Option>
@@ -41806,7 +41814,177 @@ def my_form_open(dialog, layer, feature):
               <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
               <prop v="MM" k="outline_width_unit"/>
               <prop v="diameter" k="scale_method"/>
+              <prop v="0" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop v="0" k="angle"/>
+              <prop v="233,159,55,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="./svgs/trash/trash.svg" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
               <prop v="10" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="3" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop v="0" k="angle"/>
+              <prop v="177,109,226,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="./svgs/trash/trash-no-data.svg" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="10" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="4" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop v="0" k="angle"/>
+              <prop v="12,204,124,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="./svgs/trash/trash-no-data.svg" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="10" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="5" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop v="0" k="angle"/>
+              <prop v="141,90,153,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="0" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="6" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="14,84,17,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="7" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="65,112,67,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
               <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
               <prop v="MM" k="size_unit"/>
               <prop v="1" k="vertical_anchor_point"/>
