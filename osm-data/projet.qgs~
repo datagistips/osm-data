@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" saveDateTime="2021-01-26T20:10:40" version="3.16.1-Hannover">
+<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" saveDateTime="2021-01-26T20:14:58" version="3.16.1-Hannover">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -41631,7 +41631,8 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
         <rules key="{86cabe86-7d01-4930-99b5-e745ddff79d3}">
-          <rule symbol="0" label="container à déchet" key="{a3b9399e-4203-413b-bd19-ab48b28ae2da}"/>
+          <rule scalemaxdenom="1000" symbol="0" label="zoom fort" key="{a3b9399e-4203-413b-bd19-ab48b28ae2da}" scalemindenom="1"/>
+          <rule scalemaxdenom="10000000" symbol="1" label="zoom moyen" key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" scalemindenom="1000"/>
         </rules>
         <symbols>
           <symbol type="marker" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
@@ -41640,7 +41641,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/paper.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/paper.svg" k="name"/>
               <prop v="5.40000000000000036,-9.19999999999999929" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41672,7 +41673,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/plastic.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/plastic.svg" k="name"/>
               <prop v="-2,-10" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41704,7 +41705,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/glass.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/glass.svg" k="name"/>
               <prop v="-7,-10" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41736,7 +41737,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/trash.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash.svg" k="name"/>
               <prop v="0,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41762,7 +41763,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/dog.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/dog.svg" k="name"/>
               <prop v="-7,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41780,11 +41781,39 @@ def my_form_open(dialog, layer, feature):
                   <Option type="QString" value="" name="name"/>
                   <Option type="Map" name="properties">
                     <Option type="Map" name="enabled">
-                      <Option type="bool" value="false" name="active"/>
-                      <Option type="QString" value="hstore_to_json['waste'] like '%wood%'" name="expression"/>
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="hstore_to_json['waste'] like '%dog%'" name="expression"/>
                       <Option type="int" value="3" name="type"/>
                     </Option>
                   </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" name="1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop v="0" k="angle"/>
+              <prop v="183,72,75,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="./svgs/trash/trash.svg" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="10" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>

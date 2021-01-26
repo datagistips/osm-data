@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" saveDateTime="2021-01-26T20:12:27" version="3.16.1-Hannover">
+<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" saveDateTime="2021-01-26T20:15:48" version="3.16.1-Hannover">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -221,10 +221,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>248178.84022420976543799</xmin>
-      <ymin>6180866.35830455087125301</ymin>
-      <xmax>344590.85445807868381962</xmax>
-      <ymax>6289355.03402909263968468</ymax>
+      <xmin>313172.53242179827066138</xmin>
+      <ymin>6245163.94991116318851709</ymin>
+      <xmax>313427.38387414842145517</xmax>
+      <ymax>6245450.72430117707699537</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -41631,8 +41631,8 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
         <rules key="{86cabe86-7d01-4930-99b5-e745ddff79d3}">
-          <rule scalemaxdenom="1000" symbol="0" label="zoom fort" key="{a3b9399e-4203-413b-bd19-ab48b28ae2da}" scalemindenom="1"/>
-          <rule scalemaxdenom="10000000" symbol="1" label="zoom moyen" key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" scalemindenom="1000"/>
+          <rule scalemaxdenom="10000" symbol="0" label="zoom fort" key="{a3b9399e-4203-413b-bd19-ab48b28ae2da}" scalemindenom="1"/>
+          <rule scalemaxdenom="10000000" symbol="1" label="zoom moyen" key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" scalemindenom="10000"/>
         </rules>
         <symbols>
           <symbol type="marker" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
@@ -41641,7 +41641,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/paper.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/paper.svg" k="name"/>
               <prop v="5.40000000000000036,-9.19999999999999929" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41673,7 +41673,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/plastic.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/plastic.svg" k="name"/>
               <prop v="-2,-10" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41705,7 +41705,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/glass.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/glass.svg" k="name"/>
               <prop v="-7,-10" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41737,7 +41737,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/trash.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash.svg" k="name"/>
               <prop v="0,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41763,7 +41763,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/dog.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/dog.svg" k="name"/>
               <prop v="-7,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
@@ -41797,7 +41797,7 @@ def my_form_open(dialog, layer, feature):
               <prop v="183,72,75,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="./svgs/trash/trash.svg" k="name"/>
+              <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash.svg" k="name"/>
               <prop v="0,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
