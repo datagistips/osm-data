@@ -1,98 +1,99 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis labelsEnabled="1" simplifyDrawingHints="1" minScale="100000000" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" maxScale="0" version="3.16.1-Hannover" simplifyDrawingTol="1">
+<qgis maxScale="0" minScale="100000000" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyAlgorithm="0" labelsEnabled="1" readOnly="0" styleCategories="AllStyleCategories" simplifyDrawingTol="1" version="3.16.1-Hannover">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal startField="" accumulate="0" endField="" fixedDuration="0" durationField="" startExpression="" endExpression="" mode="0" enabled="0" durationUnit="min">
+  <temporal startField="" endField="" durationUnit="min" accumulate="0" startExpression="" mode="0" fixedDuration="0" enabled="0" endExpression="" durationField="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 forceraster="0" type="RuleRenderer" symbollevels="0" enableorderby="0">
+  <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="1">
     <rules key="{97c902fa-1a5c-44df-a200-ba3b2f3ad642}">
-      <rule scalemaxdenom="100000" scalemindenom="1" label="zoom fort" symbol="0" key="{4398540f-e066-4dce-9bcd-8bd275871d55}">
-        <rule filter="hstore_to_json['grape_variety'] = 'auxerrois'" label="hstore_to_json['grape_variety'] = 'auxerrois'" symbol="1" key="{68c4bd4d-234f-465a-9a57-7dcd48f177be}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'auxerrois blanc; pinot noir; rivaner'" label="hstore_to_json['grape_variety'] = 'auxerrois blanc; pinot noir; rivaner'" symbol="2" key="{cc9d082a-b9d5-474a-8507-787df3ee09a6}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'berligou'" label="hstore_to_json['grape_variety'] = 'berligou'" symbol="3" key="{2721eea0-1571-45f0-91a2-8d5b1708d7fb}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'boiziau'" label="hstore_to_json['grape_variety'] = 'boiziau'" symbol="4" key="{eba4020e-1d88-4a47-8273-fbc2cee03222}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'cabernet franc'" label="hstore_to_json['grape_variety'] = 'cabernet franc'" symbol="5" key="{324ed204-c017-4b66-b674-8eb174561f82}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet franc'" label="hstore_to_json['grape_variety'] = 'Cabernet franc'" symbol="6" key="{a8da131d-82a8-4ce8-809d-eba5bc1126f7}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet Franc'" label="hstore_to_json['grape_variety'] = 'Cabernet Franc'" symbol="7" key="{9ae297d7-0945-4a76-8af6-a3d6a10a7145}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet Sauvignon'" label="hstore_to_json['grape_variety'] = 'Cabernet Sauvignon'" symbol="8" key="{de6d2dcb-187b-499c-82ac-dea65a1fd474}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'cabernet_franc'" label="hstore_to_json['grape_variety'] = 'cabernet_franc'" symbol="9" key="{e2dba777-3df7-402f-92cf-92d7d3105584}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Franc'" label="hstore_to_json['grape_variety'] = 'Cabernet_Franc'" symbol="10" key="{0f4cd417-b507-4f0c-9624-9f9e0b482022}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon'" label="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon'" symbol="11" key="{a81876be-bd54-4f64-9a95-0a1f4d060a15}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon'" label="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon'" symbol="12" key="{a9b956ee-166d-4e79-a2b9-8513f67a5477}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'cabernet-franc'" label="hstore_to_json['grape_variety'] = 'cabernet-franc'" symbol="13" key="{2ebf6e4f-b7d1-4035-9efc-36fbc23df0a4}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet-Franc'" label="hstore_to_json['grape_variety'] = 'Cabernet-Franc'" symbol="14" key="{9db14ab6-ee13-449a-8b34-bedf8bd11494}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cabert franc'" label="hstore_to_json['grape_variety'] = 'Cabert franc'" symbol="15" key="{cffb69bc-bd04-4f33-97ea-b821c9ba1a39}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Carignan'" label="hstore_to_json['grape_variety'] = 'Carignan'" symbol="16" key="{224ca8d3-5353-4652-8119-d001fddb4794}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Chardonnay'" label="hstore_to_json['grape_variety'] = 'Chardonnay'" symbol="17" key="{d95e7b53-78b5-456c-8d86-cd2113044de9}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Chardonnay;Pinot_blanc;Pinot_noir'" label="hstore_to_json['grape_variety'] = 'Chardonnay;Pinot_blanc;Pinot_noir'" symbol="18" key="{0b15f843-3549-416f-b703-7f66aecb87f3}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Chasselas'" label="hstore_to_json['grape_variety'] = 'Chasselas'" symbol="19" key="{097842a3-0ea7-46ed-beae-c61172be4834}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Chenin'" label="hstore_to_json['grape_variety'] = 'Chenin'" symbol="20" key="{4ea48e3b-811f-46fc-84aa-e9f204f06f51}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Cinsault'" label="hstore_to_json['grape_variety'] = 'Cinsault'" symbol="21" key="{61830c1f-7e7d-4f96-983a-dddd5ccd40d5}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'colombard'" label="hstore_to_json['grape_variety'] = 'colombard'" symbol="22" key="{572225fd-5ee0-4c0a-a332-e1f75800b98e}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Fer_Servadou'" label="hstore_to_json['grape_variety'] = 'Fer_Servadou'" symbol="23" key="{caee1129-ec09-45f2-bbfb-754385900d1f}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'folle blanche'" label="hstore_to_json['grape_variety'] = 'folle blanche'" symbol="24" key="{9fdbaebc-6a9f-4ab3-98ce-07155f76f2d9}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Folle blanche'" label="hstore_to_json['grape_variety'] = 'Folle blanche'" symbol="25" key="{e3dab46a-f32f-46d2-9743-1d15ce002157}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Folle Blanche'" label="hstore_to_json['grape_variety'] = 'Folle Blanche'" symbol="26" key="{d584f193-936d-4b0a-a5c0-a214659df20a}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Gamaret'" label="hstore_to_json['grape_variety'] = 'Gamaret'" symbol="27" key="{352e366a-2286-41d8-a59d-d22c034dd683}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'gamay'" label="hstore_to_json['grape_variety'] = 'gamay'" symbol="28" key="{8ce11ccd-98f7-45bf-88b2-f5db361bcb94}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Gamay'" label="hstore_to_json['grape_variety'] = 'Gamay'" symbol="29" key="{d2301769-c136-49e0-af4d-6baaa0dfa006}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'gamay noir'" label="hstore_to_json['grape_variety'] = 'gamay noir'" symbol="30" key="{6bdd0318-5733-47fd-ad65-4bf1e3582cea}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Gamay Noir'" label="hstore_to_json['grape_variety'] = 'Gamay Noir'" symbol="31" key="{7809bb1b-f7d1-4e90-a0f2-b2329ffe001c}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'gamay_noir'" label="hstore_to_json['grape_variety'] = 'gamay_noir'" symbol="32" key="{af600169-eb0b-465b-b5df-1df2d5a8a25f}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Gamay_Noir'" label="hstore_to_json['grape_variety'] = 'Gamay_Noir'" symbol="33" key="{2ae8462a-44a3-4876-a47d-fbc85f19865a}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'gamay_noir;Chardonnay'" label="hstore_to_json['grape_variety'] = 'gamay_noir;Chardonnay'" symbol="34" key="{3c218fd3-f2dd-4a4b-9d37-20b25633da01}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Grape'" label="hstore_to_json['grape_variety'] = 'Grape'" symbol="35" key="{b2c104cd-91e0-4619-992c-8224724cedb6}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Grenache'" label="hstore_to_json['grape_variety'] = 'Grenache'" symbol="36" key="{4ca762c0-a916-4ed1-9fcc-702866eb6f5c}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir'" label="hstore_to_json['grape_variety'] = 'Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir'" symbol="37" key="{bb3e573b-dc67-4b4b-8778-a28547d063df}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'grolleau de cinq mars'" label="hstore_to_json['grape_variety'] = 'grolleau de cinq mars'" symbol="38" key="{d6c2172d-d477-479b-b55e-14f4c82fc8b3}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Grolleau Gris'" label="hstore_to_json['grape_variety'] = 'Grolleau Gris'" symbol="39" key="{c27b4832-059b-416e-9c1b-8b8a835842a4}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Grolleau Noir'" label="hstore_to_json['grape_variety'] = 'Grolleau Noir'" symbol="40" key="{bcc4b6a4-2ba5-43f5-9405-da152f6d84be}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'grolleau, chenin'" label="hstore_to_json['grape_variety'] = 'grolleau, chenin'" symbol="41" key="{e51faa81-f4c4-42af-9de9-c03c1220d2b7}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'malbec'" label="hstore_to_json['grape_variety'] = 'malbec'" symbol="42" key="{fce32146-e81a-4827-9eb4-edb414a70c27}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'malvoisie'" label="hstore_to_json['grape_variety'] = 'malvoisie'" symbol="43" key="{b4e14cb2-16eb-4234-9c31-bd2481971a8a}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'mansois'" label="hstore_to_json['grape_variety'] = 'mansois'" symbol="44" key="{ec853583-d19e-4099-9a46-fbdff0bb7a22}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Mansois'" label="hstore_to_json['grape_variety'] = 'Mansois'" symbol="45" key="{60e1649a-1959-4b27-9103-6bc0aabb37b2}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'melon de bourgogne'" label="hstore_to_json['grape_variety'] = 'melon de bourgogne'" symbol="46" key="{f93bcf1f-792d-47ba-9277-be8fd6fbaca8}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Melon de bourgogne'" label="hstore_to_json['grape_variety'] = 'Melon de bourgogne'" symbol="47" key="{c510ce41-1cf1-465a-aa30-78296b367549}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Melon de Bourgogne'" label="hstore_to_json['grape_variety'] = 'Melon de Bourgogne'" symbol="48" key="{66caab70-3ee6-4f9b-a2ad-b2f6fee7167e}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'merlot'" label="hstore_to_json['grape_variety'] = 'merlot'" symbol="49" key="{16ad96dc-83a0-4b79-bd39-07d4e984e38e}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Merlot'" label="hstore_to_json['grape_variety'] = 'Merlot'" symbol="50" key="{253a17ac-b171-4324-a022-d065d8410ff4}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Merlot Noir'" label="hstore_to_json['grape_variety'] = 'Merlot Noir'" symbol="51" key="{dbbbbf76-0d84-4d8a-8c54-086bc49b60b5}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Merlot;Cabernet_Sauvignon;Cabernet_franc'" label="hstore_to_json['grape_variety'] = 'Merlot;Cabernet_Sauvignon;Cabernet_franc'" symbol="52" key="{d45695cb-5110-4fc2-9f1a-75f2629c2c8c}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'montils'" label="hstore_to_json['grape_variety'] = 'montils'" symbol="53" key="{715dc36e-651e-4e82-a5b1-14acf4d4eed4}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Niellucciu;Vermentinu;Grenache;Sciaccarellu'" label="hstore_to_json['grape_variety'] = 'Niellucciu;Vermentinu;Grenache;Sciaccarellu'" symbol="54" key="{d242fd91-908f-4087-8ebd-fc893391ea79}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'noah'" label="hstore_to_json['grape_variety'] = 'noah'" symbol="55" key="{8984183e-e51a-4ac6-8fb4-1883720eff39}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'othello'" label="hstore_to_json['grape_variety'] = 'othello'" symbol="56" key="{5f19d4a1-7623-4929-b37c-f4f1a690d0ee}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Petit_Meslier'" label="hstore_to_json['grape_variety'] = 'Petit_Meslier'" symbol="57" key="{0a24e2be-46ad-49b2-8b07-a22d3f14d1d8}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'pineau d''aunis'" label="hstore_to_json['grape_variety'] = 'pineau d''aunis'" symbol="58" key="{63ee0b00-35c4-412f-bbc2-5eabbc20ede8}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Pinot noir, gamay'" label="hstore_to_json['grape_variety'] = 'Pinot noir, gamay'" symbol="59" key="{fe79f309-b0a9-4862-a65b-8d4548140e65}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_Gris;Meunier'" label="hstore_to_json['grape_variety'] = 'Pinot_Gris;Meunier'" symbol="60" key="{369f1522-41f3-4182-93b6-8c91422d580d}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_noir'" label="hstore_to_json['grape_variety'] = 'Pinot_noir'" symbol="61" key="{fb85169c-643c-4556-8435-621e1865f253}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_Noir;auxerrois;Chardonnay'" label="hstore_to_json['grape_variety'] = 'Pinot_Noir;auxerrois;Chardonnay'" symbol="62" key="{2f6dc22c-8607-405b-a8f7-09e105c337af}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'portugais bleu'" label="hstore_to_json['grape_variety'] = 'portugais bleu'" symbol="63" key="{46727539-713c-4f7b-b353-62ab8f5a87d2}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Rondo;chenin'" label="hstore_to_json['grape_variety'] = 'Rondo;chenin'" symbol="64" key="{4c6469a6-0984-4e4b-b956-fa6a4560ade2}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Roussanne'" label="hstore_to_json['grape_variety'] = 'Roussanne'" symbol="65" key="{e6045feb-8325-44f0-b289-b75e65444bff}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Sauvignon'" label="hstore_to_json['grape_variety'] = 'Sauvignon'" symbol="66" key="{d2aec836-fb86-42c2-b7e7-f8c4efc3c022}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Sauvignon blanc'" label="hstore_to_json['grape_variety'] = 'Sauvignon blanc'" symbol="67" key="{9a74ff76-10d8-4eb1-a256-bb96e68acdc9}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Sémillon'" label="hstore_to_json['grape_variety'] = 'Sémillon'" symbol="68" key="{7326b9c2-a77d-45a8-99b2-5ef5d5a6c5af}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Sémillon;Merlot'" label="hstore_to_json['grape_variety'] = 'Sémillon;Merlot'" symbol="69" key="{54d999b9-d350-41be-9dcc-2d13a27cf207}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Syrah'" label="hstore_to_json['grape_variety'] = 'Syrah'" symbol="70" key="{621a5115-6bbd-48e0-8aff-bb6a5210a31b}"/>
-        <rule filter="hstore_to_json['grape_variety'] = 'Viognier'" label="hstore_to_json['grape_variety'] = 'Viognier'" symbol="71" key="{bd33a899-2179-4285-8c0d-852b58f2a66b}"/>
-        <rule filter="hstore_to_json['grape_variety'] = ''" label="hstore_to_json['grape_variety'] = ''" symbol="72" key="{fdec6c53-bf8f-4a29-9cdf-21e659c3f1ee}"/>
+      <rule scalemaxdenom="100000" symbol="0" label="zoom fort" key="{4398540f-e066-4dce-9bcd-8bd275871d55}" scalemindenom="1">
+        <rule filter="hstore_to_json['grape_variety'] = 'auxerrois'" symbol="1" label="hstore_to_json['grape_variety'] = 'auxerrois'" key="{68c4bd4d-234f-465a-9a57-7dcd48f177be}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'auxerrois blanc; pinot noir; rivaner'" symbol="2" label="hstore_to_json['grape_variety'] = 'auxerrois blanc; pinot noir; rivaner'" key="{cc9d082a-b9d5-474a-8507-787df3ee09a6}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'berligou'" symbol="3" label="hstore_to_json['grape_variety'] = 'berligou'" key="{2721eea0-1571-45f0-91a2-8d5b1708d7fb}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'boiziau'" symbol="4" label="hstore_to_json['grape_variety'] = 'boiziau'" key="{eba4020e-1d88-4a47-8273-fbc2cee03222}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'cabernet franc'" symbol="5" label="hstore_to_json['grape_variety'] = 'cabernet franc'" key="{324ed204-c017-4b66-b674-8eb174561f82}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet franc'" symbol="6" label="hstore_to_json['grape_variety'] = 'Cabernet franc'" key="{a8da131d-82a8-4ce8-809d-eba5bc1126f7}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet Franc'" symbol="7" label="hstore_to_json['grape_variety'] = 'Cabernet Franc'" key="{9ae297d7-0945-4a76-8af6-a3d6a10a7145}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet Sauvignon'" symbol="8" label="hstore_to_json['grape_variety'] = 'Cabernet Sauvignon'" key="{de6d2dcb-187b-499c-82ac-dea65a1fd474}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'cabernet_franc'" symbol="9" label="hstore_to_json['grape_variety'] = 'cabernet_franc'" key="{e2dba777-3df7-402f-92cf-92d7d3105584}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Franc'" symbol="10" label="hstore_to_json['grape_variety'] = 'Cabernet_Franc'" key="{0f4cd417-b507-4f0c-9624-9f9e0b482022}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon'" symbol="11" label="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon'" key="{a81876be-bd54-4f64-9a95-0a1f4d060a15}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon'" symbol="12" label="hstore_to_json['grape_variety'] = 'Cabernet_Sauvignon;Merlot;Petit_Verdot;Cabernet_franc;Sauvignon;Sémillon'" key="{a9b956ee-166d-4e79-a2b9-8513f67a5477}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'cabernet-franc'" symbol="13" label="hstore_to_json['grape_variety'] = 'cabernet-franc'" key="{2ebf6e4f-b7d1-4035-9efc-36fbc23df0a4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabernet-Franc'" symbol="14" label="hstore_to_json['grape_variety'] = 'Cabernet-Franc'" key="{9db14ab6-ee13-449a-8b34-bedf8bd11494}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cabert franc'" symbol="15" label="hstore_to_json['grape_variety'] = 'Cabert franc'" key="{cffb69bc-bd04-4f33-97ea-b821c9ba1a39}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Carignan'" symbol="16" label="hstore_to_json['grape_variety'] = 'Carignan'" key="{224ca8d3-5353-4652-8119-d001fddb4794}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chardonnay'" symbol="17" label="hstore_to_json['grape_variety'] = 'Chardonnay'" key="{d95e7b53-78b5-456c-8d86-cd2113044de9}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chardonnay;Pinot_blanc;Pinot_noir'" symbol="18" label="hstore_to_json['grape_variety'] = 'Chardonnay;Pinot_blanc;Pinot_noir'" key="{0b15f843-3549-416f-b703-7f66aecb87f3}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chasselas'" symbol="19" label="hstore_to_json['grape_variety'] = 'Chasselas'" key="{097842a3-0ea7-46ed-beae-c61172be4834}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Chenin'" symbol="20" label="hstore_to_json['grape_variety'] = 'Chenin'" key="{4ea48e3b-811f-46fc-84aa-e9f204f06f51}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Cinsault'" symbol="21" label="hstore_to_json['grape_variety'] = 'Cinsault'" key="{61830c1f-7e7d-4f96-983a-dddd5ccd40d5}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'colombard'" symbol="22" label="hstore_to_json['grape_variety'] = 'colombard'" key="{572225fd-5ee0-4c0a-a332-e1f75800b98e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Fer_Servadou'" symbol="23" label="hstore_to_json['grape_variety'] = 'Fer_Servadou'" key="{caee1129-ec09-45f2-bbfb-754385900d1f}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'folle blanche'" symbol="24" label="hstore_to_json['grape_variety'] = 'folle blanche'" key="{9fdbaebc-6a9f-4ab3-98ce-07155f76f2d9}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Folle blanche'" symbol="25" label="hstore_to_json['grape_variety'] = 'Folle blanche'" key="{e3dab46a-f32f-46d2-9743-1d15ce002157}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Folle Blanche'" symbol="26" label="hstore_to_json['grape_variety'] = 'Folle Blanche'" key="{d584f193-936d-4b0a-a5c0-a214659df20a}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamaret'" symbol="27" label="hstore_to_json['grape_variety'] = 'Gamaret'" key="{352e366a-2286-41d8-a59d-d22c034dd683}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay'" symbol="28" label="hstore_to_json['grape_variety'] = 'gamay'" key="{8ce11ccd-98f7-45bf-88b2-f5db361bcb94}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamay'" symbol="29" label="hstore_to_json['grape_variety'] = 'Gamay'" key="{d2301769-c136-49e0-af4d-6baaa0dfa006}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay noir'" symbol="30" label="hstore_to_json['grape_variety'] = 'gamay noir'" key="{6bdd0318-5733-47fd-ad65-4bf1e3582cea}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamay Noir'" symbol="31" label="hstore_to_json['grape_variety'] = 'Gamay Noir'" key="{7809bb1b-f7d1-4e90-a0f2-b2329ffe001c}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay_noir'" symbol="32" label="hstore_to_json['grape_variety'] = 'gamay_noir'" key="{af600169-eb0b-465b-b5df-1df2d5a8a25f}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Gamay_Noir'" symbol="33" label="hstore_to_json['grape_variety'] = 'Gamay_Noir'" key="{2ae8462a-44a3-4876-a47d-fbc85f19865a}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'gamay_noir;Chardonnay'" symbol="34" label="hstore_to_json['grape_variety'] = 'gamay_noir;Chardonnay'" key="{3c218fd3-f2dd-4a4b-9d37-20b25633da01}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grape'" symbol="35" label="hstore_to_json['grape_variety'] = 'Grape'" key="{b2c104cd-91e0-4619-992c-8224724cedb6}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grenache'" symbol="36" label="hstore_to_json['grape_variety'] = 'Grenache'" key="{4ca762c0-a916-4ed1-9fcc-702866eb6f5c}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir'" symbol="37" label="hstore_to_json['grape_variety'] = 'Grenache;Merlot;Cabernet_Sauvignon;Syrah;Chardonnay;Mourvedre;Viognier;Malbec;Gamay_Noir;Merlot_Noir'" key="{bb3e573b-dc67-4b4b-8778-a28547d063df}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'grolleau de cinq mars'" symbol="38" label="hstore_to_json['grape_variety'] = 'grolleau de cinq mars'" key="{d6c2172d-d477-479b-b55e-14f4c82fc8b3}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grolleau Gris'" symbol="39" label="hstore_to_json['grape_variety'] = 'Grolleau Gris'" key="{c27b4832-059b-416e-9c1b-8b8a835842a4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Grolleau Noir'" symbol="40" label="hstore_to_json['grape_variety'] = 'Grolleau Noir'" key="{bcc4b6a4-2ba5-43f5-9405-da152f6d84be}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'grolleau, chenin'" symbol="41" label="hstore_to_json['grape_variety'] = 'grolleau, chenin'" key="{e51faa81-f4c4-42af-9de9-c03c1220d2b7}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'malbec'" symbol="42" label="hstore_to_json['grape_variety'] = 'malbec'" key="{fce32146-e81a-4827-9eb4-edb414a70c27}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'malvoisie'" symbol="43" label="hstore_to_json['grape_variety'] = 'malvoisie'" key="{b4e14cb2-16eb-4234-9c31-bd2481971a8a}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'mansois'" symbol="44" label="hstore_to_json['grape_variety'] = 'mansois'" key="{ec853583-d19e-4099-9a46-fbdff0bb7a22}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Mansois'" symbol="45" label="hstore_to_json['grape_variety'] = 'Mansois'" key="{60e1649a-1959-4b27-9103-6bc0aabb37b2}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'melon de bourgogne'" symbol="46" label="hstore_to_json['grape_variety'] = 'melon de bourgogne'" key="{f93bcf1f-792d-47ba-9277-be8fd6fbaca8}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Melon de bourgogne'" symbol="47" label="hstore_to_json['grape_variety'] = 'Melon de bourgogne'" key="{c510ce41-1cf1-465a-aa30-78296b367549}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Melon de Bourgogne'" symbol="48" label="hstore_to_json['grape_variety'] = 'Melon de Bourgogne'" key="{66caab70-3ee6-4f9b-a2ad-b2f6fee7167e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'merlot'" symbol="49" label="hstore_to_json['grape_variety'] = 'merlot'" key="{16ad96dc-83a0-4b79-bd39-07d4e984e38e}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Merlot'" symbol="50" label="hstore_to_json['grape_variety'] = 'Merlot'" key="{253a17ac-b171-4324-a022-d065d8410ff4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Merlot Noir'" symbol="51" label="hstore_to_json['grape_variety'] = 'Merlot Noir'" key="{dbbbbf76-0d84-4d8a-8c54-086bc49b60b5}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Merlot;Cabernet_Sauvignon;Cabernet_franc'" symbol="52" label="hstore_to_json['grape_variety'] = 'Merlot;Cabernet_Sauvignon;Cabernet_franc'" key="{d45695cb-5110-4fc2-9f1a-75f2629c2c8c}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'montils'" symbol="53" label="hstore_to_json['grape_variety'] = 'montils'" key="{715dc36e-651e-4e82-a5b1-14acf4d4eed4}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Niellucciu;Vermentinu;Grenache;Sciaccarellu'" symbol="54" label="hstore_to_json['grape_variety'] = 'Niellucciu;Vermentinu;Grenache;Sciaccarellu'" key="{d242fd91-908f-4087-8ebd-fc893391ea79}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'noah'" symbol="55" label="hstore_to_json['grape_variety'] = 'noah'" key="{8984183e-e51a-4ac6-8fb4-1883720eff39}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'othello'" symbol="56" label="hstore_to_json['grape_variety'] = 'othello'" key="{5f19d4a1-7623-4929-b37c-f4f1a690d0ee}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Petit_Meslier'" symbol="57" label="hstore_to_json['grape_variety'] = 'Petit_Meslier'" key="{0a24e2be-46ad-49b2-8b07-a22d3f14d1d8}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'pineau d''aunis'" symbol="58" label="hstore_to_json['grape_variety'] = 'pineau d''aunis'" key="{63ee0b00-35c4-412f-bbc2-5eabbc20ede8}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot noir, gamay'" symbol="59" label="hstore_to_json['grape_variety'] = 'Pinot noir, gamay'" key="{fe79f309-b0a9-4862-a65b-8d4548140e65}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_Gris;Meunier'" symbol="60" label="hstore_to_json['grape_variety'] = 'Pinot_Gris;Meunier'" key="{369f1522-41f3-4182-93b6-8c91422d580d}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_noir'" symbol="61" label="hstore_to_json['grape_variety'] = 'Pinot_noir'" key="{fb85169c-643c-4556-8435-621e1865f253}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Pinot_Noir;auxerrois;Chardonnay'" symbol="62" label="hstore_to_json['grape_variety'] = 'Pinot_Noir;auxerrois;Chardonnay'" key="{2f6dc22c-8607-405b-a8f7-09e105c337af}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'portugais bleu'" symbol="63" label="hstore_to_json['grape_variety'] = 'portugais bleu'" key="{46727539-713c-4f7b-b353-62ab8f5a87d2}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Rondo;chenin'" symbol="64" label="hstore_to_json['grape_variety'] = 'Rondo;chenin'" key="{4c6469a6-0984-4e4b-b956-fa6a4560ade2}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Roussanne'" symbol="65" label="hstore_to_json['grape_variety'] = 'Roussanne'" key="{e6045feb-8325-44f0-b289-b75e65444bff}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sauvignon'" symbol="66" label="hstore_to_json['grape_variety'] = 'Sauvignon'" key="{d2aec836-fb86-42c2-b7e7-f8c4efc3c022}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sauvignon blanc'" symbol="67" label="hstore_to_json['grape_variety'] = 'Sauvignon blanc'" key="{9a74ff76-10d8-4eb1-a256-bb96e68acdc9}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sémillon'" symbol="68" label="hstore_to_json['grape_variety'] = 'Sémillon'" key="{7326b9c2-a77d-45a8-99b2-5ef5d5a6c5af}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Sémillon;Merlot'" symbol="69" label="hstore_to_json['grape_variety'] = 'Sémillon;Merlot'" key="{54d999b9-d350-41be-9dcc-2d13a27cf207}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Syrah'" symbol="70" label="hstore_to_json['grape_variety'] = 'Syrah'" key="{621a5115-6bbd-48e0-8aff-bb6a5210a31b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = 'Viognier'" symbol="71" label="hstore_to_json['grape_variety'] = 'Viognier'" key="{bd33a899-2179-4285-8c0d-852b58f2a66b}"/>
+        <rule filter="hstore_to_json['grape_variety'] = ''" symbol="72" label="hstore_to_json['grape_variety'] = ''" key="{fdec6c53-bf8f-4a29-9cdf-21e659c3f1ee}"/>
         <rule filter="ELSE" symbol="73" key="{1c432b93-d7cc-4707-a975-93bad3f9a8b8}"/>
       </rule>
-      <rule scalemaxdenom="1000000000" scalemindenom="100000" label="zoom faible" symbol="74" key="{dea46e42-5f73-49f1-8160-9a99e62d2f49}"/>
+      <rule scalemaxdenom="1000000000" symbol="74" label="zoom faible" key="{dea46e42-5f73-49f1-8160-9a99e62d2f49}" scalemindenom="100000"/>
+      <rule filter="hstore_to_json['grape_variety'] is not null and hstore_to_json['grape_variety'] is not null != ''" scalemaxdenom="1000000000" symbol="75" label="grape_variety not null" key="{30741660-14d4-49c4-b77c-f71028b1ceee}" scalemindenom="100000"/>
     </rules>
     <symbols>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="0" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -119,8 +120,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="1" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="1" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -146,7 +147,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -173,8 +174,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@1@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@1@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -197,8 +198,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@1@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@1@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -240,7 +241,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="110,240,190,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -267,8 +268,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@1@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@1@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -291,8 +292,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@1@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@1@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -327,7 +328,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -350,8 +351,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@1@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@1@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="110,240,190,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -388,7 +389,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -415,8 +416,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="10" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="10" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -442,7 +443,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -469,8 +470,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@10@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@10@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -493,8 +494,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@10@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@10@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -536,7 +537,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="232,112,216,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -563,8 +564,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@10@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@10@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -587,8 +588,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@10@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@10@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -623,7 +624,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -646,8 +647,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@10@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@10@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="232,112,216,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -684,7 +685,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -711,8 +712,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="11" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="11" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -738,7 +739,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -765,8 +766,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@11@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@11@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -789,8 +790,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@11@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@11@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -832,7 +833,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="223,91,227,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -859,8 +860,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@11@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@11@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -883,8 +884,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@11@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@11@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -919,7 +920,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -942,8 +943,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@11@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@11@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="223,91,227,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -980,7 +981,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1007,8 +1008,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="12" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="12" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1034,7 +1035,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1061,8 +1062,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@12@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@12@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1085,8 +1086,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@12@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@12@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1128,7 +1129,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="157,46,201,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1155,8 +1156,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@12@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@12@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1179,8 +1180,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@12@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@12@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1215,7 +1216,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1238,8 +1239,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@12@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@12@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="157,46,201,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1276,7 +1277,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1303,8 +1304,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="13" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="13" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1330,7 +1331,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1357,8 +1358,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@13@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@13@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1381,8 +1382,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@13@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@13@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1424,7 +1425,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="51,107,237,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1451,8 +1452,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@13@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@13@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1475,8 +1476,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@13@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@13@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1511,7 +1512,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1534,8 +1535,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@13@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@13@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="51,107,237,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1572,7 +1573,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1599,8 +1600,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="14" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="14" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1626,7 +1627,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1653,8 +1654,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@14@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@14@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1677,8 +1678,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@14@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@14@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1720,7 +1721,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="180,231,98,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1747,8 +1748,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@14@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@14@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1771,8 +1772,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@14@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@14@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1807,7 +1808,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1830,8 +1831,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@14@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@14@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="180,231,98,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1868,7 +1869,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1895,8 +1896,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="15" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="15" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -1922,7 +1923,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -1949,8 +1950,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@15@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@15@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -1973,8 +1974,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@15@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@15@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2016,7 +2017,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="180,231,98,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2043,8 +2044,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@15@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@15@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2067,8 +2068,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@15@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@15@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2103,7 +2104,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2126,8 +2127,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@15@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@15@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="180,231,98,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2164,7 +2165,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -2191,8 +2192,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="16" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="16" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -2218,7 +2219,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2245,8 +2246,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@16@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@16@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2269,8 +2270,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@16@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@16@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2312,7 +2313,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="92,221,225,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2339,8 +2340,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@16@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@16@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2363,8 +2364,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@16@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@16@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2399,7 +2400,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2422,8 +2423,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@16@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@16@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="92,221,225,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2460,7 +2461,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -2487,8 +2488,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="17" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="17" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -2514,7 +2515,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2541,8 +2542,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@17@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@17@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2565,8 +2566,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@17@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@17@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2608,7 +2609,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="44,203,89,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2635,8 +2636,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@17@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@17@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2659,8 +2660,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@17@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@17@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2695,7 +2696,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2718,8 +2719,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@17@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@17@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="44,203,89,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2756,7 +2757,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -2783,8 +2784,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="18" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="18" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -2810,7 +2811,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2837,8 +2838,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@18@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@18@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2861,8 +2862,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@18@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@18@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2904,7 +2905,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="40,31,219,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -2931,8 +2932,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@18@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@18@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -2955,8 +2956,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@18@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@18@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2991,7 +2992,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3014,8 +3015,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@18@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@18@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="40,31,219,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3052,7 +3053,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3079,8 +3080,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="19" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="19" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3106,7 +3107,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -3133,8 +3134,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@19@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@19@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3157,8 +3158,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@19@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@19@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3200,7 +3201,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="74,238,93,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -3227,8 +3228,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@19@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@19@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3251,8 +3252,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@19@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@19@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3287,7 +3288,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3310,8 +3311,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@19@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@19@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="74,238,93,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3348,7 +3349,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3375,8 +3376,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="2" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="2" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3402,7 +3403,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -3429,8 +3430,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@2@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3453,8 +3454,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@2@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@2@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3496,7 +3497,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="74,38,205,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -3523,8 +3524,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@2@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@2@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3547,8 +3548,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@2@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@2@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3583,7 +3584,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3606,8 +3607,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@2@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@2@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="74,38,205,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3644,7 +3645,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3671,8 +3672,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="20" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="20" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3698,7 +3699,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -3725,8 +3726,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@20@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@20@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3749,8 +3750,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@20@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@20@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3792,7 +3793,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="240,38,79,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -3819,8 +3820,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@20@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@20@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3843,8 +3844,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@20@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@20@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3879,7 +3880,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -3902,8 +3903,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@20@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@20@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="240,38,79,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -3940,7 +3941,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3967,8 +3968,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="21" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="21" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -3994,7 +3995,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4021,8 +4022,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@21@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@21@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4045,8 +4046,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@21@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@21@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4088,7 +4089,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="233,14,21,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4115,8 +4116,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@21@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@21@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4139,8 +4140,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@21@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@21@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4175,7 +4176,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4198,8 +4199,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@21@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@21@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="233,14,21,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4236,7 +4237,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -4263,8 +4264,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="22" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="22" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -4290,7 +4291,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4317,8 +4318,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@22@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@22@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4341,8 +4342,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@22@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@22@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4384,7 +4385,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="118,212,153,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4411,8 +4412,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@22@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@22@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4435,8 +4436,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@22@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@22@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4471,7 +4472,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4494,8 +4495,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@22@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@22@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="118,212,153,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4532,7 +4533,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -4559,8 +4560,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="23" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="23" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -4586,7 +4587,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4613,8 +4614,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@23@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@23@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4637,8 +4638,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@23@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@23@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4680,7 +4681,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="56,139,206,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4707,8 +4708,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@23@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@23@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4731,8 +4732,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@23@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@23@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4767,7 +4768,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4790,8 +4791,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@23@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@23@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="56,139,206,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4828,7 +4829,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -4855,8 +4856,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="24" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="24" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -4882,7 +4883,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -4909,8 +4910,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@24@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@24@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -4933,8 +4934,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@24@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@24@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -4976,7 +4977,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="124,208,229,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5003,8 +5004,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@24@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@24@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5027,8 +5028,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@24@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@24@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5063,7 +5064,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5086,8 +5087,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@24@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@24@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="124,208,229,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5124,7 +5125,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -5151,8 +5152,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="25" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="25" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -5178,7 +5179,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5205,8 +5206,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@25@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@25@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5229,8 +5230,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@25@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@25@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5272,7 +5273,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="239,126,177,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5299,8 +5300,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@25@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@25@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5323,8 +5324,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@25@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@25@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5359,7 +5360,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5382,8 +5383,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@25@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@25@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="239,126,177,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5420,7 +5421,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -5447,8 +5448,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="26" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="26" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -5474,7 +5475,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5501,8 +5502,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@26@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@26@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5525,8 +5526,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@26@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@26@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5568,7 +5569,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="201,88,39,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5595,8 +5596,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@26@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@26@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5619,8 +5620,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@26@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@26@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5655,7 +5656,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5678,8 +5679,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@26@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@26@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="201,88,39,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5716,7 +5717,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -5743,8 +5744,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="27" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="27" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -5770,7 +5771,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5797,8 +5798,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@27@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@27@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5821,8 +5822,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@27@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@27@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5864,7 +5865,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="208,83,98,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -5891,8 +5892,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@27@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@27@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5915,8 +5916,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@27@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@27@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -5951,7 +5952,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -5974,8 +5975,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@27@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@27@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="208,83,98,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6012,7 +6013,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6039,8 +6040,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="28" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="28" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6066,7 +6067,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6093,8 +6094,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@28@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@28@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6117,8 +6118,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@28@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@28@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6160,7 +6161,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="115,218,205,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6187,8 +6188,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@28@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@28@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6211,8 +6212,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@28@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@28@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6247,7 +6248,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6270,8 +6271,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@28@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@28@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="115,218,205,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6308,7 +6309,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6335,8 +6336,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="29" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="29" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6362,7 +6363,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6389,8 +6390,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@29@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@29@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6413,8 +6414,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@29@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@29@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6456,7 +6457,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="115,218,205,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6483,8 +6484,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@29@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@29@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6507,8 +6508,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@29@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@29@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6543,7 +6544,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6566,8 +6567,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@29@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@29@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="115,218,205,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6604,7 +6605,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6631,8 +6632,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="3" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="3" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6658,7 +6659,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6685,8 +6686,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@3@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@3@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6709,8 +6710,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@3@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@3@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6752,7 +6753,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="123,80,223,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6779,8 +6780,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@3@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@3@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6803,8 +6804,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@3@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@3@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6839,7 +6840,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -6862,8 +6863,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@3@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@3@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="123,80,223,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -6900,7 +6901,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6927,8 +6928,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="30" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="30" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -6954,7 +6955,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -6981,8 +6982,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@30@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@30@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7005,8 +7006,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@30@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@30@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7048,7 +7049,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="102,144,211,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7075,8 +7076,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@30@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@30@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7099,8 +7100,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@30@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@30@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7135,7 +7136,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7158,8 +7159,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@30@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@30@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="102,144,211,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7196,7 +7197,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -7223,8 +7224,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="31" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="31" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -7250,7 +7251,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7277,8 +7278,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@31@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@31@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7301,8 +7302,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@31@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@31@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7344,7 +7345,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="122,235,104,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7371,8 +7372,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@31@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@31@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7395,8 +7396,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@31@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@31@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7431,7 +7432,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7454,8 +7455,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@31@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@31@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="122,235,104,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7492,7 +7493,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -7519,8 +7520,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="32" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="32" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -7546,7 +7547,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7573,8 +7574,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@32@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@32@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7597,8 +7598,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@32@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@32@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7640,7 +7641,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="122,235,104,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7667,8 +7668,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@32@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@32@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7691,8 +7692,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@32@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@32@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7727,7 +7728,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7750,8 +7751,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@32@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@32@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="122,235,104,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7788,7 +7789,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -7815,8 +7816,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="33" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="33" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -7842,7 +7843,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7869,8 +7870,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@33@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@33@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7893,8 +7894,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@33@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@33@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -7936,7 +7937,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="206,110,50,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -7963,8 +7964,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@33@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@33@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -7987,8 +7988,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@33@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@33@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8023,7 +8024,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8046,8 +8047,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@33@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@33@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="206,110,50,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8084,7 +8085,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8111,8 +8112,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="34" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="34" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8138,7 +8139,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -8165,8 +8166,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@34@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@34@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8189,8 +8190,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@34@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@34@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8232,7 +8233,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="133,65,210,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -8259,8 +8260,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@34@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@34@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8283,8 +8284,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@34@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@34@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8319,7 +8320,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8342,8 +8343,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@34@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@34@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="133,65,210,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8380,7 +8381,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8407,8 +8408,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="35" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="35" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8434,7 +8435,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -8461,8 +8462,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@35@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@35@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8485,8 +8486,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@35@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@35@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8528,7 +8529,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="117,227,120,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -8555,8 +8556,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@35@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@35@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8579,8 +8580,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@35@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@35@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8615,7 +8616,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8638,8 +8639,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@35@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@35@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="117,227,120,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8676,7 +8677,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8703,8 +8704,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="36" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="36" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8730,7 +8731,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -8757,8 +8758,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@36@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@36@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8781,8 +8782,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@36@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@36@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8824,7 +8825,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="108,219,80,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -8851,8 +8852,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@36@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@36@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8875,8 +8876,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@36@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@36@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8911,7 +8912,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -8934,8 +8935,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@36@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@36@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="108,219,80,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -8972,7 +8973,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -8999,8 +9000,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="37" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="37" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9026,7 +9027,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9053,8 +9054,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@37@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@37@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9077,8 +9078,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@37@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@37@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9120,7 +9121,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="231,165,50,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9147,8 +9148,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@37@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@37@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9171,8 +9172,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@37@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@37@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9207,7 +9208,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9230,8 +9231,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@37@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@37@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="231,165,50,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9268,7 +9269,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9295,8 +9296,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="38" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="38" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9322,7 +9323,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9349,8 +9350,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@38@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@38@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9373,8 +9374,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@38@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@38@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9416,7 +9417,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="148,58,221,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9443,8 +9444,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@38@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@38@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9467,8 +9468,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@38@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@38@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9503,7 +9504,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9526,8 +9527,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@38@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@38@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="148,58,221,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9564,7 +9565,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9591,8 +9592,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="39" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="39" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9618,7 +9619,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9645,8 +9646,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@39@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@39@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9669,8 +9670,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@39@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@39@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9712,7 +9713,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="225,135,236,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9739,8 +9740,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@39@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@39@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9763,8 +9764,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@39@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@39@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9799,7 +9800,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9822,8 +9823,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@39@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@39@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="225,135,236,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -9860,7 +9861,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9887,8 +9888,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="4" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="4" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -9914,7 +9915,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -9941,8 +9942,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@4@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@4@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -9965,8 +9966,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@4@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@4@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10008,7 +10009,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="164,54,227,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10035,8 +10036,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@4@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@4@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10059,8 +10060,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@4@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@4@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10095,7 +10096,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10118,8 +10119,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@4@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@4@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="164,54,227,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10156,7 +10157,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -10183,8 +10184,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="40" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="40" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -10210,7 +10211,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10237,8 +10238,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@40@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@40@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10261,8 +10262,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@40@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@40@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10304,7 +10305,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="121,134,215,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10331,8 +10332,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@40@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@40@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10355,8 +10356,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@40@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@40@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10391,7 +10392,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10414,8 +10415,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@40@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@40@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="121,134,215,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10452,7 +10453,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -10479,8 +10480,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="41" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="41" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -10506,7 +10507,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10533,8 +10534,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@41@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@41@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10557,8 +10558,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@41@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@41@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10600,7 +10601,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="79,203,145,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10627,8 +10628,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@41@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@41@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10651,8 +10652,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@41@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@41@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10687,7 +10688,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10710,8 +10711,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@41@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@41@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="79,203,145,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10748,7 +10749,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -10775,8 +10776,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="42" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="42" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -10802,7 +10803,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10829,8 +10830,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@42@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@42@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10853,8 +10854,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@42@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@42@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10896,7 +10897,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="214,211,112,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -10923,8 +10924,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@42@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@42@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -10947,8 +10948,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@42@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@42@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -10983,7 +10984,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11006,8 +11007,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@42@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@42@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="214,211,112,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11044,7 +11045,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11071,8 +11072,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="43" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="43" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11098,7 +11099,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -11125,8 +11126,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@43@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@43@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11149,8 +11150,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@43@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@43@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11192,7 +11193,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="201,37,193,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -11219,8 +11220,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@43@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@43@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11243,8 +11244,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@43@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@43@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11279,7 +11280,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11302,8 +11303,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@43@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@43@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="201,37,193,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11340,7 +11341,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11367,8 +11368,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="44" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="44" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11394,7 +11395,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -11421,8 +11422,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@44@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@44@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11445,8 +11446,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@44@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@44@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11488,7 +11489,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="197,235,57,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -11515,8 +11516,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@44@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@44@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11539,8 +11540,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@44@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@44@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11575,7 +11576,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11598,8 +11599,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@44@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@44@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="197,235,57,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11636,7 +11637,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11663,8 +11664,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="45" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="45" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11690,7 +11691,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -11717,8 +11718,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@45@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@45@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11741,8 +11742,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@45@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@45@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11784,7 +11785,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="88,211,39,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -11811,8 +11812,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@45@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@45@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11835,8 +11836,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@45@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@45@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11871,7 +11872,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -11894,8 +11895,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@45@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@45@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="88,211,39,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -11932,7 +11933,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11959,8 +11960,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="46" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="46" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -11986,7 +11987,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12013,8 +12014,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@46@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@46@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12037,8 +12038,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@46@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@46@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12080,7 +12081,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="207,192,72,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12107,8 +12108,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@46@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@46@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12131,8 +12132,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@46@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@46@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12167,7 +12168,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12190,8 +12191,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@46@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@46@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="207,192,72,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12228,7 +12229,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -12255,8 +12256,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="47" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="47" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -12282,7 +12283,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12309,8 +12310,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@47@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@47@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12333,8 +12334,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@47@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@47@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12376,7 +12377,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="102,83,227,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12403,8 +12404,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@47@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@47@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12427,8 +12428,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@47@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@47@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12463,7 +12464,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12486,8 +12487,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@47@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@47@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="102,83,227,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12524,7 +12525,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -12551,8 +12552,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="48" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="48" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -12578,7 +12579,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12605,8 +12606,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@48@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@48@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12629,8 +12630,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@48@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@48@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12672,7 +12673,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="210,88,240,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12699,8 +12700,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@48@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@48@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12723,8 +12724,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@48@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@48@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12759,7 +12760,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12782,8 +12783,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@48@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@48@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="210,88,240,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12820,7 +12821,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -12847,8 +12848,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="49" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="49" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -12874,7 +12875,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12901,8 +12902,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@49@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@49@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -12925,8 +12926,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@49@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@49@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -12968,7 +12969,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="58,133,219,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -12995,8 +12996,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@49@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@49@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13019,8 +13020,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@49@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@49@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13055,7 +13056,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13078,8 +13079,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@49@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@49@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="58,133,219,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13116,7 +13117,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -13143,8 +13144,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="5" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="5" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -13170,7 +13171,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -13197,8 +13198,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@5@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@5@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13221,8 +13222,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@5@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@5@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13264,7 +13265,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="202,80,176,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -13291,8 +13292,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@5@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@5@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13315,8 +13316,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@5@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@5@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13351,7 +13352,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13374,8 +13375,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@5@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@5@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="202,80,176,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13412,7 +13413,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -13439,8 +13440,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="50" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="50" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -13466,7 +13467,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -13493,8 +13494,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@50@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@50@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13517,8 +13518,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@50@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@50@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13560,7 +13561,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="178,212,99,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -13587,8 +13588,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@50@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@50@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13611,8 +13612,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@50@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@50@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13647,7 +13648,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13670,8 +13671,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@50@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@50@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="178,212,99,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13708,7 +13709,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -13735,8 +13736,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="51" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="51" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -13762,7 +13763,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -13789,8 +13790,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@51@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@51@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13813,8 +13814,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@51@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@51@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13856,7 +13857,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="222,147,55,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -13883,8 +13884,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@51@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@51@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13907,8 +13908,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@51@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@51@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -13943,7 +13944,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -13966,8 +13967,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@51@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@51@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="222,147,55,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14004,7 +14005,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14031,8 +14032,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="52" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="52" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14058,7 +14059,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14085,8 +14086,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@52@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@52@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14109,8 +14110,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@52@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@52@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14152,7 +14153,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="118,206,202,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14179,8 +14180,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@52@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@52@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14203,8 +14204,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@52@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@52@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14239,7 +14240,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14262,8 +14263,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@52@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@52@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="118,206,202,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14300,7 +14301,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14327,8 +14328,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="53" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="53" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14354,7 +14355,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14381,8 +14382,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@53@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@53@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14405,8 +14406,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@53@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@53@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14448,7 +14449,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="142,211,63,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14475,8 +14476,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@53@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@53@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14499,8 +14500,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@53@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@53@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14535,7 +14536,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14558,8 +14559,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@53@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@53@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="142,211,63,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14596,7 +14597,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14623,8 +14624,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="54" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="54" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14650,7 +14651,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14677,8 +14678,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@54@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@54@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14701,8 +14702,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@54@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@54@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14744,7 +14745,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="221,167,120,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14771,8 +14772,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@54@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@54@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14795,8 +14796,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@54@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@54@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14831,7 +14832,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14854,8 +14855,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@54@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@54@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="221,167,120,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -14892,7 +14893,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14919,8 +14920,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="55" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="55" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -14946,7 +14947,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -14973,8 +14974,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@55@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@55@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -14997,8 +14998,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@55@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@55@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15040,7 +15041,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="98,211,121,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15067,8 +15068,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@55@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@55@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15091,8 +15092,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@55@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@55@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15127,7 +15128,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15150,8 +15151,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@55@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@55@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="98,211,121,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15188,7 +15189,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -15215,8 +15216,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="56" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="56" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -15242,7 +15243,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15269,8 +15270,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@56@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@56@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15293,8 +15294,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@56@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@56@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15336,7 +15337,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="220,235,119,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15363,8 +15364,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@56@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@56@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15387,8 +15388,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@56@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@56@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15423,7 +15424,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15446,8 +15447,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@56@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@56@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="220,235,119,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15484,7 +15485,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -15511,8 +15512,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="57" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="57" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -15538,7 +15539,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15565,8 +15566,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@57@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@57@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15589,8 +15590,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@57@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@57@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15632,7 +15633,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="220,235,119,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15659,8 +15660,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@57@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@57@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15683,8 +15684,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@57@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@57@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15719,7 +15720,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15742,8 +15743,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@57@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@57@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="220,235,119,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15780,7 +15781,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -15807,8 +15808,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="58" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="58" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -15834,7 +15835,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15861,8 +15862,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@58@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@58@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15885,8 +15886,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@58@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@58@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -15928,7 +15929,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="214,183,59,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -15955,8 +15956,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@58@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@58@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -15979,8 +15980,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@58@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@58@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16015,7 +16016,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16038,8 +16039,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@58@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@58@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="214,183,59,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16076,7 +16077,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16103,8 +16104,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="59" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="59" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16130,7 +16131,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -16157,8 +16158,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@59@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@59@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16181,8 +16182,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@59@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@59@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16224,7 +16225,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="217,137,124,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -16251,8 +16252,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@59@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@59@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16275,8 +16276,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@59@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@59@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16311,7 +16312,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16334,8 +16335,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@59@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@59@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="217,137,124,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16372,7 +16373,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16399,8 +16400,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="6" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="6" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16426,7 +16427,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -16453,8 +16454,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@6@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@6@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16477,8 +16478,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@6@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@6@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16520,7 +16521,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="13,154,209,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -16547,8 +16548,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@6@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@6@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16571,8 +16572,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@6@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@6@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16607,7 +16608,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16630,8 +16631,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@6@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@6@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="13,154,209,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16668,7 +16669,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16695,8 +16696,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="60" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="60" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16722,7 +16723,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -16749,8 +16750,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@60@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@60@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16773,8 +16774,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@60@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@60@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16816,7 +16817,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="233,191,82,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -16843,8 +16844,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@60@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@60@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16867,8 +16868,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@60@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@60@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16903,7 +16904,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -16926,8 +16927,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@60@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@60@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="233,191,82,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -16964,7 +16965,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -16991,8 +16992,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="61" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="61" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17018,7 +17019,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17045,8 +17046,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@61@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@61@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17069,8 +17070,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@61@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@61@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17112,7 +17113,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="128,203,66,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17139,8 +17140,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@61@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@61@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17163,8 +17164,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@61@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@61@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17199,7 +17200,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17222,8 +17223,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@61@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@61@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="128,203,66,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17260,7 +17261,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17287,8 +17288,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="62" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="62" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17314,7 +17315,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17341,8 +17342,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@62@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@62@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17365,8 +17366,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@62@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@62@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17408,7 +17409,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="212,12,69,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17435,8 +17436,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@62@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@62@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17459,8 +17460,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@62@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@62@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17495,7 +17496,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17518,8 +17519,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@62@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@62@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="212,12,69,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17556,7 +17557,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17583,8 +17584,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="63" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="63" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17610,7 +17611,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17637,8 +17638,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@63@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@63@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17661,8 +17662,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@63@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@63@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17704,7 +17705,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="212,12,69,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17731,8 +17732,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@63@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@63@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17755,8 +17756,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@63@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@63@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17791,7 +17792,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17814,8 +17815,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@63@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@63@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="212,12,69,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -17852,7 +17853,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17879,8 +17880,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="64" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="64" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -17906,7 +17907,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -17933,8 +17934,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@64@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@64@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -17957,8 +17958,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@64@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@64@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18000,7 +18001,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="229,85,138,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18027,8 +18028,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@64@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@64@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18051,8 +18052,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@64@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@64@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18087,7 +18088,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18110,8 +18111,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@64@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@64@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="229,85,138,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18148,7 +18149,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -18175,8 +18176,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="65" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="65" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -18202,7 +18203,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18229,8 +18230,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@65@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@65@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18253,8 +18254,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@65@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@65@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18296,7 +18297,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="91,204,85,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18323,8 +18324,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@65@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@65@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18347,8 +18348,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@65@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@65@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18383,7 +18384,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18406,8 +18407,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@65@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@65@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="91,204,85,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18444,7 +18445,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -18471,8 +18472,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="66" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="66" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -18498,7 +18499,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18525,8 +18526,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@66@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@66@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18549,8 +18550,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@66@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@66@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18592,7 +18593,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="209,19,152,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18619,8 +18620,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@66@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@66@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18643,8 +18644,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@66@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@66@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18679,7 +18680,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18702,8 +18703,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@66@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@66@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="209,19,152,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18740,7 +18741,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -18767,8 +18768,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="67" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="67" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -18794,7 +18795,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18821,8 +18822,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@67@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@67@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18845,8 +18846,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@67@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@67@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18888,7 +18889,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="66,189,205,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -18915,8 +18916,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@67@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@67@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18939,8 +18940,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@67@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@67@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -18975,7 +18976,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -18998,8 +18999,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@67@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@67@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="66,189,205,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19036,7 +19037,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19063,8 +19064,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="68" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="68" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19090,7 +19091,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -19117,8 +19118,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@68@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@68@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19141,8 +19142,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@68@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@68@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19184,7 +19185,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="62,225,176,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -19211,8 +19212,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@68@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@68@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19235,8 +19236,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@68@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@68@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19271,7 +19272,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19294,8 +19295,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@68@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@68@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="62,225,176,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19332,7 +19333,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19359,8 +19360,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="69" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="69" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19386,7 +19387,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -19413,8 +19414,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@69@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@69@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19437,8 +19438,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@69@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@69@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19480,7 +19481,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="217,73,33,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -19507,8 +19508,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@69@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@69@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19531,8 +19532,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@69@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@69@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19567,7 +19568,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19590,8 +19591,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@69@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@69@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="217,73,33,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19628,7 +19629,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19655,8 +19656,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="7" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="7" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19682,7 +19683,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -19709,8 +19710,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@7@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@7@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19733,8 +19734,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@7@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@7@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19776,7 +19777,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="232,31,139,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -19803,8 +19804,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@7@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@7@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19827,8 +19828,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@7@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@7@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19863,7 +19864,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -19886,8 +19887,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@7@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@7@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="232,31,139,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -19924,7 +19925,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19951,8 +19952,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="70" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="70" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -19978,7 +19979,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20005,8 +20006,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@70@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@70@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20029,8 +20030,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@70@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@70@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20072,7 +20073,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="72,79,216,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20099,8 +20100,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@70@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@70@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20123,8 +20124,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@70@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@70@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20159,7 +20160,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20182,8 +20183,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@70@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@70@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="72,79,216,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20220,7 +20221,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -20247,8 +20248,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="71" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="71" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -20274,7 +20275,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20301,8 +20302,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@71@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@71@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20325,8 +20326,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@71@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@71@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20368,7 +20369,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="203,16,132,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20395,8 +20396,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@71@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@71@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20419,8 +20420,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@71@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@71@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20455,7 +20456,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20478,8 +20479,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@71@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@71@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="203,16,132,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20516,7 +20517,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -20543,8 +20544,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="72" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="72" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -20570,7 +20571,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20597,8 +20598,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@72@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@72@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20621,8 +20622,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@72@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@72@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20664,7 +20665,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="84,218,145,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20691,8 +20692,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@72@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@72@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20715,8 +20716,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@72@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@72@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20751,7 +20752,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20774,8 +20775,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@72@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@72@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="84,218,145,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20812,7 +20813,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -20839,8 +20840,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="73" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="73" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -20866,7 +20867,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20893,8 +20894,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@73@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@73@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -20917,8 +20918,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@73@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@73@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -20960,7 +20961,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="239,111,126,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -20987,8 +20988,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@73@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@73@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21011,8 +21012,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@73@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@73@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21047,7 +21048,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21070,8 +21071,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@73@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@73@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="70,67,157,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21108,7 +21109,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -21135,8 +21136,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="74" force_rhr="0">
-        <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+      <symbol type="fill" name="74" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -21145,7 +21146,7 @@
           <prop v="MM" k="offset_unit"/>
           <prop v="151,24,117,255" k="outline_color"/>
           <prop v="solid" k="outline_style"/>
-          <prop v="0.46" k="outline_width"/>
+          <prop v="0.1" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
@@ -21156,10 +21157,10 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
-          <prop v="2" k="distance"/>
+          <prop v="1.8" k="distance"/>
           <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
           <prop v="MM" k="distance_unit"/>
           <prop v="0.26" k="line_width"/>
@@ -21183,8 +21184,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@74@1" force_rhr="0">
-            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@74@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleLine">
               <prop v="0" k="align_dash_pattern"/>
               <prop v="square" k="capstyle"/>
               <prop v="5;2" k="customdash"/>
@@ -21195,9 +21196,9 @@
               <prop v="MM" k="dash_pattern_offset_unit"/>
               <prop v="0" k="draw_inside_polygon"/>
               <prop v="bevel" k="joinstyle"/>
-              <prop v="203,69,190,255" k="line_color"/>
+              <prop v="155,45,137,235" k="line_color"/>
               <prop v="solid" k="line_style"/>
-              <prop v="0.66" k="line_width"/>
+              <prop v="0.4" k="line_width"/>
               <prop v="MM" k="line_width_unit"/>
               <prop v="0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
@@ -21217,8 +21218,57 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="8" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="75" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="3" enabled="1" locked="0" class="CentroidFill">
+          <prop v="0" k="clip_on_current_part_only"/>
+          <prop v="0" k="clip_points"/>
+          <prop v="1" k="point_on_all_parts"/>
+          <prop v="0" k="point_on_surface"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </data_defined_properties>
+          <symbol type="marker" name="@75@0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop v="0" k="angle"/>
+              <prop v="255,0,0,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="C:/Users/mathieu/Desktop/datagistips/osm-data/osm-data/svgs/vine/grape-svgrepo-com-1.svg" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="name">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="format(&#xd;&#xa;'C:/Users/mathieu/Desktop/datagistips/osm-data/osm-data/svgs/vine/grape-svgrepo-com-%1.svg',&#xd;&#xa;rand(1,8)&#xd;&#xa;)" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </layer>
+      </symbol>
+      <symbol type="fill" name="8" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -21244,7 +21294,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -21271,8 +21321,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@8@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@8@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21295,8 +21345,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@8@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@8@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21338,7 +21388,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="232,31,139,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -21365,8 +21415,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@8@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@8@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21389,8 +21439,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@8@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@8@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21425,7 +21475,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21448,8 +21498,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@8@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@8@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="232,31,139,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21486,7 +21536,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -21513,8 +21563,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="fill" name="9" force_rhr="0">
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+      <symbol type="fill" name="9" force_rhr="0" clip_to_extent="1" alpha="1">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -21540,7 +21590,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="LinePatternFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="0,0,255,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -21567,8 +21617,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@9@1" force_rhr="0">
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+          <symbol type="line" name="@9@1" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21591,8 +21641,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@9@1@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@9@1@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21634,7 +21684,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="LinePatternFill" locked="0" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="0" class="LinePatternFill">
           <prop v="45" k="angle"/>
           <prop v="77,158,205,255" k="color"/>
           <prop v="7" k="distance"/>
@@ -21661,8 +21711,8 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" alpha="1" type="line" name="@9@2" force_rhr="0">
-            <layer class="MarkerLine" locked="1" enabled="1" pass="0">
+          <symbol type="line" name="@9@2" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="1" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21685,8 +21735,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@9@2@0" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@9@2@0" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="255,0,0,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21721,7 +21771,7 @@
                 </layer>
               </symbol>
             </layer>
-            <layer class="MarkerLine" locked="0" enabled="1" pass="0">
+            <layer pass="0" enabled="1" locked="0" class="MarkerLine">
               <prop v="4" k="average_angle_length"/>
               <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
               <prop v="MM" k="average_angle_unit"/>
@@ -21744,8 +21794,8 @@
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
-              <symbol clip_to_extent="1" alpha="1" type="marker" name="@@9@2@1" force_rhr="0">
-                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <symbol type="marker" name="@@9@2@1" force_rhr="0" clip_to_extent="1" alpha="1">
+                <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
                   <prop v="0" k="angle"/>
                   <prop v="77,158,205,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -21782,7 +21832,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleFill" locked="1" enabled="1" pass="0">
+        <layer pass="0" enabled="1" locked="1" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="80,66,41,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -21813,12 +21863,12 @@
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" fontStrikeout="0" fontWeight="50" capitalization="0" fieldName="coalesce(hstore_to_json['grape_variety'], '')" multilineHeight="1" namedStyle="Normal" blendMode="0" allowHtml="0" textOrientation="horizontal" fontWordSpacing="0" previewBkgrdColor="255,255,255,255" fontSize="10" textColor="191,200,232,255" isExpression="1" fontLetterSpacing="0" fontUnderline="0" fontFamily="MS Shell Dlg 2" fontSizeUnit="Point" fontKerning="1" textOpacity="1" useSubstitutions="0">
-        <text-buffer bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="151,24,117,255" bufferOpacity="1" bufferJoinStyle="128" bufferNoFill="1" bufferBlendMode="0" bufferSize="0.9" bufferSizeUnits="MM"/>
-        <text-mask maskJoinStyle="128" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSize="1.5" maskedSymbolLayers="" maskEnabled="0" maskSizeUnits="MM" maskType="0"/>
-        <background shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeSizeUnit="MM" shapeOffsetX="0" shapeFillColor="255,255,255,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeBorderWidthUnit="MM" shapeRadiiUnit="MM" shapeSVGFile="" shapeRadiiY="0" shapeDraw="0" shapeRotation="0" shapeType="0" shapeOffsetUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeBorderWidth="0" shapeBlendMode="0" shapeSizeX="0" shapeOpacity="1" shapeRadiiX="0" shapeJoinStyle="64">
-          <symbol clip_to_extent="1" alpha="1" type="marker" name="markerSymbol" force_rhr="0">
-            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+      <text-style textOrientation="horizontal" fontSizeUnit="Point" previewBkgrdColor="255,255,255,255" fontWeight="50" namedStyle="Normal" textOpacity="1" isExpression="1" fontUnderline="0" fieldName="coalesce(hstore_to_json['grape_variety'], '')" fontStrikeout="0" fontFamily="MS Shell Dlg 2" fontKerning="1" useSubstitutions="0" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textColor="191,200,232,255" blendMode="0" allowHtml="0" capitalization="0" fontSize="10" multilineHeight="1" fontWordSpacing="0" fontItalic="0">
+        <text-buffer bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferSize="0.9" bufferColor="151,24,117,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferOpacity="1" bufferNoFill="1"/>
+        <text-mask maskSizeUnits="MM" maskType="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1" maskedSymbolLayers="" maskEnabled="0" maskSize="1.5" maskJoinStyle="128"/>
+        <background shapeOffsetX="0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeBorderWidth="0" shapeSizeType="0" shapeBlendMode="0" shapeOffsetY="0" shapeOffsetUnit="MM" shapeSizeY="0" shapeSizeUnit="MM" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeSVGFile="" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeType="0" shapeRadiiX="0" shapeRadiiY="0" shapeFillColor="255,255,255,255" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0">
+          <symbol type="marker" name="markerSymbol" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="133,182,111,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -21847,7 +21897,7 @@
             </layer>
           </symbol>
         </background>
-        <shadow shadowScale="100" shadowOffsetGlobal="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowColor="0,0,0,255" shadowDraw="0" shadowUnder="0" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusAlphaOnly="0" shadowOpacity="0.7"/>
+        <shadow shadowColor="0,0,0,255" shadowRadiusUnit="MM" shadowOpacity="0.7" shadowDraw="0" shadowOffsetAngle="135" shadowUnder="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetGlobal="1" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowScale="100" shadowRadius="1.5" shadowRadiusAlphaOnly="0" shadowBlendMode="6"/>
         <dd_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -21857,9 +21907,9 @@
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format leftDirectionSymbol="&lt;" placeDirectionSymbol="0" multilineAlign="3" addDirectionSymbol="0" rightDirectionSymbol=">" reverseDirectionSymbol="0" plussign="0" decimals="3" autoWrapLength="0" formatNumbers="0" wrapChar="" useMaxLineLengthForAutoWrap="1"/>
-      <placement labelOffsetMapUnitScale="3x:0,0,0,0,0,0" distMapUnitScale="3x:0,0,0,0,0,0" offsetUnits="MM" overrunDistanceUnit="MM" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" distUnits="MM" lineAnchorType="0" polygonPlacementFlags="2" placementFlags="10" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" preserveRotation="1" xOffset="0" repeatDistanceUnits="MM" geometryGeneratorEnabled="0" yOffset="0" centroidWhole="0" quadOffset="4" maxCurvedCharAngleOut="-25" priority="5" rotationAngle="0" overrunDistance="0" lineAnchorPercent="0.5" maxCurvedCharAngleIn="25" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGenerator="" repeatDistance="0" layerType="PolygonGeometry" geometryGeneratorType="PointGeometry" placement="0" centroidInside="0" offsetType="0" dist="0" fitInPolygonOnly="0"/>
-      <rendering limitNumLabels="0" mergeLines="0" scaleMax="100000" displayAll="0" labelPerPart="0" fontMinPixelSize="3" fontMaxPixelSize="10000" obstacleFactor="1" upsidedownLabels="0" zIndex="0" scaleMin="0" maxNumLabels="2000" obstacleType="1" drawLabels="1" scaleVisibility="1" minFeatureSize="0" obstacle="1" fontLimitPixelSize="0"/>
+      <text-format autoWrapLength="0" useMaxLineLengthForAutoWrap="1" decimals="3" wrapChar="" reverseDirectionSymbol="0" rightDirectionSymbol=">" formatNumbers="0" multilineAlign="3" leftDirectionSymbol="&lt;" plussign="0" addDirectionSymbol="0" placeDirectionSymbol="0"/>
+      <placement priority="5" repeatDistanceUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" centroidInside="0" xOffset="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" overrunDistance="0" preserveRotation="1" layerType="PolygonGeometry" polygonPlacementFlags="2" centroidWhole="0" fitInPolygonOnly="0" yOffset="0" offsetUnits="MM" geometryGeneratorEnabled="0" geometryGenerator="" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" lineAnchorPercent="0.5" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" dist="0" distUnits="MM" lineAnchorType="0" maxCurvedCharAngleIn="25" quadOffset="4" placementFlags="10" maxCurvedCharAngleOut="-25" placement="0" offsetType="0" overrunDistanceUnit="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorType="PointGeometry"/>
+      <rendering scaleMax="100000" obstacleFactor="1" zIndex="0" drawLabels="1" minFeatureSize="0" scaleVisibility="1" fontMinPixelSize="3" fontMaxPixelSize="10000" maxNumLabels="2000" scaleMin="0" limitNumLabels="0" fontLimitPixelSize="0" obstacle="1" displayAll="0" labelPerPart="0" obstacleType="1" mergeLines="0" upsidedownLabels="0"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" value="" name="name"/>
@@ -21878,7 +21928,7 @@
           <Option type="bool" value="false" name="drawToAllParts"/>
           <Option type="QString" value="0" name="enabled"/>
           <Option type="QString" value="point_on_exterior" name="labelAnchorPoint"/>
-          <Option type="QString" value="&lt;symbol clip_to_extent=&quot;1&quot; alpha=&quot;1&quot; type=&quot;line&quot; name=&quot;symbol&quot; force_rhr=&quot;0&quot;>&lt;layer class=&quot;SimpleLine&quot; locked=&quot;0&quot; enabled=&quot;1&quot; pass=&quot;0&quot;>&lt;prop v=&quot;0&quot; k=&quot;align_dash_pattern&quot;/>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;dash_pattern_offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;dash_pattern_offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+          <Option type="QString" value="&lt;symbol type=&quot;line&quot; name=&quot;symbol&quot; force_rhr=&quot;0&quot; clip_to_extent=&quot;1&quot; alpha=&quot;1&quot;>&lt;layer pass=&quot;0&quot; enabled=&quot;1&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;prop v=&quot;0&quot; k=&quot;align_dash_pattern&quot;/>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;dash_pattern_offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;dash_pattern_offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
           <Option type="double" value="0" name="minLength"/>
           <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
           <Option type="QString" value="MM" name="minLengthUnit"/>
@@ -21901,13 +21951,13 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" height="15" minimumSize="0" width="15" penWidth="0" maxScaleDenominator="1e+08" direction="0" lineSizeType="MM" enabled="0" opacity="1" backgroundColor="#ffffff" rotationOffset="270" spacing="5" penColor="#000000" showAxis="1" penAlpha="255" minScaleDenominator="0" diagramOrientation="Up" spacingUnit="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" sizeType="MM">
-      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-      <attribute field="" color="#000000" label=""/>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory penColor="#000000" backgroundAlpha="255" minScaleDenominator="0" width="15" lineSizeType="MM" direction="0" enabled="0" minimumSize="0" penAlpha="255" scaleDependency="Area" barWidth="5" spacingUnitScale="3x:0,0,0,0,0,0" height="15" penWidth="0" sizeType="MM" labelPlacementMethod="XHeight" showAxis="1" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" scaleBasedVisibility="0" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" spacingUnit="MM" spacing="5" opacity="1">
+      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute label="" color="#000000" field=""/>
       <axisSymbol>
-        <symbol clip_to_extent="1" alpha="1" type="line" name="" force_rhr="0">
-          <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+          <layer pass="0" enabled="1" locked="0" class="SimpleLine">
             <prop v="0" k="align_dash_pattern"/>
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
@@ -21941,7 +21991,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings obstacle="0" showAll="1" dist="0" linePlacementFlags="18" priority="0" placement="1" zIndex="0">
+  <DiagramLayerSettings showAll="1" placement="1" linePlacementFlags="18" priority="0" zIndex="0" obstacle="0" dist="0">
     <properties>
       <Option type="Map">
         <Option type="QString" value="" name="name"/>
@@ -21950,7 +22000,7 @@
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
     <activeChecks/>
     <checkConfiguration type="Map">
       <Option type="Map" name="QgsGeometryGapCheck">
@@ -21963,49 +22013,49 @@
   <legend type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field configurationFlags="None" name="fid">
+    <field name="fid" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="osm_id">
+    <field name="osm_id" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="name">
+    <field name="name" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="amenity">
+    <field name="amenity" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="hstore_to_json">
+    <field name="hstore_to_json" configurationFlags="None">
       <editWidget type="KeyValue">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="variety">
+    <field name="variety" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="orientation">
+    <field name="orientation" configurationFlags="None">
       <editWidget type="Range">
         <config>
           <Option/>
@@ -22023,48 +22073,48 @@
     <alias field="orientation" name="" index="6"/>
   </aliases>
   <defaults>
-    <default field="fid" expression="" applyOnUpdate="0"/>
-    <default field="osm_id" expression="" applyOnUpdate="0"/>
-    <default field="name" expression="" applyOnUpdate="0"/>
-    <default field="amenity" expression="" applyOnUpdate="0"/>
-    <default field="hstore_to_json" expression="" applyOnUpdate="0"/>
-    <default field="variety" expression="" applyOnUpdate="0"/>
-    <default field="orientation" expression="" applyOnUpdate="0"/>
+    <default field="fid" applyOnUpdate="0" expression=""/>
+    <default field="osm_id" applyOnUpdate="0" expression=""/>
+    <default field="name" applyOnUpdate="0" expression=""/>
+    <default field="amenity" applyOnUpdate="0" expression=""/>
+    <default field="hstore_to_json" applyOnUpdate="0" expression=""/>
+    <default field="variety" applyOnUpdate="0" expression=""/>
+    <default field="orientation" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint field="fid" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-    <constraint field="osm_id" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="name" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="amenity" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="hstore_to_json" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="variety" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="orientation" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
+    <constraint notnull_strength="1" constraints="3" field="fid" unique_strength="1" exp_strength="0"/>
+    <constraint notnull_strength="0" constraints="0" field="osm_id" unique_strength="0" exp_strength="0"/>
+    <constraint notnull_strength="0" constraints="0" field="name" unique_strength="0" exp_strength="0"/>
+    <constraint notnull_strength="0" constraints="0" field="amenity" unique_strength="0" exp_strength="0"/>
+    <constraint notnull_strength="0" constraints="0" field="hstore_to_json" unique_strength="0" exp_strength="0"/>
+    <constraint notnull_strength="0" constraints="0" field="variety" unique_strength="0" exp_strength="0"/>
+    <constraint notnull_strength="0" constraints="0" field="orientation" unique_strength="0" exp_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint field="fid" exp="" desc=""/>
-    <constraint field="osm_id" exp="" desc=""/>
-    <constraint field="name" exp="" desc=""/>
-    <constraint field="amenity" exp="" desc=""/>
-    <constraint field="hstore_to_json" exp="" desc=""/>
-    <constraint field="variety" exp="" desc=""/>
-    <constraint field="orientation" exp="" desc=""/>
+    <constraint desc="" field="fid" exp=""/>
+    <constraint desc="" field="osm_id" exp=""/>
+    <constraint desc="" field="name" exp=""/>
+    <constraint desc="" field="amenity" exp=""/>
+    <constraint desc="" field="hstore_to_json" exp=""/>
+    <constraint desc="" field="variety" exp=""/>
+    <constraint desc="" field="orientation" exp=""/>
   </constraintExpressions>
   <expressionfields>
-    <field expression="hstore_to_json['vine_row_orientation']" comment="" precision="0" type="2" name="orientation" subType="0" typeName="integer" length="0"/>
+    <field typeName="integer" type="2" name="orientation" subType="0" expression="hstore_to_json['vine_row_orientation']" precision="0" length="0" comment=""/>
   </expressionfields>
   <attributeactions>
     <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
   <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;variety&quot;">
     <columns>
-      <column width="-1" type="field" hidden="0" name="fid"/>
-      <column width="-1" type="field" hidden="0" name="osm_id"/>
-      <column width="-1" type="field" hidden="0" name="name"/>
-      <column width="-1" type="field" hidden="0" name="amenity"/>
-      <column width="836" type="field" hidden="0" name="hstore_to_json"/>
-      <column width="-1" type="actions" hidden="1"/>
-      <column width="-1" type="field" hidden="0" name="variety"/>
-      <column width="-1" type="field" hidden="0" name="orientation"/>
+      <column type="field" hidden="0" width="-1" name="fid"/>
+      <column type="field" hidden="0" width="-1" name="osm_id"/>
+      <column type="field" hidden="0" width="-1" name="name"/>
+      <column type="field" hidden="0" width="-1" name="amenity"/>
+      <column type="field" hidden="0" width="836" name="hstore_to_json"/>
+      <column type="actions" hidden="1" width="-1"/>
+      <column type="field" hidden="0" width="-1" name="variety"/>
+      <column type="field" hidden="0" width="-1" name="orientation"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -22104,13 +22154,13 @@ def my_form_open(dialog, layer, feature):
     <field editable="1" name="variety"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="amenity"/>
-    <field labelOnTop="0" name="fid"/>
-    <field labelOnTop="0" name="hstore_to_json"/>
-    <field labelOnTop="0" name="name"/>
-    <field labelOnTop="0" name="orientation"/>
-    <field labelOnTop="0" name="osm_id"/>
-    <field labelOnTop="0" name="variety"/>
+    <field name="amenity" labelOnTop="0"/>
+    <field name="fid" labelOnTop="0"/>
+    <field name="hstore_to_json" labelOnTop="0"/>
+    <field name="name" labelOnTop="0"/>
+    <field name="orientation" labelOnTop="0"/>
+    <field name="osm_id" labelOnTop="0"/>
+    <field name="variety" labelOnTop="0"/>
   </labelOnTop>
   <dataDefinedFieldProperties/>
   <widgets/>
