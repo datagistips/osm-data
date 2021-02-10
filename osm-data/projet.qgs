@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" version="3.16.1-Hannover" saveDateTime="2021-02-10T18:32:51">
+<qgis saveUser="mathieu" projectname="" saveUserFull="mathieu" version="3.16.1-Hannover" saveDateTime="2021-02-10T18:39:48">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -237,10 +237,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>354413.86696987022878602</xmin>
-      <ymin>5730467.30297533795237541</ymin>
-      <xmax>355454.85203453159192577</xmax>
-      <ymax>5731092.82242890819907188</ymax>
+      <xmin>619174.35498666216153651</xmin>
+      <ymin>5350608.90757404640316963</ymin>
+      <xmax>620215.34005132375750691</xmax>
+      <ymax>5351234.4270276166498661</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
