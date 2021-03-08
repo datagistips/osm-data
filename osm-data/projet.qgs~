@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.1-Hannover" saveUserFull="mathieu" saveDateTime="2021-03-07T19:19:05" saveUser="mathieu" projectname="">
+<qgis version="3.16.1-Hannover" saveUserFull="mathieu" saveDateTime="2021-03-08T13:12:27" saveUser="mathieu" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -259,10 +259,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>678064.37379666906781495</xmin>
-      <ymin>6328469.48918024264276028</ymin>
-      <xmax>678725.96646190155297518</xmax>
-      <ymax>6329003.31919006258249283</ymax>
+      <xmin>719561.35226179356686771</xmin>
+      <ymin>5336099.74514047615230083</ymin>
+      <xmax>720222.94492702605202794</xmax>
+      <ymax>5336633.57515029609203339</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -47743,6 +47743,8 @@ def my_form_open(dialog, layer, feature):
         <field precision="0" name="waste" length="0" expression="hstore_to_json['waste']" comment="" subType="0" typeName="string" type="10"/>
         <field precision="0" name="operator" length="-1" expression="hstore_to_json['operator']" comment="" subType="0" typeName="text" type="10"/>
         <field precision="0" name="location" length="0" expression="hstore_to_json['location']" comment="" subType="0" typeName="string" type="10"/>
+        <field precision="0" name="material" length="0" expression="hstore_to_json['material']" comment="" subType="0" typeName="integer" type="2"/>
+        <field precision="0" name="material" length="0" expression="hstore_to_json['material']" comment="" subType="0" typeName="string" type="10"/>
       </expressionfields>
       <map-layer-style-manager current="défaut">
         <map-layer-style name="défaut"/>
@@ -49140,6 +49142,13 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="material" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" index="0" field="fid"/>
@@ -49150,6 +49159,7 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="5" field="waste"/>
         <alias name="" index="6" field="operator"/>
         <alias name="" index="7" field="location"/>
+        <alias name="" index="8" field="material"/>
       </aliases>
       <defaults>
         <default expression="" applyOnUpdate="0" field="fid"/>
@@ -49160,6 +49170,7 @@ def my_form_open(dialog, layer, feature):
         <default expression="" applyOnUpdate="0" field="waste"/>
         <default expression="" applyOnUpdate="0" field="operator"/>
         <default expression="" applyOnUpdate="0" field="location"/>
+        <default expression="" applyOnUpdate="0" field="material"/>
       </defaults>
       <constraints>
         <constraint unique_strength="1" notnull_strength="1" exp_strength="0" constraints="3" field="fid"/>
@@ -49170,6 +49181,7 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="waste"/>
         <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="operator"/>
         <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="location"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="material"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="fid" exp=""/>
@@ -49180,16 +49192,19 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="waste" exp=""/>
         <constraint desc="" field="operator" exp=""/>
         <constraint desc="" field="location" exp=""/>
+        <constraint desc="" field="material" exp=""/>
       </constraintExpressions>
       <expressionfields>
         <field precision="0" name="waste" length="0" expression="hstore_to_json['waste']" comment="" subType="0" typeName="string" type="10"/>
         <field precision="0" name="operator" length="-1" expression="hstore_to_json['operator']" comment="" subType="0" typeName="text" type="10"/>
         <field precision="0" name="location" length="0" expression="hstore_to_json['location']" comment="" subType="0" typeName="string" type="10"/>
+        <field precision="0" name="material" length="0" expression="hstore_to_json['material']" comment="" subType="0" typeName="integer" type="2"/>
+        <field precision="0" name="material" length="0" expression="hstore_to_json['material']" comment="" subType="0" typeName="string" type="10"/>
       </expressionfields>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;location&quot;" sortOrder="1">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;material&quot;" sortOrder="1">
         <columns>
           <column width="-1" name="fid" hidden="0" type="field"/>
           <column width="-1" name="osm_id" hidden="0" type="field"/>
@@ -49200,6 +49215,7 @@ def my_form_open(dialog, layer, feature):
           <column width="457" name="waste" hidden="0" type="field"/>
           <column width="-1" name="operator" hidden="0" type="field"/>
           <column width="-1" name="location" hidden="0" type="field"/>
+          <column width="-1" name="material" hidden="0" type="field"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
