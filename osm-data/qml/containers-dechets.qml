@@ -1270,9 +1270,7 @@
     </settings>
   </labeling>
   <customproperties>
-    <property key="dualview/previewExpressions">
-      <value>"name"</value>
-    </property>
+    <property key="dualview/previewExpressions" value="&quot;name&quot;"/>
     <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
@@ -1392,6 +1390,13 @@
         </config>
       </editWidget>
     </field>
+    <field name="material" configurationFlags="None">
+      <editWidget type="Range">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
   </fieldConfiguration>
   <aliases>
     <alias name="" index="0" field="fid"/>
@@ -1402,6 +1407,7 @@
     <alias name="" index="5" field="waste"/>
     <alias name="" index="6" field="operator"/>
     <alias name="" index="7" field="location"/>
+    <alias name="" index="8" field="material"/>
   </aliases>
   <defaults>
     <default expression="" applyOnUpdate="0" field="fid"/>
@@ -1412,6 +1418,7 @@
     <default expression="" applyOnUpdate="0" field="waste"/>
     <default expression="" applyOnUpdate="0" field="operator"/>
     <default expression="" applyOnUpdate="0" field="location"/>
+    <default expression="" applyOnUpdate="0" field="material"/>
   </defaults>
   <constraints>
     <constraint unique_strength="1" notnull_strength="1" exp_strength="0" constraints="3" field="fid"/>
@@ -1422,6 +1429,7 @@
     <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="waste"/>
     <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="operator"/>
     <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="location"/>
+    <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="material"/>
   </constraints>
   <constraintExpressions>
     <constraint desc="" field="fid" exp=""/>
@@ -1432,16 +1440,19 @@
     <constraint desc="" field="waste" exp=""/>
     <constraint desc="" field="operator" exp=""/>
     <constraint desc="" field="location" exp=""/>
+    <constraint desc="" field="material" exp=""/>
   </constraintExpressions>
   <expressionfields>
     <field precision="0" name="waste" length="0" expression="hstore_to_json['waste']" comment="" subType="0" typeName="string" type="10"/>
     <field precision="0" name="operator" length="-1" expression="hstore_to_json['operator']" comment="" subType="0" typeName="text" type="10"/>
     <field precision="0" name="location" length="0" expression="hstore_to_json['location']" comment="" subType="0" typeName="string" type="10"/>
+    <field precision="0" name="material" length="0" expression="hstore_to_json['material']" comment="" subType="0" typeName="integer" type="2"/>
+    <field precision="0" name="material" length="0" expression="hstore_to_json['material']" comment="" subType="0" typeName="string" type="10"/>
   </expressionfields>
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;location&quot;" sortOrder="1">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;material&quot;" sortOrder="1">
     <columns>
       <column width="-1" name="fid" hidden="0" type="field"/>
       <column width="-1" name="osm_id" hidden="0" type="field"/>
@@ -1452,6 +1463,7 @@
       <column width="457" name="waste" hidden="0" type="field"/>
       <column width="-1" name="operator" hidden="0" type="field"/>
       <column width="-1" name="location" hidden="0" type="field"/>
+      <column width="-1" name="material" hidden="0" type="field"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -1486,6 +1498,7 @@ def my_form_open(dialog, layer, feature):
     <field name="fid" editable="1"/>
     <field name="hstore_to_json" editable="1"/>
     <field name="location" editable="0"/>
+    <field name="material" editable="0"/>
     <field name="name" editable="1"/>
     <field name="operator" editable="0"/>
     <field name="osm_id" editable="1"/>
@@ -1496,6 +1509,7 @@ def my_form_open(dialog, layer, feature):
     <field name="fid" labelOnTop="0"/>
     <field name="hstore_to_json" labelOnTop="0"/>
     <field name="location" labelOnTop="0"/>
+    <field name="material" labelOnTop="0"/>
     <field name="name" labelOnTop="0"/>
     <field name="operator" labelOnTop="0"/>
     <field name="osm_id" labelOnTop="0"/>

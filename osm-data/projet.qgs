@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.1-Hannover" saveUserFull="mathieu" saveDateTime="2021-03-08T13:15:47" saveUser="mathieu" projectname="">
+<qgis version="3.16.1-Hannover" saveUserFull="mathieu" saveDateTime="2021-03-08T13:18:02" saveUser="mathieu" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -45,7 +45,7 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="containers-dechets sql_statement" source="./data/containers-dechets.gpkg|layername=sql_statement" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" id="containers_dechets_sql_statement_dbe1ba9a_b18d_40d4_92af_1f7a8b79bfd9" legend_split_behavior="0" expanded="0" providerKey="ogr">
+    <layer-tree-layer name="containers-dechets sql_statement" source="./data/containers-dechets.gpkg|layername=sql_statement" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" id="containers_dechets_sql_statement_dbe1ba9a_b18d_40d4_92af_1f7a8b79bfd9" legend_split_behavior="0" expanded="1" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -308,8 +308,8 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="C_est_ferm__true_916_890_sql_statement_1b3a95b9_ba1e_4533_bec6_5dca4913f4e7"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="containers-dechets sql_statement" drawingOrder="-1" checked="Qt::Checked" open="false" showFeatureCount="0">
-      <filegroup hidden="false" open="false">
+    <legendlayer name="containers-dechets sql_statement" drawingOrder="-1" checked="Qt::Checked" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" visible="1" layerid="containers_dechets_sql_statement_dbe1ba9a_b18d_40d4_92af_1f7a8b79bfd9"/>
       </filegroup>
     </legendlayer>
@@ -49141,7 +49141,7 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="material" configurationFlags="None">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
@@ -49248,6 +49248,7 @@ def my_form_open(dialog, layer, feature):
         <field name="fid" editable="1"/>
         <field name="hstore_to_json" editable="1"/>
         <field name="location" editable="0"/>
+        <field name="material" editable="0"/>
         <field name="name" editable="1"/>
         <field name="operator" editable="0"/>
         <field name="osm_id" editable="1"/>
@@ -49258,6 +49259,7 @@ def my_form_open(dialog, layer, feature):
         <field name="fid" labelOnTop="0"/>
         <field name="hstore_to_json" labelOnTop="0"/>
         <field name="location" labelOnTop="0"/>
+        <field name="material" labelOnTop="0"/>
         <field name="name" labelOnTop="0"/>
         <field name="operator" labelOnTop="0"/>
         <field name="osm_id" labelOnTop="0"/>
