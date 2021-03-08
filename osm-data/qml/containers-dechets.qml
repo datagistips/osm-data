@@ -13,25 +13,56 @@
   </temporal>
   <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="RuleRenderer">
     <rules key="{86cabe86-7d01-4930-99b5-e745ddff79d3}">
-      <rule key="{a3b9399e-4203-413b-bd19-ab48b28ae2da}" filter="hstore_to_json['waste'] is not null and hstore_to_json['location']!='underground'" symbol="0" scalemaxdenom="10000" label="zoom fort | waste_disposal not null" scalemindenom="1"/>
-      <rule key="{900a25ea-a043-4852-acc8-a4afa22c9c30}" filter="hstore_to_json['waste'] is null and (hstore_to_json['location']!='underground' or  hstore_to_json['location'] is null)" symbol="1" scalemaxdenom="10000" label="zoom fort | waste_disposal is null" scalemindenom="1"/>
-      <rule key="{74d347b3-49c2-491d-b311-a86c6f369103}" filter="hstore_to_json['location']='underground'" symbol="2" scalemaxdenom="10000" label="zoom fort underground" scalemindenom="1"/>
-      <rule key="{807c7d9b-e65e-4430-8b49-b64b60ecf457}" filter="(hstore_to_json['waste'] = 'recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'trash;recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'plastic;paper;cardboard')&#xa;and (hstore_to_json['location'] != 'underground' or hstore_to_json['location'] is null)" symbol="3" scalemaxdenom="10000" label="zoom fort / poubelle jaune" scalemindenom="1"/>
-      <rule key="{857e3509-1fd7-4e0e-99dd-53fefe0d4e61}" filter="(hstore_to_json['waste'] = 'trash;paper;cardboard' &#xd;&#xa;or hstore_to_json['waste'] = 'trash;paper' &#xd;&#xa;or hstore_to_json['waste'] = 'paper')&#xd;&#xa;and (hstore_to_json['location'] != 'underground'&#xd;&#xa;or hstore_to_json['location'] is null)" symbol="4" scalemaxdenom="10000" label="zoom fort  poubelle bleue" scalemindenom="1"/>
-      <rule key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" symbol="5" scalemaxdenom="3000000" label="zoom moyen" scalemindenom="10000">
-        <rule key="{ff3421d9-ac82-4a2e-9bdb-ef5d92792d1b}" filter="hstore_to_json['waste'] is not null and  hstore_to_json['waste']!='' and hstore_to_json['location']!='underground'" symbol="6" label="not null"/>
-        <rule key="{34f689b9-59cd-4e4d-8030-e73e1e43d7f6}" filter="hstore_to_json['waste'] is null or hstore_to_json['waste']='' or hstore_to_json['waste']='trash' and hstore_to_json['location']!='underground'" symbol="7" label="null"/>
-        <rule key="{7eac3e59-9233-4cd8-8ce4-58afe227aaa1}" filter="hstore_to_json['location']='underground'" symbol="8" label="underground"/>
-        <rule key="{51007c46-963e-41e8-938a-6016307c0474}" filter="(hstore_to_json['waste'] = 'recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'trash;recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'plastic;paper;cardboard')&#xa;and (hstore_to_json['location'] != 'underground' or hstore_to_json['location'] is null)" symbol="9" label="yellow"/>
-        <rule key="{b1f1b4ae-c1a5-475a-8d4e-178817f843d1}" filter="(hstore_to_json['waste'] = 'trash;paper;cardboard' &#xd;&#xa;or hstore_to_json['waste'] = 'trash;paper' &#xd;&#xa;or hstore_to_json['waste'] = 'paper')&#xd;&#xa;and (hstore_to_json['location'] != 'underground'&#xd;&#xa;or hstore_to_json['location'] is null)" symbol="10" label="blue"/>
+      <rule key="{9ef98b11-1d65-455f-942a-96d7b6e1be85}" symbol="0" scalemaxdenom="10000" label="Zoom fort" scalemindenom="1">
+        <rule key="{77fb05fb-f539-4868-90e5-a1eec872ad36}" filter="hstore_to_json['waste'] is not null and &#xd;&#xa;(hstore_to_json['location'] is null or hstore_to_json['location'] = 'household' or hstore_to_json['location'] != 'underground')" symbol="1" scalemaxdenom="10000" label="Déchets renseignés" scalemindenom="1"/>
+        <rule key="{a30269f2-a35e-4a0b-8577-798e0cb5b778}" filter="hstore_to_json['waste'] is null and (hstore_to_json['location']!='underground' or  hstore_to_json['location'] is null)" symbol="2" scalemaxdenom="10000" label="Déchets non renseignés" scalemindenom="1"/>
+        <rule key="{a6c1f6b1-65ad-42ee-a4bc-725ebe769f08}" filter="hstore_to_json['location']='underground'" symbol="3" scalemaxdenom="10000" label="Localisation en sous-sol" scalemindenom="1"/>
+        <rule key="{f20d78e4-c895-4d67-ab3b-835475585434}" filter="(hstore_to_json['waste'] = 'recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'trash;recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'plastic;paper;cardboard')&#xa;and (hstore_to_json['location'] != 'underground' or hstore_to_json['location'] is null)" symbol="4" scalemaxdenom="10000" label="Poubelle jaune" scalemindenom="1"/>
+        <rule key="{b5d6bafb-f040-414f-8d91-cfd66f6ba094}" filter="(hstore_to_json['waste'] = 'trash;paper;cardboard' &#xd;&#xa;or hstore_to_json['waste'] = 'trash;paper' &#xd;&#xa;or hstore_to_json['waste'] = 'paper')&#xd;&#xa;and (hstore_to_json['location'] != 'underground'&#xd;&#xa;or hstore_to_json['location'] is null)" symbol="5" scalemaxdenom="10000" label="Poubelle bleue" scalemindenom="1"/>
       </rule>
-      <rule key="{f8b5164a-7564-4f6f-872d-67de2ff5fd8a}" symbol="11" scalemaxdenom="1000000000" label="zoom faible" scalemindenom="3000000">
-        <rule key="{588e7992-9138-4698-acf8-728cbd43f2e9}" filter="hstore_to_json['waste'] is not null and hstore_to_json['waste']!=''" symbol="12" label="waste not null"/>
-        <rule key="{7193f4d5-6a9b-45a8-9864-935533e48ab1}" filter="hstore_to_json['waste'] is  null or hstore_to_json['waste']='' or hstore_to_json['waste']='trash'" symbol="13" label="waste null"/>
+      <rule key="{008de987-16d3-4e23-9f8c-9fd09009ac9b}" symbol="6" scalemaxdenom="3000000" label="Zoom moyen" scalemindenom="10000">
+        <rule key="{ff3421d9-ac82-4a2e-9bdb-ef5d92792d1b}" filter="hstore_to_json['waste'] is not null and  hstore_to_json['waste']!='' and hstore_to_json['location'] is NULL" symbol="7" label="Déchets non renseignés"/>
+        <rule key="{34f689b9-59cd-4e4d-8030-e73e1e43d7f6}" filter="hstore_to_json['waste'] is null or hstore_to_json['waste']='' or hstore_to_json['waste']='trash' and hstore_to_json['location']!='underground'" symbol="8" label="Déchets renseignés"/>
+        <rule key="{7eac3e59-9233-4cd8-8ce4-58afe227aaa1}" filter="hstore_to_json['location']='underground'" symbol="9" label="Localisation en sous-sol"/>
+        <rule key="{51007c46-963e-41e8-938a-6016307c0474}" filter="(hstore_to_json['waste'] = 'recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'trash;recycling'&#xd;&#xa;or hstore_to_json['waste'] = 'plastic;paper;cardboard')&#xa;and (hstore_to_json['location'] != 'underground' or hstore_to_json['location'] is null)" symbol="10" label="Poubelle jaune"/>
+        <rule key="{b1f1b4ae-c1a5-475a-8d4e-178817f843d1}" filter="(hstore_to_json['waste'] = 'trash;paper;cardboard' &#xd;&#xa;or hstore_to_json['waste'] = 'trash;paper' &#xd;&#xa;or hstore_to_json['waste'] = 'paper')&#xd;&#xa;and (hstore_to_json['location'] != 'underground'&#xd;&#xa;or hstore_to_json['location'] is null)" symbol="11" label="Poubelle bleue"/>
+      </rule>
+      <rule key="{f8b5164a-7564-4f6f-872d-67de2ff5fd8a}" symbol="12" scalemaxdenom="1000000000" label="Zoom faible" scalemindenom="3000000">
+        <rule key="{588e7992-9138-4698-acf8-728cbd43f2e9}" filter="hstore_to_json['waste'] is not null and hstore_to_json['waste']!=''" symbol="13" label="Déchets renseignés"/>
+        <rule key="{7193f4d5-6a9b-45a8-9864-935533e48ab1}" filter="hstore_to_json['waste'] is  null or hstore_to_json['waste']='' or hstore_to_json['waste']='trash'" symbol="14" label="Déchets non renseignés"/>
       </rule>
     </rules>
     <symbols>
       <symbol name="0" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+        <layer class="SimpleMarker" pass="0" enabled="0" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="225,89,137,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="2" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol name="1" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -225,7 +256,149 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="1" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="10" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+        <layer class="SvgMarker" pass="0" enabled="1" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="233,159,55,255" k="color"/>
+          <prop v="0" k="fixedAspectRatio"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash-yellow-recycling.svg" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="10" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol name="11" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+        <layer class="SvgMarker" pass="0" enabled="1" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="233,159,55,255" k="color"/>
+          <prop v="0" k="fixedAspectRatio"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash-blue-paper.svg" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="10" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol name="12" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+        <layer class="SvgMarker" pass="0" enabled="1" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="141,90,153,255" k="color"/>
+          <prop v="0" k="fixedAspectRatio"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="0" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol name="13" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+        <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="14,84,17,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="2" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol name="14" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+        <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="122,153,123,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diameter" k="scale_method"/>
+          <prop v="2" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol name="2" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -286,121 +459,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="10" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
-        <layer class="SvgMarker" pass="0" enabled="1" locked="0">
-          <prop v="0" k="angle"/>
-          <prop v="233,159,55,255" k="color"/>
-          <prop v="0" k="fixedAspectRatio"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/datagistips/osm-data/osm-data/svgs/trash/trash-blue-paper.svg" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="10" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option name="name" value="" type="QString"/>
-              <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol name="11" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
-        <layer class="SvgMarker" pass="0" enabled="1" locked="0">
-          <prop v="0" k="angle"/>
-          <prop v="141,90,153,255" k="color"/>
-          <prop v="0" k="fixedAspectRatio"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="0" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option name="name" value="" type="QString"/>
-              <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol name="12" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
-        <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
-          <prop v="0" k="angle"/>
-          <prop v="14,84,17,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="2" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option name="name" value="" type="QString"/>
-              <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol name="13" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
-        <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
-          <prop v="0" k="angle"/>
-          <prop v="122,153,123,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="2" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option name="name" value="" type="QString"/>
-              <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol name="2" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="3" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -457,7 +516,7 @@
               <Option name="properties" type="Map">
                 <Option name="enabled" type="Map">
                   <Option name="active" value="true" type="bool"/>
-                  <Option name="expression" value="hstore_to_json['waste'] like '%paper%' &#xd;&#xa;or hstore_to_json['waste'] like '%papier%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%'" type="QString"/>
+                  <Option name="expression" value="hstore_to_json['waste'] is not null and (&#xd;&#xa;hstore_to_json['waste'] like '%paper%' &#xd;&#xa;or hstore_to_json['waste'] like '%papier%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%')" type="QString"/>
                   <Option name="type" value="3" type="int"/>
                 </Option>
               </Option>
@@ -489,7 +548,7 @@
               <Option name="properties" type="Map">
                 <Option name="enabled" type="Map">
                   <Option name="active" value="true" type="bool"/>
-                  <Option name="expression" value="hstore_to_json['waste'] like '%organic%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%'" type="QString"/>
+                  <Option name="expression" value="hstore_to_json['waste'] is not null and (&#xd;&#xa;hstore_to_json['waste'] like '%organic%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%')" type="QString"/>
                   <Option name="type" value="3" type="int"/>
                 </Option>
               </Option>
@@ -521,7 +580,7 @@
               <Option name="properties" type="Map">
                 <Option name="enabled" type="Map">
                   <Option name="active" value="true" type="bool"/>
-                  <Option name="expression" value="hstore_to_json['waste'] like '%plastic%' &#xd;&#xa;or hstore_to_json['waste'] like '%recycling%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%'" type="QString"/>
+                  <Option name="expression" value="hstore_to_json['waste'] is not null and (&#xd;&#xa;hstore_to_json['waste'] like '%plastic%' &#xd;&#xa;or hstore_to_json['waste'] like '%recycling%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%')" type="QString"/>
                   <Option name="type" value="3" type="int"/>
                 </Option>
               </Option>
@@ -553,7 +612,7 @@
               <Option name="properties" type="Map">
                 <Option name="enabled" type="Map">
                   <Option name="active" value="true" type="bool"/>
-                  <Option name="expression" value="hstore_to_json['waste'] like '%glass%' &#xd;&#xa;or hstore_to_json['waste'] like '%verre%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%'" type="QString"/>
+                  <Option name="expression" value="hstore_to_json['waste'] is not null and (&#xd;&#xa;hstore_to_json['waste'] like '%glass%' &#xd;&#xa;or hstore_to_json['waste'] like '%verre%' &#xd;&#xa;or hstore_to_json['waste'] like '%mixed%')" type="QString"/>
                   <Option name="type" value="3" type="int"/>
                 </Option>
               </Option>
@@ -585,7 +644,7 @@
               <Option name="properties" type="Map">
                 <Option name="enabled" type="Map">
                   <Option name="active" value="true" type="bool"/>
-                  <Option name="expression" value="hstore_to_json['waste'] like '%dog%' or hstore_to_json['waste'] like '%mixed%'" type="QString"/>
+                  <Option name="expression" value="hstore_to_json['waste'] is not null and (&#xd;&#xa;hstore_to_json['waste'] like '%dog%' or hstore_to_json['waste'] like '%mixed%')" type="QString"/>
                   <Option name="type" value="3" type="int"/>
                 </Option>
               </Option>
@@ -594,7 +653,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="3" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="4" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -788,7 +847,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="4" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="5" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -982,7 +1041,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="5" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="6" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -1010,13 +1069,13 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="6" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="7" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="233,159,55,255" k="color"/>
           <prop v="0" k="fixedAspectRatio"/>
           <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/datagistips/osm-data/osm-data/svgs/trash/trash.svg" k="name"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash.svg" k="name"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
@@ -1038,13 +1097,13 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="7" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="8" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="177,109,226,255" k="color"/>
           <prop v="0" k="fixedAspectRatio"/>
           <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/datagistips/osm-data/osm-data/svgs/trash/trash-no-data.svg" k="name"/>
+          <prop v="https://raw.githubusercontent.com/datagistips/osm-data/main/osm-data/svgs/trash/trash-no-data.svg" k="name"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
@@ -1093,7 +1152,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="8" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+      <symbol name="9" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
         <layer class="SvgMarker" pass="0" enabled="1" locked="0">
           <prop v="0" k="angle"/>
           <prop v="183,72,75,255" k="color"/>
@@ -1127,39 +1186,11 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="9" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
-        <layer class="SvgMarker" pass="0" enabled="1" locked="0">
-          <prop v="0" k="angle"/>
-          <prop v="233,159,55,255" k="color"/>
-          <prop v="0" k="fixedAspectRatio"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="C:/Users/mathieu/Desktop/datagistips/osm-data/osm-data/svgs/trash/trash-yellow-recycling.svg" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="0" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="10" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option name="name" value="" type="QString"/>
-              <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
     </symbols>
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style fontWeight="50" fontFamily="MS Shell Dlg 2" fontItalic="0" previewBkgrdColor="255,255,255,255" fontSize="10" namedStyle="Normal" blendMode="0" fontLetterSpacing="0" textOpacity="1" isExpression="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textOrientation="horizontal" fontSizeUnit="Point" fontStrikeout="0" capitalization="0" useSubstitutions="0" fontWordSpacing="0" allowHtml="0" textColor="255,255,255,255" fontUnderline="0" multilineHeight="1" fieldName="format(&#xd;&#xa;'%1%2%3',&#xd;&#xa;array_to_string(&#xd;&#xa;array_foreach(&#xd;&#xa;string_to_array(&#xd;&#xa;hstore_to_json['waste']&#xd;, ';'), format('- %1',@element)),&#xd;&#xa;'\n'),&#xd;&#xa;coalesce(format('\nOpérateur :%1',hstore_to_json['operator']), ''),&#xd;&#xa;coalesce(format('\n(%1)', hstore_to_json['location']), '')&#xd;&#xa;)" fontKerning="1">
+      <text-style fontWeight="50" fontFamily="MS Shell Dlg 2" fontItalic="0" previewBkgrdColor="255,255,255,255" fontSize="10" namedStyle="Normal" blendMode="0" fontLetterSpacing="0" textOpacity="1" isExpression="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textOrientation="horizontal" fontSizeUnit="Point" fontStrikeout="0" capitalization="0" useSubstitutions="0" fontWordSpacing="0" allowHtml="0" textColor="255,255,255,255" fontUnderline="0" multilineHeight="1" fieldName="format(&#xd;&#xa;'%1%2%3',&#xd;&#xa;array_to_string(&#xd;&#xa;array_foreach(&#xd;&#xa;string_to_array(&#xd;&#xa;hstore_to_json['waste']&#xd;, ';'), format('- %1',@element)),&#xd;&#xa;'\n'),&#xd;&#xa;coalesce(format('\nOpérateur : %1',hstore_to_json['operator']), ''),&#xd;&#xa;coalesce(format('\n(%1)', hstore_to_json['location']), '')&#xd;&#xa;)" fontKerning="1">
         <text-buffer bufferOpacity="1" bufferColor="14,84,17,255" bufferNoFill="1" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1" bufferBlendMode="0" bufferJoinStyle="128" bufferSizeUnits="MM"/>
         <text-mask maskedSymbolLayers="" maskSize="1.5" maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1" maskType="0" maskSizeUnits="MM" maskJoinStyle="128"/>
         <background shapeRotationType="0" shapeRotation="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeOpacity="1" shapeBorderWidth="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeDraw="0" shapeJoinStyle="64" shapeSizeUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeOffsetY="0" shapeSizeY="0" shapeRadiiX="0" shapeSVGFile="" shapeBlendMode="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeType="0" shapeBorderColor="128,128,128,255" shapeFillColor="255,255,255,255" shapeSizeX="0">
@@ -1239,7 +1270,9 @@
     </settings>
   </labeling>
   <customproperties>
-    <property key="dualview/previewExpressions" value="&quot;name&quot;"/>
+    <property key="dualview/previewExpressions">
+      <value>"name"</value>
+    </property>
     <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
@@ -1408,7 +1441,7 @@
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;waste&quot;" sortOrder="1">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;location&quot;" sortOrder="1">
     <columns>
       <column width="-1" name="fid" hidden="0" type="field"/>
       <column width="-1" name="osm_id" hidden="0" type="field"/>

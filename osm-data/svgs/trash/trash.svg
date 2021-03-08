@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,60 +71,5 @@
        id="rect841"
        style="fill:#29783a;fill-opacity:1;stroke-width:0.194852"
        d="m 31.75,84.666664 h 137.58333 v 7.276042 H 31.75 Z" />
-    <g
-       id="g945">
-      <circle
-         style="fill:#454545;fill-opacity:1;stroke-width:0.235"
-         id="path859"
-         cx="150.8125"
-         cy="171.97917"
-         r="7.9375" />
-      <circle
-         style="fill:#8f8f8f;fill-opacity:1;stroke-width:0.123731"
-         id="path859-7"
-         cx="189.91624"
-         cy="127.31365"
-         transform="rotate(15)"
-         r="4.179214" />
-      <path
-         style="fill:#cfcfcf;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 152.13542,161.39583 c 0,0 -1.36319,-0.23029 -5.29167,0 -0.0403,1.09263 -1.81309,2.00764 -2.64583,2.64584 -1.75003,1.3412 -3.96876,5.29166 -3.96876,5.29166 h 7.18155 c 0.71776,0 0.96115,1.15454 1.36505,2.04622 0.70584,1.55828 2.52017,2.3598 2.92406,1.14814 1.32292,-3.96875 0.4356,-11.13186 0.4356,-11.13186 z"
-         id="path895"
-         sodipodi:nodetypes="ccscsssc" />
-      <circle
-         style="fill:#2b2b2b;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path900"
-         cx="150.84477"
-         cy="171.93077"
-         r="0.66145831" />
-    </g>
-    <g
-       id="g945-2"
-       transform="matrix(-1,0,0,1,203.72917,3.3333333e-6)">
-      <circle
-         style="fill:#454545;fill-opacity:1;stroke-width:0.235"
-         id="path859-0"
-         cx="150.8125"
-         cy="171.97917"
-         r="7.9375" />
-      <circle
-         style="fill:#8f8f8f;fill-opacity:1;stroke-width:0.123731"
-         id="path859-7-0"
-         cx="189.91624"
-         cy="127.31365"
-         transform="rotate(15)"
-         r="4.179214" />
-      <path
-         style="fill:#cfcfcf;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 152.13542,161.39583 c 0,0 -1.36319,-0.23029 -5.29167,0 -0.0403,1.09263 -1.81309,2.00764 -2.64583,2.64584 -1.75003,1.3412 -3.96876,5.29166 -3.96876,5.29166 h 7.18155 c 0.71776,0 0.96115,1.15454 1.36505,2.04622 0.70584,1.55828 2.52017,2.3598 2.92406,1.14814 1.32292,-3.96875 0.4356,-11.13186 0.4356,-11.13186 z"
-         id="path895-1"
-         sodipodi:nodetypes="ccscsssc" />
-      <circle
-         style="fill:#2b2b2b;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path900-98"
-         cx="150.84477"
-         cy="171.93077"
-         r="0.66145831" />
-    </g>
   </g>
 </svg>

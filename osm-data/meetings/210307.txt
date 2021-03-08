@@ -1,0 +1,7 @@
+trolley=yes
+material=concrete
+locked
+gespot
+lebontag
+wikidata et MH : établissement historique, étages
+
